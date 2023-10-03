@@ -383,7 +383,24 @@ ul li::marker {
     margin-left: 2rem;
     margin-top: 5px;
 }
-
+.shield-img{
+    width: 20px;
+    margin-right: 10px;
+}
+.visitante-img img{
+    width: 350px;
+}
+.bullet-points p{
+    font-size: 16px;
+    color: #002120;
+}
+.text-blue-p{
+    
+    color: #002120;
+}
+.Visitante-background{
+    background-color: #F7F8F9;
+}
 @media (max-width:600px) {
     
     .comar-padding {
