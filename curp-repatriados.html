@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Repatriados </title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-body p-0">
+                    <div class="close__btn p-2">
+                        <img src="assets/images/close2.png" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="px-lg-5 py-lg-0 p-4">
+                        <h2 class="estodia__h3 mt-4 monts__regular text-center mb-0 fs-sm-30">Clave única de Registro de
+                            <br class="d-lg-block d-none"> Población (CURP)</h2>
+                        <div class="row pt-4 justify-content-center">
+                            <div class="col-lg-5 d-flex align-items-center justify-content-center">
+                                <img src="assets/images/curp-permanente.png" class="w-sm-65 w-100" alt="image">
+                            </div>
+                            <div class="col-lg-7 px-3 d-flex align-items-start">
+                                <div>
+                                    <h4 class="mb-0 text-gold monts__regular text-lg-start text-center mt-lg-0 mt-4">CURP permanente
+                                    </h4>
+                                    <ul class="estodia__ul mt-4">
+                                        <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                                Código alfanumérico de 18 caracteres
+                                            </span></li>
+                                        <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                                Identifica oficialmente a residentes y ciudadanos mexicanos.
+                                            </span></li>
+                                        <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                                Sirve para manejar declaraciones de impuestos, registros comerciales y
+                                                escolares, afiliación de salud, etc.
+                                            </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="text__light">
+                        <div class="row gap-lg-0 p-3 py-4 flex-lg-row flex-column-reverse">
+                            <div class="col-lg-7 mt-lg-0 mt-4">
+                                <h4 class="text__dark__yellow monts__regular text-lg-start text-center">CURP temporal
+                                    (Repatriados)</h4>
+                                <ul class="domicilio__ul mt-3 ">
+                                    <li><span><img src="assets/images/Check (1).png" alt="image"></span><span>
+                                            Para personas mexicanas que hayan sido repatriadas de Estados Unidos y que
+                                            no tengan previamente una CURP o un registro de nacimiento en México.
+                                        </span></li>
+                                </ul>
+                                <div class="info__div info__di__sm p-3  w-mxc">
+                                    <img src="assets/images/Icon.png" class="img-fluid">
+                                    <span class="monts__regular">Vigencia de 180 a 365 días</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 d-flex justify-content-center align-items-center">
+                                <img src="assets/images/curp-temporal.png" class="w-sm-65 w-100" alt="image">
+                            </div>
+                        </div>
+                        <hr class="text__light">
+                        <div class="my-3">
+                            <h3 class="monts__regular text-center my-3 fs-sm-30">¿Qué necesito para tramitarla?</h3>
+                            <ul class="nav nav-pills mb-3 d-flex justify-content-center mt-4" id="extranjeros__tabs"
+                                role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active next__slide" id="Paralacontratación-tab"
+                                        data-bs-toggle="pill" data-bs-target="#Paralacontratación" type="button"
+                                        role="tab" aria-controls="Paralacontratación" aria-selected="true">CURP
+                                        permanente</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link next__slide" id="Paraelsalario-tab" data-bs-toggle="pill"
+                                        data-bs-target="#Paraelsalario" type="button" role="tab"
+                                        aria-controls="Paraelsalario" aria-selected="false">CURP temporal</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="Paralacontratación" role="tabpanel"
+                                    aria-labelledby="Paralacontratación-tab">
+                                    <div class="curp__pay__img text-center ">
+                                        <img src="assets/images/身份证_id-card-h 1.png" alt="image">
+                                        <div class="monts__regular">
+                                            Identidad oficial vigente con fotografía o <br> Constancia de Recepción de Mexicanos <br> Repatriados
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="Paraelsalario" role="tabpanel"
+                                    aria-labelledby="Paraelsalario-tab">
+                                    <div class="curp__pay__img text-center ">
+                                        <img src="assets/images/身份证_id-card-h 1.png" alt="image">
+                                        <div class="monts__regular">
+                                            Identidad oficial vigente con fotografía o <br> Constancia de Recepción de Mexicanos <br> Repatriados
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center pt-4 mt-5">
+                                <span>Para más información ingresa a la <a href="#" class="text-decoration-underline text-gold">Dirección de Repatriación Digna</a></span>
+                            </div>
+                            <div class="row education___row gap-lg-0 gap-3 p-lg-4 mx-0">
+                                <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                                    <img src="assets/images/image 11.png" alt="image">
+                                </div>
+                                <div
+                                    class="col-lg-8 text-lg-start text-center d-flex align-items-center justify-content-center px-3">
+                                    <p class="mb-0">La Secretaría de Gobernación, por medio del Registro Nacional de
+                                        Población (RENAPO) es la agencia encargada del trámite de la CURP.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="text-center">
+                                    <h2 class="monts__regular mt-3 mb-3 fs-sm-30">Para más información</h2>
+                                </div>
+                                <div class="row p-3 pb-0">
+                                    <div class="col-lg-4">
+                                        <div class="text-center">
+                                            <img src="assets/images/Frame 19.png" alt="image">
+                                        </div>
+                                        <div class="text-center my-3">
+                                            <p class="fw-bold">Sitio web de<a href="#"
+                                                    class="text-decoration-underline text-gold"><br> RENAPO</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="text-center">
+                                            <img src="assets/images/Location marker.png" alt="image">
+                                        </div>
+                                        <div class="text-center my-3">
+                                            <p class="fw-bold"><a href="#"
+                                                    class="text-decoration-underline text-gold">Módulos</a> <br> de
+                                                atención</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="text-center">
+                                            <img src="assets/images/Icon2.png" alt="image">
+                                        </div>
+                                        <div class="text-center my-3">
+                                            <p class="fw-bold"><a href="#"
+                                                    class="text-decoration-underline text-gold">Video</a><br>
+                                                informativo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info__div info__di__sm p-3  w-mxc mx-auto mb-5">
+                                <img src="assets/images/Icon.png" class="img-fluid">
+                                <span class="monts__regular">Recuerda que estos tramites son gratuitos.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

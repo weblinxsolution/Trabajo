@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - PCM</title>
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <!-- FontAwsome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FontAwsome CSS -->
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Style CSS -->
+
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+    <section class="header_">
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg p-0">
+                    <div class="container-fluid px-0">
+                        <div class="header__logos d-flex align-items-center">
+                            <div>
+                                <img src="assets/images/Capa_1.png" class="d-lg-none d-block" alt="logo">
+                            </div>
+                            <div class="border_after__img">
+                                <img src="assets/images/logo-trabajo.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo-sne.png" alt="logo">
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars text-white fa-lg"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 px-3 gap-3 w-mxc">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Prevención de Fraude</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Derechos laborales</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex gap-3 header__btn ps-4">
+                                <button class="Iniciar__btn">
+                                    Iniciar sesión
+                                </button>
+                                <button class="registration__btn">
+                                    Regístrate
+                                </button>
+                                <div class="country__dropdown">
+                                    <div class="active__content pe-0"><span><img src="assets/images/mexico.png"
+                                                alt="image"></span><span><img src="assets/images/arrow-down.png"
+                                                class="img__arrow" alt="image"></span></div>
+                                    <div class="country__content">
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- Header Section End -->
+
+    <!-- Sub Menu Section Start -->
+    <section class="sub__menu__section d-lg-block d-none">
+        <div class="wrapper">
+            <div class="row mx-0">
+                <div class="col-xxl-4 col">
+                    <div class="d-flex align-items-center gap-3 me-auto">
+                        <div class="regresar__">
+                            <img src="assets/images/Arrow left.svg" alt="image">
+                            <span>
+                                Regresar
+                            </span>
+                        </div>
+                        <div class="home__">
+                            <img src="assets/images/home.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-8 col">
+                    <ul class="sub__menu ms-auto w-mxc">
+                        <li><a href="#">Ofertas de empleo</a></li>
+                        <li><a href="#">¿Quiénes son las Personas en Contexto de Movilidad? </a></li>
+                        <li><a href="#">Empresas</a></li>
+                        <li><a href="#">Aliados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Menu Section End -->
+
+    <!-- Banner Start -->
+    <section class="pcm__banner">
+        <div class="wrapper">
+            <div class="row mx-0 py-100 pb-0">
+                <div class="col-lg-6 d-flex align-items-start justify-content-start">
+                    <div class="pcm__banner__content p-lg-4 p-3">
+                        <h1 class="text__dark__yellow monts__regular fw-bold">Persona fuera de <br> México con deseo de
+                            <br> venir a trabajar</h1>
+                        <p class="fs-5 mt-4 text_dark_blue">La persona extranjera que se encuentra fuera del territorio
+                            <br> mexicano, pero desea venir a trabajar, debe solicitar una <br> tarjeta de residente
+                            temporal al llegar a México. </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/pcm.png" class="w-100" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner End -->
+
+    <!-- Wave  Div Start -->
+    <section>
+        <div>
+            <img src="assets/images/BG Wave.svg" class="w-100 wav2__img" alt="image">
+        </div>
+    </section>
+    <!-- Wave  Div End -->
+
+    <!-- Formas Section Start -->
+    <section>
+        <div class="wrapper">
+            <div class="w-100 py-5">
+                <h1 class="text-center formas__heading">Formas de conseguir un <span class="text-gold monts__regular fw-bold">permiso de
+                        <br class="d-lg-block d-none"> trabajo</span> en México:</h1>
+                <div class="row mx-0 justify-content-center py-3">
+                    <div class="col-lg-5 d-flex align-content-center justify-content-center">
+                        <img src="assets/images/img-permiso-trabajo.png" class="w-100" alt="image">
+                    </div>
+                    <div class="col-lg-6 d-flex align-items-start">
+                        <div class="w-75 my__formas mt-4 mx-lg-0 mx-auto">
+                            <h5 class="text_dark_blue text-lg-start text-center">Visa por oferta de empleo (importación de talento)</h5>
+                            <ul class="estodia__ul mt-4m fs-5">
+                                <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                        Orientado a personas que están en el extranjero y planean mudarse a México por
+                                        una oferta laboral.
+                                    </span></li>
+                                <li class="mt-5"><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                        Para personas que están en México en calidad de turistas y que desean empezar a
+                                        trabajar en México después de recibir una oferta laboral. 
+                                    </span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Formas Section End -->
+
+    <!-- Visas Section Start -->
+    <section class="visas__section">
+        <div class="wrapper py-5 pb-0">
+            <div class="py-5 pb-0 visas__heading" style="width: 77%;margin: auto;">
+                <span class="fs-4 text-white monts__regular">Tipos de visas por oferta de empleo</span>
+                <p class="text-white">Aquí te presentamos los trámites posibles para trabajar legalmente en México.</p>
+            </div>
+            <div class="row mx-0 justify-content-center visas__box__row">
+                <div class="visas__box">
+                    <div class="visas__badge">
+                        <img src="assets/images/heart2.PNG" alt="image">
+                    </div>
+                    <span class="d-block fs-5 monts__medium mt-5">
+                        Visitante <span class="text-gold text-decoration-underline">trabajador <br> fronterizo</span>
+                    </span>
+                    <p class="fs-6 mt-3">La tarjeta de visitante trabajador fronterizo permite a <span
+                            class="monts__regular fw-bold">guatemaltecos y beliceño</span> permite entradas y salidas
+                        múltiples durante su vigencia de un año, así como el tránsito, estancia y realizar <span
+                            class="monts__regular fw-bold">actividades remuneradas en los estados de Campeche, Chiapas,
+                            Tabasco y Quintana Roo.</span></p>
+                </div>
+                <div class="visas__box">
+                    <div class="visas__badge">
+                        <img src="assets/images/corp.PNG" alt="image">
+                    </div>
+                    <span class="d-block fs-5 monts__medium mt-5">
+                        Visitante con permiso para realizar actividades remuneradas
+                    </span>
+                    <p class="fs-6 mt-3">Autoriza al extranjero que cuente con una oferta de empleo o venga a desempeñar
+                        una actividad remunerada por temporada estacional para permanecer en territorio nacional por
+                        <span class="monts__regular fw-bold">un tiempo ininterrumpido no mayor a 180 días,</span>
+                        contados a partir de la fecha de entrada.</p>
+                </div>
+                <div class="visas__box">
+                    <div class="visas__badge">
+                        <img src="assets/images/pmp.PNG" alt="image">
+                    </div>
+                    <span class="d-block fs-5 monts__medium mt-5">
+                        Visa por oferta de Empleo (Residente temporal con permiso de trabajo)
+                    </span>
+                    <p class="fs-6 mt-3">Si usted va a realizar actividades remuneradas por menos de 180 días, su
+                        empleador deberá solicitar una visa como <span class="fw-bold monts__regular">“visitante con
+                            actividades remuneradas”.</span> Si ya tiene una oferta de empleo por más de 180 días, la
+                        empresa deberá presentar la solicitud de visa directamente ante el INM.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Visas Section End -->
+
+    <!-- Requisitos Section Start -->
+    <section class="requisitos__section">
+        <div class="wrapper">
+            <div class="row mx-0 requisitos__row">
+                <div class="requisitos__box">
+                    <h1 class="monts__regular fw-bold requisitos_para">Requisitos para <br class="d-lg-block d-none"> tramitar
+                        <br class="d-lg-block d-none"> permiso de <br class="d-lg-block d-none"> trabajador<br
+                            class="d-lg-block d-none"> como<br class="d-lg-block d-none"> emprendedor o <br
+                            class="d-lg-block d-none">trabajador<br class="d-lg-block d-none"> independiente</h1>
+                    <button type="button" class="btn btn__gold w-100 my-4 p-2">Consulta ofertas de empleo</button>
+                </div>
+                <div class="requisitos__box">
+                    <div>
+                        <img src="assets/images/earth.png" alt="image">
+                        <p class="fw-bold my-2 mt-3">Permiso de residencia</p>
+                        <span class="text__grey">
+                            No se puede emprender con un estatus de turista o residiendo en el país irregularmente.
+                        </span>
+                    </div>
+                    <div class="mt-5">
+                        <img src="assets/images/electriciy.png" alt="image">
+                        <p class="fw-bold my-2 mt-3">Si ya cuentas con empleo</p>
+                        <span class="text__grey">
+                            Adquieres nuevos deberes fiscales frente al Servicio de Administración Tributaria de México (SAT).
+                        </span>
+                    </div>
+                </div>
+                <div class="requisitos__box">
+                    <div>
+                        <img src="assets/images/weight.png" alt="image">
+                        <p class="fw-bold my-2 mt-3">Tipos de permiso de residencia</p>
+                        <span class="text__grey">
+                            Residencia temporal por vínculo familiar, residencia temporal como estudiante, residencia temporal por oferta laboral o residencia permanente. 
+                        </span>
+                    </div>
+                    <div class="info__div info__divrq  p-3 mt-5 align-items-start">
+                        <img src="assets/images/Icon.png" class="img-fluid mt-1">
+                        <div class="monts__regular">Consulta los costos en la página del Gobierno de México</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Requisitos Section End -->
+
+    <!-- Footer Start -->
+    <section>
+        <footer class="mt-0" style="padding-top: 60px !important;">
+            <div class="wrapper">
+                <div class="row mx-0 justify-content-between py-4 gap-lg-0 gap-5">
+                    <div class="col-lg-4">
+                        <div class="text-lg-start text-center">
+                            <img src="assets/images/logo-portal-empleo.png" alt="image">
+                            <p class="text__grey mt-4">
+                                El Portal del Empleo es un instrumento de política laboral disponible en internet para
+                                los ciudadanos y residentes en todo México. 
+                            </p>
+                            <div class="social__icons py-3 justify-content-lg-start justify-content-center">
+                                <span>
+                                    <img src="assets/images/facebook.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/instagram.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/twitter.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/github.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/football.png" alt="image">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer__links">
+                        <h5 class="text-lg-start text-center">Compañía</h5>
+                        <ul class="text-lg-start text-center">
+                            <li><a href="#">Conoce al SNE</a></li>
+                            <li><a href="#">Solicitud de empleo</a></li>
+                            <li><a href="#">Feria de empleo</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 footer__links">
+                        <h5 class="text-lg-start text-center">Legal</h5>
+                        <ul class="text-lg-start text-center">
+                            <li><a href="#">Aviso de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="w-100 bg-white">
+                <div class="wrapper">
+                    <div
+                        class="row mx-0 copyright__row py-lg-4 flex-lg-row flex-column-reverse text-lg-start text-center gap-lg-0 gap-4 py-4">
+                        <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+                            <p class="text__light mb-0" style="font-size: 17px;">© 2023 Portal del empleo. <br
+                                    class="d-lg-none d-block"> Todos los derechos reservados</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div
+                                class="d-flex gap-xl-3 footer__cpy flex-wrap justify-content-lg-around justify-content-center">
+                                <div>
+                                    <img src="assets/images/logo-proyecto.png" alt="logo">
+                                </div>
+                                <div>
+                                    <img src="assets/images/logo-oit.png" alt="logo">
+                                </div>
+                                <div>
+                                    <img src="assets/images/logo - financiado-UE.png" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+
+
+    <script>
+        $('.job__slider').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            centerMode: true,
+            centerPadding: '48px',
+            prevArrow: "<i class='fa fa-angle-right text__grey slick_arrow_left'></i>",
+            nextArrow: "<i class='fa fa-angle-left text__grey slick_arrow_right'></i>",
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '90px',
+                },
+            }, ]
+        });
+        $('.card__box__slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+        });
+        $('.payo__slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+        });
+    </script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

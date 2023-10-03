@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Extranjeros</title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show" id="exampleModal" data-bs-backdrop="static" data-bs-keyboard="false"
+        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-body p-0">
+                    <div class="close__btn p-2">
+                        <img src="assets/images/X circle.png" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="steps__points py-3">
+                        <div class="points bg__green">1</div>
+                        <div class="points__line bg__green"></div>
+                        <div class="points bg__green">2</div>
+                        <div class="points__line bg__green"></div>
+                        <div class="points bg__green">3</div>
+                    </div>
+                    <hr class="text__light">
+                    <div class="modal__content pb-0">
+                        <h3 class="h3___green text-lg-start text-center mb-0">Consulta los documentos que necesitas para
+                            ser contratado en México</h3>
+                    </div>
+                    <div>
+                        <ul class="nav nav-pills mb-3 d-flex justify-content-center mt-4" id="extranjeros__tabs"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active next__slide" id="Paralacontratación-tab"
+                                    data-bs-toggle="pill" data-bs-target="#Paralacontratación" type="button" role="tab"
+                                    aria-controls="Paralacontratación" aria-selected="true">Para la
+                                    contratación</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link next__slide" id="Paraelsalario-tab" data-bs-toggle="pill"
+                                    data-bs-target="#Paraelsalario" type="button" role="tab"
+                                    aria-controls="Paraelsalario" aria-selected="false">Para el salario</button>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="Paralacontratación" role="tabpanel"
+                            aria-labelledby="Paralacontratación-tab">
+                            <div class="cards__slider slider_1 mb-3">
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 1.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Identificación oficial
+                                                    vigente
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo
+                                                    necesitas
+                                                    una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de visitante fronterizo</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de residente temporal</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>TTarjeta de visitante por razones
+                                                        humanitarias</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de residente permanante</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/Group 37335.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Comprobante domicilio
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo necesitas una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Recibo de servicios (Luz, agua, internet, etc.)</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Contrato de arrendamiento</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Domicilio del albergue o refugio de vivienda temporal</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/Group 37336.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Comprobante de estudios
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo necesitas una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Título profesional</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Cédula profesional</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Certificado de estudios</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="Paraelsalario" role="tabpanel"
+                            aria-labelledby="Paraelsalario-tab">
+                            <div class="cards__slider slider_1 mb-3">
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 1.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Identificación oficial
+                                                    vigente
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo
+                                                    necesitas
+                                                    una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de visitante fronterizo</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de residente temporal</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>TTarjeta de visitante por razones
+                                                        humanitarias</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de residente permanante</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/Group 37335.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Comprobante domicilio
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo necesitas una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Recibo de servicios (Luz, agua, internet, etc.)</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Contrato de arrendamiento</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Domicilio del albergue o refugio de vivienda
+                                                        temporal</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mx-2 mb-4 mt-2">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/Group 37336.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Comprobante de estudios
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo necesitas una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Título profesional</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Cédula profesional</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Certificado de estudios</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 my-4">
+                        <a href="javascript::void();" class="btn__aft">¡Empieza a buscar empleo!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '200px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '200px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - INE </title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-body p-0">
+                    <div class="close__btn p-2">
+                        <img src="assets/images/close2.png" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="px-lg-5 py-lg-0 p-4">
+                        <h2 class="estodia__h3 mt-4 monts__regular text-center mb-0 fs-sm-30">Credencial para votar INE
+                        </h2>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-lg-5 d-flex align-items-center justify-content-center mt-lg-0 mt-3">
+                                <img src="assets/images/ine.png" class="w-100" alt="image">
+                            </div>
+                            <div class="col-lg-6 p-3 d-flex align-items-start justify-content-center">
+                                <div>
+                                    <ul class="estodia__ul mt-4">
+                                        <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                                Permite a los ciudadanos mayores de edad participar en las elecciones
+                                            </span></li>
+                                        <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                                Documento aceptado como identificación oficial</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row education___row gap-lg-0 gap-3 p-lg-4 mx-0 py-5 mt-4">
+                            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                                <img src="assets/images/logo-ine.png" alt="image">
+                            </div>
+                            <div
+                                class="col-lg-8 text-lg-start text-center d-flex align-items-center justify-content-center">
+                                <p class="mb-0">
+                                    El INE es la máxima autoridad electoral del Estado Mexicano, que además de llevar a
+                                    cabo las elecciones federales y emitir la Credencial para Votar, realiza una serie
+                                    de actividades tanto al interior del instituto como para la ciudadanía.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row pb-4">
+                            <div class="text-center">
+                                <h2 class="monts__regular mt-2 mb-2 fs-sm-30">¿Cómo tramitar la INE? </h2>
+                            </div>
+                            <div class="row p-3 pb-0 justify-content-center">
+                                <div class="col-lg-3">
+                                    <div class="text-center">
+                                        <img src="assets/images/Frame 19.png" alt="image">
+                                    </div>
+                                    <div class="text-center my-3">
+                                        <p class="fw-bold"><a href="#" class="text-decoration-underline text-gold">Módulos</a> de <br> atención</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 mt-lg-0 mt-4">
+                                    <div class="text-center">
+                                        <img src="assets/images/Frame 19.png" alt="image">
+                                    </div>
+                                    <div class="text-center my-3">
+                                        <p class="fw-bold"><a href="#" class="text-decoration-underline text-gold">Realiza tu cita</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info__div my-3 p-3 w-mxc mx-auto monts__regular">
+                                <img src="assets/images/Icon.png" class="img-fluid">
+                                <span class="monts__regular">Recuerda que estos tramites son gratuitos.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .input-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+.country-flag img {
+  width: 30px;
+  height: 20px;
+}
+
+.country-code {
+  margin-right: 5px;
+}
+
+.divider {
+  margin: 0 5px;
+}
+
+.phone-input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background-color: transparent;
+}
+
+</style>
+<body>
+    <div class="input-container">
+        <div class="country-flag">
+          <img src="path_to_country_flag.png" alt="Country Flag">
+        </div>
+        <div class="country-code">
+          +XX
+        </div>
+        <div class="divider">
+          /
+        </div>
+        <input type="tel" class="phone-input" placeholder="Enter your phone number">
+      </div>
+      
+</body>
+</html>

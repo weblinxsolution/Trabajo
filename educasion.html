@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - educasion</title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+<style>
+    #durationSelector_edu {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('./assets/images/light-chevron.png');
+        background-repeat: no-repeat;
+        background-position: 95% center;
+        padding-left: 10px;
+        /* color: inherit;  */
+        /* This inherits the text color from the parent element */
+    }
+    .edu_head h6{
+        font-size: 23px;
+        color: #101828;
+    }
+
+    .trabajado-heading {
+        padding-top: 2em;
+        padding-bottom: 6%;
+    }
+
+    .perfil_col {
+        padding: 5rem 4rem;
+    }
+
+    .trabajado-col {
+        background-color: #F7F8F9;
+        padding: 5rem 4rem;
+    }
+
+    .form-col {
+        padding: 2rem;
+    }
+
+    .sign_btn {
+        margin-top: 6rem;
+    }
+
+    .label__grey {
+        color: #344054;
+    }
+
+    .points- p {
+        font-size: small;
+    }
+
+    .points- {
+        position: relative;
+    }
+
+    .points- p {
+        color: #a9a9a9;
+    }
+
+    .points-::before {
+        content: "";
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 5%;
+        left: -14%;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border: 2px solid #d4d5d7;
+        background-color: #FFF;
+        z-index: 1;
+    }
+
+    #active_pt::after {
+        display: none !important;
+    }
+
+    .points-::after {
+        content: "";
+        position: absolute;
+        top: -63px;
+        left: -39px;
+        width: 2px;
+        height: 181%;
+        background-color: #d4d5d7;
+        z-index: 0;
+    }
+
+    .points-active2::after {
+        background-color: #BC955A !important;
+    }
+
+    .points-active2 .points_p {
+        color: #BC955A;
+    }
+
+    .points-active .points_p {
+        color: #000000;
+    }
+
+    .points-active::before {
+        background-color: #BC955A;
+        background-image: url('./assets/images/check-white.png');
+        background-size: 45%;
+        border: 2px solid #BC955A;
+    }
+
+    .points-active2::before {
+        background-image: url('./assets/images/brown-circle.png');
+        background-size: 45%;
+        border: 2px solid #BC955A;
+
+    }
+
+    /* .steps__points{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.steps__points .steps_{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+.steps_active{
+    background-color: red !important;
+}
+.steps_active__cp{
+    background-color: red !important;
+}
+.steps_active::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 0, 0, 0.219);
+    border-radius: 50%;
+} */
+    .perfil__form {
+        padding: 0rem 2rem;
+    }
+
+    .edu_btn {
+        margin-top: 1rem;
+    }
+
+    .perfil_head h3 {
+        font-size: 35px;
+    }
+
+    .perfil_head p {
+        font-size: 18px;
+        color: #475467;
+    }
+
+    .perfil_p {
+        color: #475467;
+    }
+
+    .educasion_form .form-group {
+        margin: 8px 5px;
+    }
+    .educasion_form{
+        padding: 1rem 2rem !important;
+    }
+
+    .edu_btn {
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .edu_cancel {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        width: 50%;
+        padding: 10px;
+        filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+        font-weight: normal;
+        letter-spacing: 1px;
+        transition: .4s all;
+        background: transparent;
+        border: 1px solid #484848;
+        border-radius: 8px;
+    }
+
+    .edu_submit {
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+        width: 50%;
+        padding: 10px;
+        filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+        border-radius: 6px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        transition: .4s all;
+    }
+    
+
+    @media (max-width: 1300px) {
+        .points-::after {
+            left: -22px;
+        }
+
+    }
+
+    @media (max-width: 991px) {
+        .trabajado-col {
+            background-color: #F7F8F9;
+            padding: 1rem 4rem;
+        }
+
+        .perfil_form {
+            padding: 1rem 4rem;
+        }
+
+        .perfil_col {
+            padding: 1rem 16rem;
+        }
+
+        .perfil_btn {
+            margin-top: 3rem;
+        }
+
+    }
+
+    @media (max-width: 600px) {
+        .trabajado-col {
+            background-color: #F7F8F9;
+            padding: 1rem 4rem;
+        }
+
+        .perfil_form {
+            padding: 0rem 0rem !important;
+        }
+
+        .perfil_col {
+            padding: 2rem 2rem !important;
+        }
+
+    }
+
+    /* .input__color input {
+    color: #000 !important;
+} */
+</style>
+
+<body>
+
+
+
+    <!-- Modal Code Start -->
+    <div class="close__btn">
+        <img src="assets/images/close2.png" class="d-lg-block d-none " data-bs-dismiss="modal" alt="close">
+    </div>
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden round_modal">
+                <div class="modal-body p-0">
+                    <div class="close__btn  ">
+                        <img src="assets/images/X circle.png" class="d-lg-none d-block" data-bs-dismiss="modal"
+                            alt="close">
+                    </div>
+                    <!-- <div class="steps__points">
+                        <div class="steps_ steps_active__cp"></div>
+                        <div class="steps_ steps_active"></div>
+                        <div class="steps_ steps_active"></div>
+                        <div class="steps_"></div>
+                        <div class="steps_ steps_active__cp"></div>
+                    </div> -->
+                    <div class="row mx-0 flex-lg-row ">
+
+                        <div class="col-lg-12 form-col">
+                            <div class="tengo__form educasion_form perfil_form ">
+                                <div class="mb-3 ms-1 edu_head">
+                                    <h6>Agregar educación</h6>
+                                </div>
+                                <div class="d-lg-block d-none">
+                                    <label for=""
+                                        class="label__grey ms-lg-1 d-flex justify-content-between align-items-center"><span
+                                            class="fw-500 ">Último grado de estudios <span class="text-gold">*</span>
+                                        </span>
+                                        <a href="#" class="d-flex gap-1 text-gold mx-2">
+                                            <span><img src="./assets/images/exclamatery.png" alt=""></span>
+                                            <span>Cómo revalidarlos</span>
+                                        </a>
+                                        
+                                    </label>
+                                </div>
+                               
+                                <!-- <hr class="text__grey"> -->
+                                <div class="form-group ">
+                                    <input class="fw-bolder" type="text" placeholder="Licenciatura">
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey">¿En cuál escuela o instituto?<span
+                                                    class="text-gold">*</span></label>
+                                            <input type="text" placeholder="Construcción" class="mt-1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey ">¿Puedes avalar tu grado?<span
+                                                    class="text-gold">*</span></label>
+                                            <select name="" id="durationSelector_edu" class="fw-bold mt-1">
+                                                <option value="" selected>Cédula profesional</option>
+                                                <option value="">Cédula profesional</option>
+                                                <option value="">Título profesional</option>
+                                                <option value="">Certificado </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey">Año de inicio<span
+                                                    class="text-gold">*</span></label>
+                                            <input type="text" placeholder="2011" class="mt-1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey">Año de fin<span
+                                                    class="text-gold">*</span></label>
+                                            <input type="text" placeholder="2020" class="mt-1">
+                                        </div>
+                                        <!-- <div class="form-group">
+                                            <label for="" class="monts__medium">Año de fin*<span
+                                                    class="text-danger">*</span></label>
+                                            <select name="" id="">
+                                                <option value="" selected>6 messes</option>
+                                                <option value="">6 messes</option>
+                                                <option value="">6 messes</option>
+                                                <option value="">6 messes</option>
+                                            </select>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey">País donde estudiaste<span
+                                                    class="text-gold">*</span></label>
+                                            <input type="text" placeholder="Cuba" class="mt-1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="label__grey">Duración del grado<span
+                                                    class="text-gold">*</span></label>
+                                            <select name="" id="durationSelector_edu" class="fw-bold mt-1">
+                                                <option value="" selected>5 años</option>
+                                                <option value="">Cédula profesional</option>
+                                                <option value="">Título profesional</option>
+                                                <option value="">Certificado </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                                <div class="d-lg-flex edu_btn d-lg-block d-none">
+                                    <button class=" edu_cancel fs-6 monts__medium  p-2">Cancelar</button>
+                                    <button class="btn__gold edu_submit fs-6 monts__medium  p-2">Agregar
+                                        experiencia</button>
+                                </div>
+                                <div class="flex-wrap edu_btn d-lg-none d-block">
+                                    <!-- <button class=" cancel fs-6 monts__medium w-100 p-2">Cancelar</button> -->
+                                    <button class="btn__gold submit fs-6 monts__medium w-100 mt-2 p-2">Agregar
+                                        experiencia</button>
+                                </div>
+                                <!-- <div class="edu_btn">
+                                    <button class="btn__gold fs-6 monts__medium w-100 p-2 ">Siguiente</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

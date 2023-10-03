@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Carpintero </title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+<style>
+    .agregada_head h6 {
+        color: #101828;
+        font-size: 20px;
+    }
+
+    .border__box {
+        border-radius: 6px;
+        border: 1px solid #B7B7B7;
+        background: #F1F1F1;
+    }
+   .accord_head{
+    background: #F1F1F1 !important;
+   }
+   .accord_head p{
+    color: #475467 !important;
+   }
+    
+    .cv_icon{
+        width: 37px;
+    height: 37px;
+    }
+    .doc_icon {
+        width: 60px;
+    }
+   
+    .cv_box_3{
+    width: 22%;
+    }
+    
+    .accordion__button{
+  background: #F1F1F1 !important;
+  color: black !important;
+}
+    .accordion__button p{
+  background: #F1F1F1 !important;
+  color: #475467 !important;
+}
+.accord_head h6{
+    font-family: 'Montserrat' !important;
+    color: #101828;
+    font-weight: revert
+}
+.cv__btn{
+    width: 96%;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('./assets/images/Chevron\ down.png');
+    padding-right: 10px;
+    margin-bottom: 11px;
+}
+.accordion-button::after {
+    width: 20px; 
+    height: 20px; 
+}
+.accord_icon{
+    padding-right: 35px;
+}
+@media (min-width: 1680px){
+        .carpintero_points::after {
+            left: -52px;
+        }
+    }
+@media (max-width: 1600px){
+        .carpintero_points::after {
+            left: -48px;
+        }
+    }
+    @media (max-width: 1527.27px){
+        .carpintero_points::after{
+            left: -44px ;
+        }
+        .cv_box_3 {
+            width: 24%;
+        }
+    }
+    @media (max-width: 1366px){
+        .carpintero_points::after {
+            left: -39px;
+        }
+        .details__points {
+            padding: 0px 3rem;
+        }
+    }
+    @media (max-width: 1344px){
+        .carpintero_points::after{
+            left: -37px;
+        }
+        .cv_box_3 {
+            width: 27%;
+        }
+    }
+    @media (max-width: 1280px){
+        .carpintero_points::after{
+            left: -33px;
+        }
+    }
+    @media (max-width: 1200px){
+        .carpintero_points::after{
+            left: -28px;
+            top: -65px;
+        }
+    }
+   
+    @media (max-width: 1120px){
+        .carpintero_points::after{
+            left: -36px;
+        }
+        .cv_box_3{
+        width: 32%;
+        }
+    }
+    @media (max-width: 991px) {
+        .process_circle {
+            display: flex;
+            justify-content: center;
+
+        }
+        .cv__btn {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .cv_box_2 {
+            width: 57%;
+        }
+        .ortro{
+            margin-top: 8% !important;
+        }
+        .cv_box_3 {
+            width: 47%;
+        }
+        .cv__btn {
+            width: 100%;
+        }
+        .carpintero_form{
+            padding: 0rem 2rem;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .cv_box_3 {
+            width: 70%;
+        }
+        .ortro{
+            margin-top: 11% !important;
+        }
+        .cv__btn {
+            width: 100%;
+        }
+        .carpintero_form{
+            padding: 0rem 27px;
+        }
+    }
+    
+</style>
+
+<body>
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content overflow-hidden rounded-0">
+                <div class="modal-body p-0">
+                    <div class="close__btn  ">
+                        <img src="assets/images/close2.png" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="row mx-0 flex-lg-row ">
+                        <div class="col-lg-5 d-lg-none d-block trabajado__col">
+                            <div class="trabajado__heading trabajado_font text-center">
+                                <h3 class="monts__regular mb-4 ">¿En qué has trabajado?</h3>
+                                <p>Compare donde has <br> trabajado o que` sabes hacer.</p>
+                            </div>
+                            <div class="row paso_sec d-flex justify-content-around d-lg-none d-block process_circle">
+                                <div class="col">
+                                    <p class="fw-bold">Paso 2 de 5</p>
+                                </div>
+                                <div class="col mt-2">
+                                    <div class="steps_points">
+                                        <div class="steps_ steps_active__cp"></div>
+                                        <div class="steps_ steps_active"></div>
+                                        <div class="steps_"></div>
+                                        <div class="steps_"></div>
+                                        <div class="steps_ "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-lg-block d-none trabajado__col">
+                            <div class="trabajado__heading trabajado_font">
+                                <h3 class="monts__regular mb-4 ">¿En qué has trabajado?</h3>
+                                <p>Compare donde has trabajado o que` sabes hacer.</p>
+                            </div>
+                            <div class="details__points">
+                                <div class="points__ points__active carpintero_points" id="active__pt">
+                                    <p class="monts__medium mb-0 fw-bold points_p">INFORMACIÓN DE PERFIL</p>
+                                    <p>Cuéntanos sobre ti</p>
+                                </div>
+                                <div class="points__ points__active2 carpintero_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">EXPERIENCIA LABORAL</p>
+                                    <p>En dónde has trabajado</p>
+                                </div>
+                                <div class="points__ carpintero_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">ESCOLARIDAD</p>
+                                    <p>Comparte tus estudios</p>
+                                </div>
+                                <div class="points__ carpintero_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">OTROS ESTUDIOS</p>
+                                    <p>Comparte tus habilidades e idiomas</p>
+                                </div>
+                                <div class="points__ carpintero_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">Más de TI</p>
+                                    <p>Háblanos más de ti</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="tengo__form mt-1 carpintero_form">
+                                <div class="w-100 agregada_head">
+                                    <h6>Experiencia laboral agregada (2)</h6>
+                                </div>
+                                <div class="border__box mt-4">
+                                        <div class="accordion" id="accordionPanelsStayOpenExample ">
+                                            <div class="accordion-item">
+                                              <h6 class="accordion-header ">
+                                                <button class="accordion-button accordion__button accord_icon" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                    <div class="col-lg-12">
+                                                    <div class="d-flex">
+                                                    <div class="col-lg-6 ">
+                                                        <h6>Albañil y carpintero</h6>
+                                                        <p>Duración del cargo: 6 meses</p>
+                                                    </div>
+                                                    <div class="col-lg-6 d-lg-block d-none">
+                                                        <div class=" justify-content-lg-end justify-content-center mt-sm-1 mt-lg-3 float-lg-end mx-lg-4">
+                                                            <a href="#" class="d-flex gap-2 align-items-center text-gold">
+                                                                <span><img src="assets/images/Trash.png" alt=""></span>
+                                                                <span>Eliminar</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                    <!-- <div class="">
+                                                        <img src="./assets/images/Chevron down.png" class="mt-3" alt="">
+                                                    </div> -->
+                                                </button>
+                                              </h6>
+                                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                                <div class="accordion-body accord_head">
+                                                 <div class="d-lg-flex p-lg-3">
+                                                    <div class="col-lg-6">
+                                                        <p>Empresa</p>
+                                                        <h6 class="monts__regular">Marca ACME</h6>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6">
+                                                        <p>Área laboral</p>
+                                                        <h6>Construcción</h6>
+                                                    </div>
+                                                 </div>
+                                                 <div class="d-lg-flex p-lg-3">
+                                                    <div class="col-lg-6">
+                                                        <p>Lugar</p>
+                                                        <h6>Cuba</h6>
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-6">
+                                                        <p>Duración de cargo</p>
+                                                        <h6>6 meses</h6>
+                                                    </div>
+                                                 </div>
+                                                 <div class="p-lg-3">
+                                                    <p>Descripción de actividades</p>
+                                                    <h6>Me uní al equipo de Ventas. Me concentré principalmente en incorporar nuevos clientes y resolver quejas.</h6>
+                                                 </div>
+                                                 <div>
+                                                    
+                                                 </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <div class="border__box mt-3">
+                                    <div class="d-lg-flex d-flex justify-content-between p-3 ms-4 mt-2">
+                                        <div class="">
+                                            <h6>Herrero</h6>
+                                            <p>Duración del cargo: 2 años</p>
+                                        </div>
+                                        <div class="">
+                                            <img src="./assets/images/Chevron down.png" class="mt-3" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 d-flex justify-content-lg-end justify-content-center mt-4 mt-lg-3">
+                                    <a href="#" class="d-flex gap-2 align-items-center text-gold">
+                                        <span><img src="assets/images/Question mark circle.png" alt=""></span>
+                                        <span>Agregar ortro</span>
+                                    </a>
+                                </div>
+                                <hr class="text__grey">
+                                <div class="cloud__box ">
+                                    <label for="" class="monts__medium mb-3">Agregar Curriculum Vitae</label>
+                                    <div class="d-flex gap-lg-4 gap-2">
+                                        <div>
+                                            <img src="./assets/images/Document add.png" class="doc_icon" alt="">
+                                        </div>
+                                        <div class="cloud__box__border p-0 mt-2 gap-lg-2 gap-0 cv_box_3">
+
+                                            <img src="assets/images/upload-icon.png" class="p-2 text_dark_grey cv_icon ms-1" alt="image">
+                                            <div class="fs-sm">
+                                                <span>
+                                                    <span class="monts__medium text_dark_grey">Cambia tu CV</span><img src="./assets/images/X.svg" class="mb-1 ms-1 " alt="">
+                                                    
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <button class="btn__gold cv__btn fs-6 monts__medium p-2 mt-5 ms-lg-3">Siguiente</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

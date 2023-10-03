@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Valida Information </title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+<style>
+    .info_trabajado {
+    padding-top: 2em !important;
+    padding-bottom: 6% !important;
+}
+.valida_col{
+    background-color: #F7F8F9 !important;
+    padding-top: 3rem !important;
+    padding: 3rem 4rem !important;
+
+}
+.info_trabajado h3{
+    font-size: 34px;
+}
+.info_trabajado p{
+    color: #6B7280;
+}
+.num_color{
+    color: #484848;
+}
+.para_height{
+    line-height: 1.9;
+}
+@media (max-width:600px){
+    .para_width{
+        width: 97%;
+    }
+}
+</style>
+
+<body>
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content overflow-hidden rounded-0">
+                <div class="modal-body p-0">
+                    <div class="close__btn  ">
+                        <img src="assets/images/close2.png" class="d-lg-block d-none" data-bs-dismiss="modal" alt="close">
+                        <img src="assets/images/X circle.png" class="d-lg-none d-block" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="row mx-0">
+                        <div class="col-lg-5 d-lg-none d-block">
+                            <div class="trabajado__heading info_trabajado mt-5 text-center">
+                                <h1 class="monts__regular display-1">Valida tu <br> información</h1>
+                                <p class="fs-4">Para proteger tu cuenta y tus datos, debes verificar tu identidad, esto protege tu cuenta contra los daños que pudiera causar un externo.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 trabajado__col valida_col d-lg-block d-none">
+                            <div class="trabajado__heading info_trabajado mt-5">
+                                <h3 class="monts__regular">Valida tu información</h3>
+                                <p>Para proteger tu cuenta y tus datos, debes verificar tu identidad, esto protege tu cuenta contra los daños que pudiera causar un externo.</p>
+                            </div>
+                            <div class=" ">
+                                <img src="assets/images/human1.PNG" class="human_img" alt="image">
+                            </div>
+                        </div>
+                        <div class="col-lg-7 d-flex align-items-lg-center justify-content-center">
+                          <div class="email__box text-center">
+                            <div>
+                                <img src="assets/images/email.png" class="mb-2 email__img" alt="image">
+                                <h5 class="monts__medium fw-bold para_height">Por favor revisa tu correo electrónico</h5>
+                                <div class="para_width">
+                                <p>Te hemos enviado un código de acceso. No olvides revisar en tu bandeja de SPAM.</p>
+                            </div>
+                            </div>
+                            <div class="email__box__timer num_color mt-lg-0 mt-4">
+                                <div>3</div>
+                                <div>0</div>
+                                <div>6</div>
+                                <div>6</div>
+                            </div>
+                            <div class="my-2 text-lg-center text-start mt-3 mb-5">
+                                <span>¿No recibiste el código? <a href="#" class="text-gold monts__medium"> <span >Reenvíame código. </a> </span></span>
+                            </div>
+                            <div class="my-3 mt-4 mb-5">
+                                <button class="btn btn__gold w-75 p-2">Confirmar correo</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

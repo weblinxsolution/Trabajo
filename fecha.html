@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Fecha </title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+
+</head>
+<style>
+     
+    .trabajado_form{
+        padding: 5rem 4rem !important;
+    }
+    .contacto_div {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        background: #EFF6FF;
+        border-radius: 10px;
+        color: #1E40AF;
+        padding: 22px 13px !important;
+    }
+
+    .contacto_div p {
+        font-size: 23px;
+    }
+
+    .excla_img {
+        width: 30px;
+    }
+
+    #durationSelector_contacto {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        background-image: url('./assets/images/light-chevron.png');
+        background-repeat: no-repeat;
+        background-position: 96% center;
+        padding-left: 20px;
+        /* color: inherit;  */
+        /* This inherits the text color from the parent element */
+    }
+
+    .input-container {
+        display: flex;
+        align-items: center;
+        border: 1px solid #d4d5d7;
+        ;
+        padding: 0px 20px;
+        border-radius: 7px;
+        max-width: 100%;
+    }
+
+    .country-flag img {
+        width: 30px;
+        height: 23px;
+    }
+
+    .country-code {
+        margin-right: 50px;
+        margin-left: 7px;
+    }
+
+    .select_icon {
+        position: absolute;
+        top: 0px;
+        left: -15px;
+    }
+
+    .divider {
+        margin: 0 -2px;
+    }
+
+    .phone-input {
+        border: none !important;
+        outline: none;
+        flex: 1;
+        background-color: transparent;
+    }
+
+
+    .contacto_font p {
+        font-size: 22px;
+    }
+
+    .contacto_font h3 {
+        font-size: 42px;
+    }
+
+    .light__color input::placeholder {
+        font-weight: 100;
+        color: #CBCBCB;
+    }
+
+    .light__color select {
+        color: #CBCBCB;
+    }
+
+    .light__color select option {
+        color: #000;
+    }
+
+    .light__color textarea {
+        font-weight: 100;
+        color: #CBCBCB;
+    }
+
+    .side_color {
+        color: #6B7280;
+    }
+
+    @media (min-width: 1680px) {
+        .media_points::after {
+            left: -52px;
+        }
+    }
+
+    @media (max-width: 1600px) {
+        .media_points::after {
+            left: -48px;
+        }
+    }
+
+    @media (max-width: 1527.27px) {
+        .media_points::after {
+            left: -44px;
+        }
+    }
+
+
+    @media (max-width: 1366px) {
+        .media_points::after {
+            left: -39px;
+        }
+
+        .details__points {
+            padding: 0px 3rem;
+        }
+    }
+
+    @media (max-width: 1344px) {
+        .media_points::after {
+            left: -37px;
+        }
+    }
+
+    @media (max-width: 1280px) {
+        .media_points::after {
+            left: -33px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .media_points::after {
+            left: -28px;
+            top: -65px;
+        }
+    }
+
+
+    @media (max-width: 1120px) {
+        .media_points::after {
+            left: -36px;
+        }
+    }
+
+
+
+    @media (max-width: 991px) {
+        .process_circle {
+            display: flex;
+            justify-content: center;
+
+        }
+        .trabajado_form label {
+            font-size: 25px !important;
+        }
+        .trabajado_form input {
+            padding: 18px !important;
+        }
+        .trabajado_form .form-group select {
+            padding: 18px !important;
+        }
+        .check_form label:before{
+            padding: 11px;
+        }
+        .check_form input:checked+label:after{
+            top: 3px;
+            left: 4px;
+            width: 14px;
+            height: 28px;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .trabajado_form {
+            padding: 0rem 2rem !important;
+        }
+
+        .trabajado_form label {
+            font-size: 25px !important;
+        }
+
+        .trabajado_form input {
+            padding: 18px !important;
+        }
+
+        .trabajado_form .form-group select {
+            padding: 18px !important;
+        }
+        .check_form label:before{
+            padding: 11px;
+        }
+        .check_form input:checked+label:after{
+            top: 8px;
+            left: 8px;
+            width: 10px;
+            height: 21px;
+        }
+        
+        .contact_label{
+            display: flex;
+        }
+        .contact_label::before{
+            
+        padding: 11px !important;
+        height: max-content;
+        margin-top: 10px !important;
+    }
+    }
+    @media (max-width: 375px){
+                .trabajado_form {
+            padding: 0rem 0rem !important;
+        }
+        .contact_label{
+            display: flex;
+        }
+        .contact_label::before{
+            
+        padding: 11px !important;
+        height: max-content;
+        margin-top: 10px !important;
+    }
+    }
+   
+</style>
+
+<body>
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen modal-dialog-centered">
+            <div class="modal-content overflow-hidden rounded-0">
+                <div class="modal-body p-0">
+                    <div class="close__btn  ">
+                        <img src="assets/images/close2.png" class="d-lg-block d-none" data-bs-dismiss="modal"
+                            alt="close">
+                        <img src="assets/images/X circle.png" class="d-lg-none d-block" data-bs-dismiss="modal"
+                            alt="close">
+                    </div>
+                    <div class="row mx-0 flex-lg-row ">
+                        <div class="col-lg-5 d-lg-none d-block trabajado__col">
+                            <div class="trabajado__heading contacto_font text-center">
+                                <h3 class="monts__regular flex mb-4 gap-3">Cuéntanos <br> sobre ti <img
+                                        src="./assets/images/Lock closed.svg" class="mb-2" alt="icon"></h3>
+                                <p class="monts__regular">Ayúdanos a personalizar tu experiencia en el portal.
+                                    Proporcionando la siguiente información.</p>
+                            </div>
+                            <div class="row paso_sec d-flex justify-content-around d-lg-none d-block process_circle">
+                                <div class="col">
+                                    <p class="fw-bold">Paso 1 de 5</p>
+                                </div>
+                                <div class="col mt-2">
+                                    <div class="steps_points">
+                                        <div class="steps_ steps_active"></div>
+                                        <div class="steps_ "></div>
+                                        <div class="steps_"></div>
+                                        <div class="steps_"></div>
+                                        <div class="steps_ "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-lg-block d-none trabajado__col">
+                            <div class="trabajado__heading contacto_font">
+                                <h3 class="monts__regular mb-4 d-flex gap-3">Cuéntanos sobre ti <img
+                                        src="./assets/images/Lock closed.svg"></h3>
+                                <p>Ayúdanos a personalizar tu experiencia en el portal. Proporcionando la siguiente
+                                    <br>información.</p>
+                            </div>
+                            <div class="details__points">
+                                <div class="points__ points__active2 media_points" id="active__pt">
+                                    <p class="monts__medium mb-0 fw-bold points_p">INFORMACIÓN DE PERFIL</p>
+                                    <p>Cuéntanos sobre ti</p>
+                                </div>
+                                <div class="points__  media_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">EXPERIENCIA LABORAL</p>
+                                    <p>En dónde has trabajado</p>
+                                </div>
+                                <div class="points__ media_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">ESCOLARIDAD</p>
+                                    <p>Comparte tus estudios</p>
+                                </div>
+                                <div class="points__ media_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">OTROS ESTUDIOS</p>
+                                    <p>Comparte tus habilidades e idiomas</p>
+                                </div>
+                                <div class="points__ media_points">
+                                    <p class="monts__medium mb-0 fw-bold points_p">Más de TI</p>
+                                    <p>Háblanos más de ti</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="tengo__form light__color trabajado_form">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="monts__medium mb-2 d-flex gap-3 justify-content-lg-start justify-content-between">CURP <span
+                                                    class="text-gold"><a href="#"
+                                                        class="d-lg-flex  gap-1 align-items-center text-gold">
+                                                        <span><img src="assets/images/exclamatery.png" alt=""></span>
+                                                        <span class="d-lg-block d-none">Qué es y dónde tramitarla</span>
+                                                    </a></span></label>
+                                            <input type="text" placeholder="GISC9023490D0293HJ">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="monts__medium mb-2">Fecha de nacimiento<span
+                                                    class="text-gold">*</span></label>
+                                            <input type="text" placeholder="30/08/2003">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="monts__medium mb-2">¿Cuál es tu sexo?<span
+                                                    class="text-gold">*</span></label>
+                                            <select name="" id="durationSelector_contacto" class="light__color">
+                                                <option value="" selected>Hombre</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="monts__medium mb-2">Lugar de nacimiento<span
+                                                    class="text-gold">*</span></label>
+                                            <select name="" id="durationSelector_contacto" class="light__color">
+                                                <option value="" selected>Cuba</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-wrap contacto_form">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group ">
+                                            <label for="">Teléfono de contacto<span class="text-gold">*</span></label>
+
+                                            <div class="input-container mt-2">
+                                                <div class="country-flag">
+                                                    <img src="./assets/images/country-logo.svg" alt="Country Flag">
+                                                </div>
+                                                <div class="country-code monts__regular">
+                                                    +53
+                                                </div>
+                                                <div class="select_icon position-relative">
+                                                    <img src="./assets/images/chevron.png" alt="">
+                                                </div>
+
+                                                <input type="tel" class="phone-input" placeholder="|  125 126 1236">
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group ">
+                                            <label for="">Número de WhatsApp (opcional)</label>
+
+                                            <div class="input-container mt-2">
+                                                <div class="country-flag">
+                                                    <img src="./assets/images/country-logo.svg" alt="Country Flag">
+                                                </div>
+                                                <div class="country-code monts__regular">
+                                                    +53
+                                                </div>
+                                                <div class="select_icon position-relative">
+                                                    <img src="./assets/images/chevron.png" alt="">
+                                                </div>
+
+                                                <input type="tel" class="phone-input" placeholder="|  125 126 1236">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 ms-1 check_form mt-1">
+                                    <input type="checkbox" value="1" id="tengo__check">
+                                    <label for="tengo__check" class="monts__regular contact_label">Vivo fuera de México</label>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-group">
+                                            <label for="" class="monts__medium mb-2">¿En que dónde vives?<span
+                                                    class="text-gold">*</span></label>
+                                            <select name="" id="durationSelector_contacto" class="light__color">
+                                                <option value="" selected>Guatemala</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                                <option value="">Construccion</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="w-100 ms-1 check_form">
+                                    <input type="checkbox" value="2" id="tengo__check2">
+                                    <label for="tengo__check2" class="monts__regular contact_label">Puedo radicar en otra
+                                        entidad</label>
+                                </div>
+                                <div class="w-100 ms-1 check_form">
+                                    <input type="checkbox" value="3" id="tengo__check3">
+                                    <label for="tengo__check3" class="monts__regular contact_label">Puedo viajar por razones
+                                        laborales</label>
+                                </div>
+                                <div class="w-100 ms-1 check_form">
+                                        <input type="checkbox" value="4" id="tengo__check4">
+                                            <label for="tengo__check4" class="monts__regular contact_label">Necesito una visa o
+                                                permiso de trabajo en México</label>
+                                </div>
+                                <div class="w-100 ms-1 check_form">
+                                    <input type="checkbox" value="5" id="tengo__check5">
+                                    <label for="tengo__check5" class="monts__regular">Tengo una discapacidad</label>
+                                </div>
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-lg-12 col-12">
+                                        <div class="form-group">
+                                            <!-- <label for="" class="monts__medium mb-2">¿En que Ciudad vives hoy?<span
+                                                    class="text-gold">*</span></label> -->
+                                            <select name="" id="durationSelector_contacto" class="light__color">
+                                                <option value="" selected>Auditivo</option>
+                                                <option value="">Discapacidad visual</option>
+                                                <option value="">Discapacidad auditiva</option>
+                                                <option value="">Discapacidad motriz</option>
+                                                <option value="">Discapacidad intelectual y/o mental</option>
+                                                <option value="">Trastornos de la comunicación</option>
+                                                <option value="">Enfermedades discapacitantes</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="contacto_div  p-3  mt-5 mb-5">
+                                    <div class=" d-flex gap-2">
+                                        <div class="">
+                                            <img src="assets/images/Information circle.png"
+                                                class="excla_img img-fluid mt-1">
+                                        </div>
+                                        <div class="monts__medium ms-2">
+                                            <p> Si vives fuera de México, conoce los requisitos para trabajar legalmente
+                                                en México.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <button class="btn__gold fs-6 monts__medium w-100 p-3">Siguiente</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            },]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

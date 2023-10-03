@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Estudios</title>
+
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugin.css">
+    <!-- Style CSS -->
+
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Modal Code Start -->
+    <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
+        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content overflow-hidden">
+                <div class="modal-body p-0">
+                    <div class="close__btn p-2">
+                        <img src="assets/images/close2.png" data-bs-dismiss="modal" alt="close">
+                    </div>
+                    <div class="p-lg-5 p-4 pb-0">
+                        <h2 class="estodia__h3 monts__regular text-center mb-0 fs-sm-30">Comprobante de estudios</h2>
+                        <div class="row py-4 justify-content-center gap-4">
+                            <div class="col-lg-4 d-flex align-items-center">
+                                <img src="assets/images/comprobante-estudios@3x.png" class="img-fluid" alt="image">
+                            </div>
+                            <div class="col-lg-7">
+                                <ul class="estodia__ul">
+                                    <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+
+                                            Si las materias cursadas de tu titulación se asemejan un 40% a su programa
+                                            equivalente en México. La Secretaría de Educación <a href="#"
+                                                class="text-gold text-decoration-underline">revalida tus estudios en el
+                                                extranjero.</a>
+                                        </span></li>
+                                    <li><span><img src="assets/images/Check.png" alt="image"></span><span>
+                                            Si quieres acabar tus estudios y que los reconozcan en México, <a href="#"
+                                                class="text-gold text-decoration-underline">infórmate sobre
+                                                equivalencias de estudios</a> (para personas mexicanas).
+                                        </span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row education___row gap-lg-0 gap-3 p-3 py-3">
+                            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                                <img src="assets/images/LOGO_SEP_VERTICAL 3.png" alt="image">
+                            </div>
+                            <div class="col-lg-8 text-lg-start text-center d-flex align-items-center justify-content-center">
+                                <p class="mb-0">Si hiciste estudios de primaria, secundaria, bachillerato, licenciatura o postgrado
+                                    en el extranjero, probablemente necesitarás revalidar tus estudios para darles
+                                    validez en México la entidad que los revalida es la Secretaría de Educación Pública
+                                    (SEP).</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-center">
+                                <h2 class="monts__regular fs-sm-30 mb-0">¿Dónde contactarlos?</h2>
+                                <p class="fs-sm">Recuerda que estos <span class="fw-bold">trámites son gratuitos</span>
+                                </p>
+                            </div>
+                            <div class="text-center">
+                                <img src="assets/images/Frame 19.png" alt="image">
+                            </div>
+                            <div class="text-center my-3">
+                                <p class="fw-bold fs-5"><a href="#"
+                                        class="text-decoration-underline text-gold">Dirección General</a> para <br>
+                                    la Acreditación, Incorporación <br>
+                                    y Revalidación (DGAIR)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Code End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+    <script>
+        $(document).ready(function () {
+            $('.slick-next').trigger('click');
+
+            $('.next__slide').click(function () {
+                $('.slick-next').trigger('click');
+            })
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+        $('.slider_1').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '100px',
+            arrows: true,
+            dots: true,
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                }
+            }, ]
+        });
+    </script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

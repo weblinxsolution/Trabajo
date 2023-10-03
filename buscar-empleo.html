@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Buscar Empleo</title>
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+
+    <!-- FontAwsome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FontAwsome CSS -->
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Style CSS -->
+
+</head>
+
+<body>
+
+    <!-- Header Section Start -->
+    <section class="header_">
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg px-0 py-2 header2_">
+                    <div class="container-fluid px-0">
+                        <div class="header__logos d-flex align-items-center">
+                            <div class="d-lg-none d-block">
+                                <img src="assets/images/Capa_1.png" alt="logo">
+                            </div>
+                            <div class="border_after__img">
+                                <img src="assets/images/logo-trabajo.png" class="img__md__80" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo-sne.png" class="img__md__80" alt="logo">
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars text-white fa-lg"></i>
+                        </button>
+                        <div class="collapse navbar-collapse navbar__2" id="navbarSupportedContent">
+                            <ul class="navbar-nav navbar__bs ms-auto  mb-2 mb-lg-0 px-3 gap-3 w-mxc">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Prevención de Fraude</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Derechos laborales</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex gap-xxl-5 gap-4 header__btn ps-4 align-items-center">
+                                <button class="btn btn__icon">
+                                    <img src="assets/images/heart.svg" alt="image">
+                                    <span>3</span>
+                                </button>
+                                <button class="btn btn__icon">
+                                    <img src="assets/images/notification.svg" alt="image">
+                                    <span>3</span>
+                                </button>
+                                <div class="d-flex gap-3 align-items-center cursor">
+                                    <div class="dropdown">
+                                        <div class="d-flex gap-3 align-items-center cursor dropdown-toggle drp3"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            <div class="text-white text-end fs-sm">
+                                                <div><span class="monts__regular fs-6">Nombre</span></div>
+                                                <div>Ingeniero en sistemas</div>
+                                            </div>
+                                            <div class="profile__img__box">
+                                                <span>
+                                                    <img src="assets/images/profile.png" class="profile__img"
+                                                        alt="image">
+                                                </span>
+                                                <span>
+                                                    <img src="assets/images/arrow-down-2.png"
+                                                        class="profile__img__arrow" alt="image">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <ul class="dropdown-menu position-absolute w-100 profile__drp">
+                                            <li><a class="dropdown-item" href="#">Ver perfil</a></li>
+                                            <li><a class="dropdown-item" href="#">Carre sesion</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="country__dropdown">
+                                    <div class="active__content pe-0"><span><img src="assets/images/mexico.png"
+                                                alt="image"></span><span><img src="assets/images/arrow-down.png"
+                                                class="img__arrow" alt="image"></span></div>
+                                    <div class="country__content">
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- Header Section End -->
+
+    <!-- Sub Menu Section Start -->
+    <section class="sub__menu__section d-lg-block d-none">
+        <div class="wrapper">
+            <div class="row mx-0">
+                <div class="col-xxl-4 col">
+                    <div class="d-flex align-items-center gap-3 me-auto">
+                        <div class="regresar__">
+                            <img src="assets/images/Arrow left.svg" alt="image">
+                            <span>
+                                Regresar
+                            </span>
+                        </div>
+                        <div class="home__">
+                            <img src="assets/images/home.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-8 col">
+                    <ul class="sub__menu ms-auto w-mxc">
+                        <li><a href="#">Ofertas de empleo</a></li>
+                        <li><a href="#">¿Quiénes son las Personas en Contexto de Movilidad? </a></li>
+                        <li><a href="#">Empresas</a></li>
+                        <li><a href="#">Aliados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Menu Section End -->
+
+
+    <!-- Bar Filter Section Start -->
+    <section class="position-relative">
+        <div class="wrapper">
+            <div class="ofertas d-flex gap-4 justify-content-between align-items-center pt-lg-4 py-3 pb-lg-0 px-3">
+                <div class="d-flex gap-4 align-items-center">
+                    <div>
+                        <img src="assets/images/house2.svg" alt="image">
+                    </div>
+                    <div>
+                        <img src="assets/images/arrow-right2.svg" alt="image">
+                    </div>
+                    <div class="text__ortas">
+                        <span class="monts__regular">Ofertas de empleo</span>
+                    </div>
+                </div>
+                <div class="d-lg-block d-none">
+                    <div class="d-flex gap-2 align-items-center">
+                        <img src="assets/images/secure.png" alt="image">
+                        <span class="text-gold fs-5 monts__medium">Cómo detectar una oferta de empleo
+                            fraudulenta</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row filter__row2 gap-lg-0 gap-3 mx-0">
+                <div class="col-lg-3">
+                    <div class="filter__input">
+                        <label for="">Palabra clave, oficio, profesión</label>
+                        <div>
+                            <span class="d-block"><img src="assets/images/Briefcase.png" alt="image"></span>
+                            <input type="text" value="" placeholder="Ej. Diseño Gráfico">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="filter__input">
+                        <label for="">Área de trabajo</label>
+                        <div>
+                            <span class="d-block"><img src="assets/images/search.png" alt="image"></span>
+                            <input type="text" value="" placeholder="Ej. Construcción">
+                            <div class="dropdown dropdown p-0 border-0 shadow-none  w-mxc">
+                                <span class="dropdown-toggle dropdown-toggle-2" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <span class="d-block"><img src="assets/images/chevron.png" style="width:13px;"
+                                            alt="image"></span>
+                                </span>
+                                <ul class="dropdown-menu w-mxc">
+                                    <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="filter__input">
+                        <label for="">¿En dónde?</label>
+                        <div>
+                            <span class="d-block"><img src="assets/images/loocation.png" style="width: 15px;"
+                                    alt="image"></span>
+                            <input type="text" value="" placeholder="Ej. Chiapas">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="filter__input">
+                        <button>Buscar empleo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none d-block">
+                <div class="d-flex gap-2 align-items-center py-3">
+                    <img src="assets/images/secure.png" style="width: 20px;" alt="image">
+                    <span class="monts__regular text-gold fs-6">Cómo detectar una oferta de empleo fraudulenta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bar Filter Section End -->
+
+
+    <!-- Filter Section Start -->
+    <section class="position-relative d-block fitler__sec2">
+        <!-- White Space Image Start -->
+        <div class="white__space__img d-lg-block d-none">
+            <img src="assets/images/white__space.png" alt="image">
+            <!-- White Space Image End -->
+        </div>
+        <div class="filter__section__box">
+            <div class="wrapper">
+                <div class="row mx-0 justify-content-lg-between gap-xl-4">
+                    <div class="col-lg-3">
+                        <div class="checkbox__filter">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Experiencia (años)</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="row mx-0 my-3">
+                                    <div class="dual-range mt-3" data-min="20" data-max="70">
+                                        <span class="handle left">
+                                            <input type="checkbox" class="filter__check" id="for__min">
+                                            <label for="for__min" class="check__label">
+                                                <i class="fa fa-check" style="visibility: hidden;"></i>
+                                            </label>
+                                        </span>
+                                        <span class="highlight"></span>
+                                        <span class="handle right">
+                                            <input type="checkbox" class="filter__check" id="for__max">
+                                            <label for="for__max" class="check__label">
+                                                <i class="fa fa-check" style="visibility: hidden;"></i>
+                                            </label>
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Estado</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Estado1">
+                                        <label for="Estado1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        CDMX (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Estado2">
+                                        <label for="Estado2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Chiapas (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Estado3">
+                                        <label for="Estado3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Chihuahua (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Modalidad de trabajo</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Moda1">
+                                        <label for="Moda1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Tiempo completo (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Moda2">
+                                        <label for="Moda2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Medio tiempo (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Moda3">
+                                        <label for="Moda3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Fines de semana (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Moda4">
+                                        <label for="Moda4" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Presencial y Home Office (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Moda5">
+                                        <label for="Moda5" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Home Office (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Área de trabajo</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Área1">
+                                        <label for="Área1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Administración (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Área2">
+                                        <label for="Área2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Apoyo de oficina (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Área3">
+                                        <label for="Área3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Servicio al cliente (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Área4">
+                                        <label for="Área4" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        CEO y dirección general (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Nivel educativo <img src="assets/images/i.svg" alt="image" style="width: 20px;">
+                                </h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel1">
+                                        <label for="Nivel1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Administración (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel2">
+                                        <label for="Nivel2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Ningún estudio (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel3">
+                                        <label for="Nivel3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Leer y escribir (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel4">
+                                        <label for="Nivel4" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Preescolar (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel5">
+                                        <label for="Nivel5" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Primaria (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel6">
+                                        <label for="Nivel6" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Secundaría (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel7">
+                                        <label for="Nivel7" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Preparatoría / Bachillerato (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Nivel8">
+                                        <label for="Nivel8" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Licenciatura (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Salario ofertado (MXN) <img src="assets/images/i.svg" alt="image"
+                                        style="width: 20px;">
+                                </h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="row mx-0 my-3">
+                                    <div class="dual-range mt-3" data-min="20" data-max="70">
+                                        <span class="handle left">
+                                            <input type="checkbox" class="filter__check" id="for__min1">
+                                            <label for="for__min1" class="check__label">
+                                                <i class="fa fa-check" style="visibility: hidden;"></i>
+                                            </label>
+                                        </span>
+                                        <span class="highlight"></span>
+                                        <span class="handle right">
+                                            <input type="checkbox" class="filter__check" id="for__max2">
+                                            <label for="for__max" class="check__label">
+                                                <i class="fa fa-check" style="visibility: hidden;"></i>
+                                            </label>
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Tipo de contrato</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo1">
+                                        <label for="Tipo1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Por tiempo indeterminado (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo2">
+                                        <label for="Tipo2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Por tiempo determinado (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo3">
+                                        <label for="Tipo3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Leer y escribir (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo4">
+                                        <label for="Tipo4" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Por obra (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo5">
+                                        <label for="Tipo5" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Primaria (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Tipo6">
+                                        <label for="Tipo6" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Periodo de prueba (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Días laborales</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Días1">
+                                        <label for="Días1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Lunes a Viernes (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Días2">
+                                        <label for="Días2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Sábado y Domingo (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Días3">
+                                        <label for="Días3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Solo algunos días (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Idioma</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Idioma1">
+                                        <label for="Idioma1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Inglés (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Idioma2">
+                                        <label for="Idioma2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Francés (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Idioma3">
+                                        <label for="Idioma3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Portugués (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Discapacidad</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Discapacidad1">
+                                        <label for="Discapacidad1" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Auditiva (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Discapacidad2">
+                                        <label for="Discapacidad2" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Motriz (0)
+                                    </span>
+                                </div>
+                                <div class="position-relative d-flex align-items-center gap-xl-3 gap-2 px-0 mb-3">
+                                    <div>
+                                        <input type="checkbox" class="filter__check" id="Discapacidad3">
+                                        <label for="Discapacidad3" class="check__label2">
+                                            <i class="fa fa-check" style="visibility: hidden;"></i>
+                                        </label>
+                                    </div>
+                                    <span>
+                                        Cognitiva (0)
+                                    </span>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <div class="filter__item d-flex justify-content-between align-items-center">
+                                <h5>Empresas con CIE</h5>
+                                <img src="assets/images/arrowdown.svg" alt="image">
+                            </div>
+                            <div class="fiter__box">
+                                <div class="d-flex align-items-center gap-3 switch__box">
+                                    <div>
+                                        NO
+                                    </div>
+                                    <label class="switch__filter" for="checkbox__filter">
+                                        <input type="checkbox" id="checkbox__filter" />
+                                        <div class="button__toggle round__filter"></div>
+                                    </label>
+                                    <div>
+                                        SÍ
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="text__grey" style="margin: 40px 0px 30px 0px;">
+                            <button class="btn btn__filter__submit">
+                                Limpiar filtros
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row mx-0 pt-lg-0 pt-4">
+                            <div class="col-xl-6 col-lg-4 px-0">
+                                <h4>Tu búsqueda</h4>
+                                <div class="d-flex gap-2 my-3 search__bar">
+                                    <span><i class="fa fa-search text__grey"></i></span>
+                                    <span class="monts__regular text__grey result__div">11,908 ofertas laborales para
+                                        ti</span>
+                                </div>
+                                <div class="w-100 d-lg-none d-block">
+                                    <button class="btn btn-lg filtros__btn mx-auto w-100 fw-bold">Filtros</button>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col d-flex align-items-center gap-5 justify-content-end dinar__div">
+                                <div class="d-flex gap-2 cursor">
+                                    <span class="text__grey">Ordenar por:</span>
+                                    <div class="dropdown">
+                                        <div class="dropdown-toggle drp3" type="button"
+                                        id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                            <span class="d-flex gap-3 ordenar__p"><span>Lo más reciente</span>
+                                                <span><img src="assets/images/arrow__down2.png" alt="image"
+                                                        style="width: 14px;"></span></span>
+                                        </div>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Option 1</a></li>
+                                            <li><a class="dropdown-item" href="#">Option 2</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="nav d-flex gap-2 nav-pills" id="pills-tab" role="tablist">
+                                    <button class="btn btn___toggle__filter filter__btn active" id="pills-lista-tab-1"
+                                        data-bs-toggle="pill" data-bs-target="#pills-lista-1" type="button" role="tab"
+                                        aria-controls="pills-lista-1" aria-selected="true">
+                                        <i class="fa fa-bars fa-lg"></i>
+                                    </button>
+                                    <button class="btn btn___toggle__map filter__btn" id="pills-mapa-tab-2"
+                                        data-bs-toggle="pill" data-bs-target="#pills-mapa-2" type="button" role="tab"
+                                        aria-controls="pills-mapa-2" aria-selected="false">
+                                        <svg width="25" height="25" viewBox="0 0 15 15" fill="#fff  "
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M7.0902 10.0453L7.68111 8.86346V5.825C8.69806 5.56087 9.45384 4.64319 9.45384 3.54528C9.45384 2.24173 8.39374 1.18164 7.0902 1.18164C5.78665 1.18164 4.72656 2.24173 4.72656 3.54528C4.72656 4.64319 5.48234 5.56087 6.49929 5.825V8.86346L7.0902 10.0453Z"
+                                                fill="#484848" />
+                                            <path
+                                                d="M9.61214 6.24082L9.29719 7.3801C10.8282 7.80319 11.818 8.61687 11.818 9.4536C11.818 10.5716 9.87687 11.8172 7.09073 11.8172C4.3046 11.8172 2.36346 10.5716 2.36346 9.4536C2.36346 8.61687 3.35323 7.80319 4.88487 7.37951L4.56991 6.24023C2.47987 6.81814 1.18164 8.04901 1.18164 9.4536C1.18164 11.4414 3.7775 12.9991 7.09073 12.9991C10.404 12.9991 12.9998 11.4414 12.9998 9.4536C12.9998 8.04901 11.7016 6.81814 9.61214 6.24082Z"
+                                                fill="#484848" />
+                                        </svg>
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-3 gap-3 mx-0">
+                            <div class="badge__tag bg__red__tag">
+                                <span>Contratación inmediata</span>
+                                <img src="assets/images/red__close.svg" alt="image">
+                            </div>
+                            <div class="badge__tag bg__yellow__tag">
+                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                <img src="assets/images/yellow__close.svg" alt="image">
+                            </div>
+                            <div class="badge__tag bg__blue__tag">
+                                <span>Albañíl</span>
+                                <img src="assets/images/blue__close.svg" alt="image">
+                            </div>
+                            <div class="badge__tag bg__purple__tag">
+                                <span>Construcción</span>
+                                <img src="assets/images/purple__close.svg" alt="image">
+                            </div>
+                        </div>
+                        <hr class="text__grey line__ line__2" style="margin: 40px 0px 30px 0px;">
+                        <div class="d-lg-none d-block">
+                            <div class="d-flex gap-2 cursor ordero__ py-3">
+                                <span class="text__grey">Ordenar por:</span>
+                                <span class="d-flex gap-3 ordenar__p"><span>Lo más reciente</span> <span><img
+                                            src="assets/images/arrow__down2.png" alt="image"
+                                            style="width: 14px;"></span></span>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-lista-1" role="tabpanel"
+                                aria-labelledby="pills-lista-tab-2" tabindex="0">
+                                <div class="row mx-0  gap-4 justify-content-around">
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <!-- <div class="badge__timeline bg__expire">
+                                        <img src="assets/images/info.svg" alt="image">
+                                        <span>Expira pronto</span>
+                                    </div> -->
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between gap-lg-2 flex-wrap">
+                                                <div
+                                                    class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                    <span>Tuxtla Gutiérrez, Chis.</span>
+                                                </div>
+                                                <div
+                                                    class="d-flex align-items-center  gap-2 text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa-solid fa-clipboard-check fa-lg text-gold"></i>
+                                                    <span>Empresa con CIE</span>
+                                                    <i class="fa-solid fa-circle-question fa-lg text__grey"
+                                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                                        data-bs-title=" La CIE es un documento que solicita el Instituto Nacional de Migración (INM) a todo empleador que desea contratar o contrata a personal de origen extranjero."></i>
+                                                </div>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__success">
+                                                    <img src="assets/images/check.svg" alt="image">
+                                                    <span>Postulado </span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <!-- <div class="badge__timeline bg__expire">
+                                        <img src="assets/images/info.svg" alt="image">
+                                        <span>Expira pronto</span>
+                                    </div> -->
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between gap-lg-2 flex-wrap">
+                                                <div
+                                                    class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                    <span>Tuxtla Gutiérrez, Chis.</span>
+                                                </div>
+                                                <div
+                                                    class="d-flex align-items-center  gap-2 text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa-solid fa-clipboard-check fa-lg text-gold"></i>
+                                                    <span>Empresa con CIE</span>
+                                                    <i class="fa-solid fa-circle-question fa-lg text__grey"
+                                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                                        data-bs-title=" La CIE es un documento que solicita el Instituto Nacional de Migración (INM) a todo empleador que desea contratar o contrata a personal de origen extranjero."></i>
+                                                </div>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__success">
+                                                    <img src="assets/images/check.svg" alt="image">
+                                                    <span>Postulado </span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__expire">
+                                                    <img src="assets/images/info.svg" alt="image">
+                                                    <span>Expira pronto</span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <!-- <div class="badge__timeline bg__expire">
+                                        <img src="assets/images/info.svg" alt="image">
+                                        <span>Expira pronto</span>
+                                    </div> -->
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between gap-lg-2 flex-wrap">
+                                                <div
+                                                    class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                    <span>Tuxtla Gutiérrez, Chis.</span>
+                                                </div>
+                                                <div
+                                                    class="d-flex align-items-center  gap-2 text-gold my-3 mt-4 gap-1 map__point_text">
+                                                    <i class="fa-solid fa-clipboard-check fa-lg text-gold"></i>
+                                                    <span>Empresa con CIE</span>
+                                                    <i class="fa-solid fa-circle-question fa-lg text__grey"
+                                                        data-bs-toggle="tooltip" data-bs-placement="top"
+                                                        data-bs-title=" La CIE es un documento que solicita el Instituto Nacional de Migración (INM) a todo empleador que desea contratar o contrata a personal de origen extranjero."></i>
+                                                </div>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buscana__parent__box2">
+                                        <div class="buscana__box">
+                                            <div class="w-100 d-flex gap-3 justify-content-between">
+                                                <div class="buscana__clock">
+                                                    <i class="fa-solid fa-clock-rotate-left"></i>
+                                                    <span>Hace 3 horas</span>
+                                                </div>
+                                                <div class="badge__timeline bg__success">
+                                                    <img src="assets/images/check.svg" alt="image">
+                                                    <span>Postulado </span>
+                                                </div>
+                                            </div>
+                                            <div class="my-2">
+                                                <h5 class="mb-0">Albañil de construcción para <br> edificio de airBNB
+                                                </h5>
+                                            </div>
+                                            <div class="text__grey social__slogan">
+                                                <span>Facebook</span>
+                                            </div>
+                                            <div
+                                                class="d-flex align-items-center  text-gold my-3 mt-4 gap-1 map__point_text">
+                                                <i class="fa fa-location-dot fa-lg text-gold"></i>
+                                                <span>Tuxtla Gutiérrez, Chis.</span>
+                                            </div>
+                                            <hr class="text__light">
+                                            <div class="btn__box__light pt-2 fw-bold ">
+                                                <button class="monts__regular">Medio tiempo</button>
+                                                <span class="monts__regular">
+                                                    $100k - $120k/mensual
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade vh-100" id="pills-mapa-2" role="tabpanel"
+                                aria-labelledby="pills-mapa-tab-2" tabindex="0">
+                            </div>
+
+                        </div>
+
+                        <hr class="text__grey line__" style="margin: 10px 0px 30px 0px;">
+                        <div class="row justify-content-between gap-3 flex-lg-row flex-column-reverse">
+                            <div class="cards__result w-mxc">
+                                Mostrando 1 a 10 de <span class="fw-bold">97 resultados</span>
+                            </div>
+                            <div class="pagination__box w-mxc">
+                                <a href="#" class="pagination__arrow__left"><i class="fa fa-angle-left"></i></a>
+                                <a href="#" class="pg__active">1</a>
+                                <a href="#">2</a>
+                                <a href="#">3</a>
+                                <a href="#">...</a>
+                                <a href="#">8</a>
+                                <a href="#">9</a>
+                                <a href="#">10</a>
+                                <a href="#" class="pagination__arrow__right"><i class="fa fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Filter Section Start -->
+
+
+    <!-- Footer Start -->
+    <section>
+        <footer>
+            <div class="wrapper">
+                <div class="row mx-0 justify-content-lg-between justify-content-center py-4 gap-lg-0 gap-5">
+                    <div class="col-xxl-4">
+                        <div class="col-lg-12">
+                            <div class="text-lg-start text-center">
+                                <img src="assets/images/logo-portal-empleo.png" alt="image">
+                                <p class="text__grey mt-4">
+                                    El Portal del Empleo es un instrumento de política laboral disponible en
+                                    internet
+                                    para
+                                    los ciudadanos y residentes en todo México. 
+                                </p>
+                                <div class="social__icons py-3 justify-content-lg-start justify-content-center">
+                                    <span>
+                                        <img src="assets/images/facebook.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/instagram.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/twitter.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/github.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/football.png" alt="image">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 d-flex justify-content-lg-end justify-content-center flex-wrap">
+                        <div class="col-xxl-4 col-12 footer__links">
+                            <h5 class="text-lg-start text-center">Compañía</h5>
+                            <ul class="text-lg-start text-center">
+                                <li><a href="#">Conoce al SNE</a></li>
+                                <li><a href="#">Solicitud de empleo</a></li>
+                                <li><a href="#">Feria de empleo</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xxl-4 col-12 footer__links">
+                            <h5 class="text-lg-start text-center">Legal</h5>
+                            <ul class="text-lg-start text-center">
+                                <li><a href="#">Aviso de Privacidad</a></li>
+                                <li><a href="#">Términos y condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="w-100 bg-white">
+                <div class="wrapper">
+                    <div
+                        class="row mx-0 copyright__row py-lg-4 flex-lg-row flex-column-reverse text-lg-start text-center gap-lg-0 gap-4 py-4">
+                        <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+                            <p class="text__light mb-0" style="font-size: 17px;">© 2023 Portal del empleo. <br
+                                    class="d-lg-none d-block"> Todos los derechos reservados</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div
+                                class="d-flex gap-xl-3 footer__cpy flex-wrap justify-content-lg-around justify-content-center">
+                                <div>
+                                    <img src="assets/images/logo-proyecto.png" alt="logo">
+                                </div>
+                                <div>
+                                    <img src="assets/images/logo-oit.png" alt="logo">
+                                </div>
+                                <div>
+                                    <img src="assets/images/logo - financiado-UE.png" alt="logo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+    <!-- Footer End -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- Bootstrap JS -->
+
+    <!-- Slick Slider JS -->
+    <script src="assets/js/plugin.js"></script>
+    <!-- Slick Slider JS -->
+
+
+    <script>
+        $('.job__slider').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+            centerMode: true,
+            centerPadding: '48px',
+            prevArrow: "<i class='fa fa-angle-right text__grey slick_arrow_left'></i>",
+            nextArrow: "<i class='fa fa-angle-left text__grey slick_arrow_right'></i>",
+            responsive: [{
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '90px',
+                },
+            }, ]
+        });
+        $('.card__box__slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+        });
+        $('.payo__slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            dots: true,
+        });
+    </script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
