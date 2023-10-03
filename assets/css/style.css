@@ -3081,6 +3081,12 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
+    .details__cards__header h6 img{
+        width: 20px;
+    }
+    .details__cards__qa ul li img{
+        width: 20px;
+    }
     .swiper-pagination-bullet-active{
         background-color: #FFF !important;
     }
@@ -3090,9 +3096,7 @@ section.requisitos__section {
     .back-white-res{
         color: #FFF !important;
     }
-    .swiper-pagination-bullet-active{
-        background-color: #FFF;
-      }
+    
     .brown-pos-rel{
         background-color: #BC955A;
     }
