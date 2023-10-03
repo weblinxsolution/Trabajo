@@ -2762,12 +2762,38 @@ section.requisitos__section {
     transform: rotate(180deg) scale(.7) !important;
 }
 
-/* Izhan CSS End */
+.background-fill {
+    background-color: #F3F4F6;
+}
 
-/* Modal CSS End */
+.white-background .input-fields-area .form-group {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.white-background .input-fields-area .form-check {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.white-background {
+    background-color: #FFF;
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 6px;
+    padding-top: 2rem;
+}
 
 .green-bg-people {
     position: relative;
+}
+
+.text-grey {
+    color: #6B7280;
 }
 
 .text-de-los {
@@ -2777,9 +2803,11 @@ section.requisitos__section {
     width: 500px;
     left: 14%;
 }
-.text-pink{
+
+.text-pink {
     color: #AD4497;
 }
+
 /* Media Query Start */
 @media(max-width:1527.27px) {
     .complete__points div::after {
@@ -3097,9 +3125,10 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
-    .green-bg-people{
+    .green-bg-people {
         display: none;
     }
+
     .details__cards__header h6 img {
         width: 20px;
     }
