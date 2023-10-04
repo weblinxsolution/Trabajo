@@ -399,7 +399,7 @@ ul li::marker {
     margin-right: 10px;
 }
 .visitante-img img{
-    width: 350px;
+    /* width: 350px; */
 }
 .bullet-points p{
     font-size: 16px;
