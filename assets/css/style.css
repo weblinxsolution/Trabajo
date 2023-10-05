@@ -2190,6 +2190,11 @@ section.main__detalles {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.pcm__banner__v2{
+    background-image: url("../images/backgroundwithimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .pcm__banner__content h1 {
     font-size: 50px;
