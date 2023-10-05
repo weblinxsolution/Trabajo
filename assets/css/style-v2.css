@@ -431,7 +431,9 @@ ul li::marker {
 .visitante-img img {
     /* width: 350px; */
 }
-
+.pcmext-heading-text{
+    padding-bottom: 4rem;
+}
 .white-bg-shadow {
     background-color: #fff;
     padding: 3rem;

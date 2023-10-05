@@ -2191,9 +2191,10 @@ section.main__detalles {
 
 .pcm__banner {
     /* background-color: #F7F8F9; */
-    background-image: url("../images/banner-background.png");
+    background-image: url("../images/banner-background__v2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
 }
 .pcm__banner__v2{
     background-image: url("../images/backgroundwithimg.png");
