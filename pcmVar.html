@@ -1,11 +1,1359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CURP - Home</title>
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- FontAwsome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FontAwsome CSS -->
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-v2.css">
+    <style>
+        footer {
+            margin-top: 0px;
+        }
+    </style>
+    <!-- Style CSS -->
+
 </head>
+
 <body>
+    <!-- Header Section Start -->
+    <section class="header_">
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg p-0">
+                    <div class="container-fluid px-0">
+                        <div class="header__logos d-flex align-items-center">
+                            <div>
+                                <img src="assets/images/Capa_1.png" class="d-lg-none d-block" alt="logo">
+                            </div>
+                            <div class="border_after__img">
+                                <img src="assets/images/logo-trabajo.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo-sne.png" alt="logo">
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars text-white fa-lg"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 px-3 gap-3 w-mxc">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Prevención de Fraude</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Derechos laborales</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex gap-3 header__btn ps-4">
+                                <button class="Iniciar__btn">
+                                    Iniciar sesión
+                                </button>
+                                <button class="registration__btn">
+                                    Regístrate
+                                </button>
+                                <div class="country__dropdown">
+                                    <div class="active__content pe-0"><span><img src="assets/images/mexico.png"
+                                                alt="image"></span><span><img src="assets/images/arrow-down.png"
+                                                class="img__arrow" alt="image"></span></div>
+                                    <div class="country__content">
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- Header Section End -->
+
+    <!-- Sub Menu Section Start -->
+    <section class="sub__menu__section d-lg-block d-none">
+        <div class="wrapper">
+            <div class="row mx-0">
+                <div class="col-xxl-4 col">
+                    <div class="d-flex align-items-center gap-3 me-auto">
+                        <div class="regresar__">
+                            <img src="assets/images/Arrow left.svg" alt="image">
+                            <span>
+                                Regresar
+                            </span>
+                        </div>
+                        <div class="home__">
+                            <img src="assets/images/home.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-8 col">
+                    <ul class="sub__menu ms-auto w-mxc">
+                        <li><a href="#">Ofertas de empleo</a></li>
+                        <li><a href="#">¿Quiénes son las Personas en Contexto de Movilidad? </a></li>
+                        <li><a href="#">Empresas</a></li>
+                        <li><a href="#">Aliados</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Menu Section End -->
+
+    <!-- Banner Start -->
+    <section class="pcm__banner">
+        <div class="wrapper">
+            <div class="row mx-0 py-100 pb-0">
+                <div class="col-lg-6 d-flex align-items-start justify-content-start">
+                    <div class="pcm__banner__content p-lg-4 p-3">
+                        <h1 class="text__dark__yellow monts__regular fw-bold">¿Quiénes son las Personas en Contexto de
+                            Movilidad?
+                        </h1>
+                        <p class="fs-5 mt-4 text_dark_blue">Las personas en contexto de movilidad son aquéllas nacidas
+                            en el extranjero o en México que cambiaron su lugar de residencia recientemente. Dependiendo
+                            de la documentación que presente, se podrá determinar la condición de estancia y permiso de
+                            trabajo en México
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/images/pcm-4.png" class="w-100" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner End -->
+    <!-- Section-1 -->
+    <section class="">
+        <section class="pcm-section-4 mb-5 mt-5 ">
+            <div class="wrapper">
+                <div class="pcm-sec-4-heading text-center mb-5">
+                    <h2>
+                        ¿Cómo obtener el
+                        <span class="text-gold fw-bold ">permiso de trabajo?</span>
+                    </h2>
+                </div>
+                <div class="row justify-content-center content-gap-res">
+                    <div class="col-lg-10">
+                        <div class="row justify-content-center align-items-center Mexio-column">
+                            <div class="col-lg-6">
+                                <p class="fs-5">
+                                    Este trámite <strong>sí tiene un costo y no se puede tramitar en línea.</strong> La
+                                    solicitud se
+                                    genera cuando la persona llega al punto de internación. Para más información,
+                                    <a href="" class="text-gold">consulta aquí</a>
+                                </p>
+                            </div>
+                            <div class="col-lg-6 tag-image-size">
+                                <img src="./assets/images/pcmVar-1.png" class="w-75 mx-auto d-block" alt="">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center como-coloumn">
+                            <div class="col-lg-6 tag-image-size">
+                                <img src="./assets/images/pcmVar-2.png" class="w-75 mx-auto d-block" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="fs-5">
+                                    <strong>Las personas con residencia temporal no necesitan salir del país para
+                                        conseguir el permiso de trabajo.</strong> Estas deben solicitar <a href=""
+                                        class="text-gold">una cita ante el INM</a> y presentar todos los requisitos; es
+                                    posible tener resolución el mismo día de la cita.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- Section-2 End-->
+
+    <!-- Section-3 -->
+    <section class="Visitante mt-5 mb-5">
+        <div class="wrapper">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="visitante-bullet-points d-flex flex-column gap-3 mt-3">
+                        <div class="bullet-points d-flex ">
+                            <div class="shield-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.16611 4.99878C5.17437 4.95797 7.91528 3.81021 10 1.94434C12.0847 3.81021 14.8256 4.95797 17.8339 4.99878C17.9431 5.64956 18 6.31809 18 6.99991C18 12.2248 14.6608 16.6697 10 18.317C5.33923 16.6697 2 12.2248 2 6.99991C2 6.31809 2.05686 5.64956 2.16611 4.99878ZM13.7071 8.70698C14.0976 8.31646 14.0976 7.6833 13.7071 7.29277C13.3166 6.90225 12.6834 6.90225 12.2929 7.29277L9 10.5857L7.70711 9.29277C7.31658 8.90225 6.68342 8.90225 6.29289 9.29277C5.90237 9.6833 5.90237 10.3165 6.29289 10.707L8.29289 12.707C8.68342 13.0975 9.31658 13.0975 9.70711 12.707L13.7071 8.70698Z"
+                                        fill="#BC955A" />
+                                </svg>
+                            </div>
+                            <p class="fs-5">Tiene una vigencia de 1 año.</p>
+                        </div>
+                        <div class="bullet-points d-flex ">
+                            <div class="shield-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.16611 4.99878C5.17437 4.95797 7.91528 3.81021 10 1.94434C12.0847 3.81021 14.8256 4.95797 17.8339 4.99878C17.9431 5.64956 18 6.31809 18 6.99991C18 12.2248 14.6608 16.6697 10 18.317C5.33923 16.6697 2 12.2248 2 6.99991C2 6.31809 2.05686 5.64956 2.16611 4.99878ZM13.7071 8.70698C14.0976 8.31646 14.0976 7.6833 13.7071 7.29277C13.3166 6.90225 12.6834 6.90225 12.2929 7.29277L9 10.5857L7.70711 9.29277C7.31658 8.90225 6.68342 8.90225 6.29289 9.29277C5.90237 9.6833 5.90237 10.3165 6.29289 10.707L8.29289 12.707C8.68342 13.0975 9.31658 13.0975 9.70711 12.707L13.7071 8.70698Z"
+                                        fill="#BC955A" />
+                                </svg>
+                            </div>
+                            <p class="fs-5">Permite entradas y salidas múltiples del país durante su vigencia por la
+                                frontera sur del país.
+                            </p>
+                        </div>
+                        <div class="bullet-points d-flex ">
+                            <div class="shield-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.16611 4.99878C5.17437 4.95797 7.91528 3.81021 10 1.94434C12.0847 3.81021 14.8256 4.95797 17.8339 4.99878C17.9431 5.64956 18 6.31809 18 6.99991C18 12.2248 14.6608 16.6697 10 18.317C5.33923 16.6697 2 12.2248 2 6.99991C2 6.31809 2.05686 5.64956 2.16611 4.99878ZM13.7071 8.70698C14.0976 8.31646 14.0976 7.6833 13.7071 7.29277C13.3166 6.90225 12.6834 6.90225 12.2929 7.29277L9 10.5857L7.70711 9.29277C7.31658 8.90225 6.68342 8.90225 6.29289 9.29277C5.90237 9.6833 5.90237 10.3165 6.29289 10.707L8.29289 12.707C8.68342 13.0975 9.31658 13.0975 9.70711 12.707L13.7071 8.70698Z"
+                                        fill="#BC955A" />
+                                </svg>
+                            </div>
+                            <p class="fs-5">Autoriza el tránsito, estancia y realizar actividades remuneradas en los
+                                estados de Campeche, Chiapas, Tabasco y Quintana Roo.
+                            </p>
+                        </div>
+                        <div class="bullet-points d-flex ">
+                            <div class="shield-img">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M2.16611 4.99878C5.17437 4.95797 7.91528 3.81021 10 1.94434C12.0847 3.81021 14.8256 4.95797 17.8339 4.99878C17.9431 5.64956 18 6.31809 18 6.99991C18 12.2248 14.6608 16.6697 10 18.317C5.33923 16.6697 2 12.2248 2 6.99991C2 6.31809 2.05686 5.64956 2.16611 4.99878ZM13.7071 8.70698C14.0976 8.31646 14.0976 7.6833 13.7071 7.29277C13.3166 6.90225 12.6834 6.90225 12.2929 7.29277L9 10.5857L7.70711 9.29277C7.31658 8.90225 6.68342 8.90225 6.29289 9.29277C5.90237 9.6833 5.90237 10.3165 6.29289 10.707L8.29289 12.707C8.68342 13.0975 9.31658 13.0975 9.70711 12.707L13.7071 8.70698Z"
+                                        fill="#BC955A" />
+                                </svg>
+                            </div>
+                            <p class="fs-5">Cuenta con derecho a la preservación de la unidad familiar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="visitante-img d-flex flex-column justify-content-center align-items-center gap-5">
+                        <img src="./assets/images/pcmVar-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Que? section -->
+    <section class="sec-5 pt-5 pb-5 Visitante-background">
+        <div class="wrapper">
+            <div class="w-100 back-white-res">
+                <h1 class="text-center fw-bold mb-5">¿Qué <span
+                        class="text-gold monts__regular back-white-res">documentos necesitas <br></span>para encontrar
+                    empleo en México?</h1>
+                <p class="mx-auto text-center mt-3 mb-5 fw-18">
+                    Si eres extranjero residente permanente o temporal puedes solicitar permiso para trabajar en México.
+                </p>
+                <select id="selectOption" class="select-option-style w-100 hide-desktop">
+                    <option value="option1">Para empresas</option>
+                    <option value="option2">Para buscadores de empleo</option>
+                </select>
+            </div>
+            <div class="onMobile-hide">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active monts__regular-2" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Para la contratación</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link monts__regular-2" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Para el salario</button>
+                    </li>
+                </ul>
+                <div class="tab-content filter-section-heigth rp-height" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="container">
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                <div class="col_apayo">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 1.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Identificación oficial
+                                                    vigente
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo
+                                                    necesitas
+                                                    una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de visitante fronterizo</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de residente temporal</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Tarjeta de visitante por razones
+                                                        humanitarias</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col_apayo">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 2.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Identificación oficial
+                                                    vigente
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo
+                                                    necesitas
+                                                    una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <span>Recibo de servicios (Luz, agua, internet, etc.)</span>
+                                                </li>
+                                                <li>
+                                                    <span>Contrato de arrendamiento</span>
+                                                </li>
+                                                <li>
+                                                    <span>Domicilio del albergue o refugio de vivienda temporal</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col_apayo">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 3.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Identificación oficial
+                                                    vigente
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                </h6>
+                                                <span class="details__cards__badge rounded-pill">Sólo
+                                                    necesitas
+                                                    una
+                                                    (1)</span>
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+
+                                                    <span>Título profesional</span>
+                                                </li>
+                                                <li>
+
+                                                    <span>Cédula profesional</span>
+                                                </li>
+                                                <li>
+
+                                                    <span>Certificado de estudios</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="container">
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                <div class="col_apayo">
+                                    <div class="details__cards">
+                                        <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                            <div>
+                                                <img src="assets/images/名片_id-card 4.png" class="card__img__icon"
+                                                    alt="image">
+                                            </div>
+                                            <div>
+                                                <h6 class="mb-1 text-gold">Documentación para recibir tu salario
+                                                </h6>
+
+                                            </div>
+                                        </div>
+                                        <hr class="text__light my-0">
+                                        <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                            <ul>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Registro Federal del Contribuyente (RFC)</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Número de Seguridad Social (NSS)</span>
+                                                </li>
+                                                <li>
+                                                    <img src="assets/images/Question mark circle-2.png" alt="image">
+                                                    <span>Cuenta bancaria</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ondesktop-hide">
+                <div class="swiper mySwiper swiper-2-heigth">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="details__cards">
+                                <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                    <div>
+                                        <img src="assets/images/名片_id-card 1.png" class="card__img__icon" alt="image">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1 text-gold">Identificación oficial
+                                            vigente
+                                        </h6>
+                                        <span class="details__cards__badge rounded-pill">Sólo
+                                            necesitas
+                                            una
+                                            (1)</span>
+                                    </div>
+                                </div>
+                                <hr class="text__light my-0">
+                                <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                    <ul>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Tarjeta de visitante fronterizo</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Tarjeta de residente temporal</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Tarjeta de visitante por razones
+                                                humanitarias</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="details__cards">
+                                <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                    <div>
+                                        <img src="assets/images/名片_id-card 2.png" class="card__img__icon" alt="image">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1 text-gold">Identificación oficial
+                                            vigente
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                        </h6>
+                                        <span class="details__cards__badge rounded-pill">Sólo
+                                            necesitas
+                                            una
+                                            (1)</span>
+                                    </div>
+                                </div>
+                                <hr class="text__light my-0">
+                                <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                    <ul>
+                                        <li>
+                                            <span>Recibo de servicios (Luz, agua, internet, etc.)</span>
+                                        </li>
+                                        <li>
+                                            <span>Contrato de arrendamiento</span>
+                                        </li>
+                                        <li>
+                                            <span>Domicilio del albergue o refugio de vivienda temporal</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="details__cards">
+                                <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                    <div>
+                                        <img src="assets/images/名片_id-card 3.png" class="card__img__icon" alt="image">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1 text-gold">Identificación oficial
+                                            vigente
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                        </h6>
+                                        <span class="details__cards__badge rounded-pill">Sólo
+                                            necesitas
+                                            una
+                                            (1)</span>
+                                    </div>
+                                </div>
+                                <hr class="text__light my-0">
+                                <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                    <ul>
+                                        <li>
+
+                                            <span>Título profesional</span>
+                                        </li>
+                                        <li>
+
+                                            <span>Cédula profesional</span>
+                                        </li>
+                                        <li>
+
+                                            <span>Certificado de estudios</span>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="details__cards">
+                                <div class="details__cards__header d-flex align-items-center gap-3 px-4 py-3">
+                                    <div>
+                                        <img src="assets/images/名片_id-card 4.png" class="card__img__icon" alt="image">
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-1 text-gold">Documentación para recibir tu salario
+                                        </h6>
+
+                                    </div>
+                                </div>
+                                <hr class="text__light my-0">
+                                <div class="details__cards__qa details__cards__qa2 px-4 pt-1 pb-1">
+                                    <ul>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Registro Federal del Contribuyente (RFC)</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Número de Seguridad Social (NSS)</span>
+                                        </li>
+                                        <li>
+                                            <img src="assets/images/Question mark circle-2.png" alt="image">
+                                            <span>Cuenta bancaria</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination swpier-pagination-anas white-bg-res"></div> -->
+                </div>
+            </div>
+        </div>
+    </section>
     
+
+        <!-- Apoyo de Start -->
+    <!-- FOR DESKTOP -->
+    <section class="py-100 pt-5 apayo__section1">
+        <div class="apayo__parent">
+            <div class="wrapper">
+                <div class="w-100">
+                    <h1 class="text-center fw-bold mb-5">Apoyo de <span class="text-gold monts__regular">nuestros
+                            aliados</span></h1>
+                    <p class="mx-auto text-center mt-3 mb-5">
+                        Estos aliados ya forman parte de la <span class="fw-bold monts__regular">red de aliados del
+                            SNE</span> y cuentan con apoyos que puede ayudarte en tu <br>integración en México. Haz clic
+                        en
+                        <span class="monts__regular text-decoration-underline text-gold">conoce más</span> para
+                        descubrir los apoyos que estas organizaciones pueden brindarte. 
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="w-100">
+                        <ul class="nav w-mxc mx-auto nav-pills mb-3" id="tabs__home" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active monts__regular" id="pills-organ-tab"
+                                    data-bs-toggle="pill" data-bs-target="#pills-organ" type="button" role="tab"
+                                    aria-controls="pills-organ" aria-selected="true">Organismos gubernamentales</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link monts__regular" id="pills-organ2-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-organ2" type="button" role="tab" aria-controls="pills-organ2"
+                                    aria-selected="false">Organismos internacionales</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link monts__regular" id="pills-organ3-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-organ3" type="button" role="tab" aria-controls="pills-organ3"
+                                    aria-selected="false">Sociedad Civil y Academia</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content bg-half-brown-2 w-100 mb-10" id="pills-organstabContent">
+                            <div class="tab-pane fade show active" id="pills-organ" role="tabpanel"
+                                aria-labelledby="pills-organ-tab">
+                                <div class="container">
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-gobierno.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-trabajo2.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-educacion.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-inm.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/image 14.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-ime.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-organ2" role="tabpanel"
+                                aria-labelledby="pills-organ2-tab">
+                                <div class="container">
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-acnur.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/Lockup (1).png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-oim.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-giz.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-organ3" role="tabpanel"
+                                aria-labelledby="pills-organ3-tab">
+                                <div class="container">
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-manpower.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-occmundial.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gap-xl-4 mx-0 apayo__row justify-content-center"
+                                        style="visibility: hidden;">
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-manpower.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col_apayo">
+                                            <div class="apayo__box p-2">
+                                                <div class="apayo__logo">
+                                                    <img src="assets/images/logo-occmundial.png" alt="logo">
+                                                </div>
+                                                <hr class="text__grey">
+                                                <div class="apayo__seemore text-gold">
+                                                    Leer más <i class="fa fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOR DESKTOP -->
+    <!-- Apoyo de End -->
+
+    <!-- Apoyo de Start -->
+    <!-- FOR MOBILE -->
+    <section class="pt-5 pb-lg-5 apayo__section2">
+        <div class="apayo__parent">
+            <div class="wrapper">
+                <div class="w-100">
+                    <h1 class="text-center fs-sm-35 fw-bold">Apoyo de <span class="text-gold monts__regular">nuestros
+                            aliados</span></h1>
+                    <p class="w-100 mx-auto text-center mt-3 fs-sm-22">
+                        Estos aliados ya forman parte de la <span class="fw-bold monts__regular">red de aliados del
+                            SNE</span> y cuentan con apoyos que puede ayudarte en tu integración en México. Haz clic en
+                        <span class="monts__regular text-decoration-underline text-gold">conoce más</span> para
+                        descubrir los apoyos que estas organizaciones pueden brindarte. 
+                    </p>
+                    <select name="" id="" class="tab__select tab-pad">
+                        <option value="">Organismos gubernamentales</option>
+                        <option value="">Organismos internacionales</option>
+                        <option value="">Sociedad Civil y Academia</option>
+                    </select>
+                </div>
+
+                <!-- for desktop -->
+                <div class="d-lg-block d-none">
+                    <div class="payo__slider">
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo d-lg-block d-none">
+                                    <img src="assets/images/logo-gobierno.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo">
+                                    <img src="assets/images/logo-trabajo2.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo">
+                                    <img src="assets/images/logo-educacion.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo">
+                                    <img src="assets/images/logo-inm.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo">
+                                    <img src="assets/images/image 14.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_apayo">
+                            <div class="apayo__box p-2">
+                                <div class="apayo__logo">
+                                    <img src="assets/images/logo-ime.png" alt="logo">
+                                </div>
+                                <hr class="text__grey">
+                                <div class="apayo__seemore text-gold">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- for mobile -->
+
+                <div class="d-block d-lg-none">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="Paralacontratación" role="tabpanel"
+                            aria-labelledby="Paralacontratación-tab">
+                            <div class="cards__slider card-image-slider slider_1 mb-3">
+
+                                <!-- slide 1 -->
+                                <div class="row">
+                                    <div class="col-8 col-sm-8 mx-auto text-center">
+
+                                        <div class="d-block d-lg-none mb-3 outer-acc">
+                                            <div class="justify-content-center text-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <div class="fw-bold display-6 monts__regular monts-bold">Chiapas
+                                                        </div>
+                                                        <div class="fw-light mt-2">14 organismos</div>
+                                                    </div>
+                                                    <div class="mt-2">
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="inner-acc">
+                                            <div class="d-flex mb-4">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-gobierno.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3 txt-lft">
+                                                    Gobierno de México <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-trabajo2.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Trabajo <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-educacion.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Educación <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-inm.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Educación <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- slide 2 -->
+                                <div class="row">
+                                    <div class="col-8 col-sm-8 mx-auto text-center">
+
+                                        <div class="d-block d-lg-none mb-3 outer-acc">
+                                            <div class="justify-content-center text-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <div class="fw-bold display-6 monts__regular monts-bold">Chiapas
+                                                        </div>
+                                                        <div class="fw-light mt-2">14 organismos</div>
+                                                    </div>
+                                                    <div class="mt-2">
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="inner-acc">
+                                            <div class="d-flex mb-4">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/image 14.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3 txt-lft">
+                                                    COMAR <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-ime.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    IME <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-gobierno.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Gobierno de México <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-educacion.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Educación <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- slide 3 -->
+                                <div class="row">
+                                    <div class="col-8 col-sm-8 mx-auto text-center">
+
+                                        <div class="d-block d-lg-none mb-3 outer-acc">
+                                            <div class="justify-content-center text-center">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>
+                                                        <div class="fw-bold display-6 monts__regular monts-bold">Chiapas
+                                                        </div>
+                                                        <div class="fw-light mt-2">14 organismos</div>
+                                                    </div>
+                                                    <div class="mt-2">
+                                                        <i class="fa-solid fa-angle-down"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="inner-acc">
+                                            <div class="d-flex mb-4">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-ime.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3 txt-lft">
+                                                    IME <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-inm.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    INM <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/image 14.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    COMAR <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-4 txt-lft">
+                                                <div class="grey-bg rounded-circle">
+                                                    <img src="assets/images/logo-gobierno.png" alt=""
+                                                        style="width: 45px !important;">
+                                                </div>
+                                                <div class="my-auto ms-3">
+                                                    Gobierno de México <br>
+                                                    <a href="" class="text-decoration-none color-green f-bold">Ver
+                                                        perfil ></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOR MOBILE -->
+    <!-- Apoyo de End -->
+
+    <!-- on desktop show only -->
+    <section class="green-bg-people pb-5">
+        <div class="wrapper">
+            <div class="de-los">
+                <img src="./assets/images/de los aliados green bg.png" alt="" class="w-100">
+                <div class="text-de-los">
+                    <h2>
+                        Apoyo de los aliados
+                    </h2>
+                    <p class="fs-18">
+                        Es una red que conjunta a personas y organizaciones que quieren apoyar en el fortalecimiento de las capacidades para el empleo de las Personas en Contexto de Movilidad.
+                    </p>
+                    <div class="conoce-btn mt-3 mb-5">
+                        <button class="derechos__btn_v2">Conoce todos</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Footer Start -->
+<section>
+    <footer class="pt-lg-5">
+        <div class="wrapper">
+            <div class="row mx-0 justify-content-lg-between justify-content-center py-4 gap-lg-0 gap-5">
+                <div class="col-xxl-4">
+                    <div class="col-lg-12">
+                        <div class="text-lg-start text-center">
+                            <img src="assets/images/logo-portal-empleo.png" alt="image">
+                            <p class="text__grey mt-4">
+                                El Portal del Empleo es un instrumento de política laboral disponible en
+                                internet
+                                para
+                                los ciudadanos y residentes en todo México. 
+                            </p>
+                            <div class="social__icons py-3 justify-content-lg-start justify-content-center">
+                                <span>
+                                    <img src="assets/images/facebook.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/instagram.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/twitter.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/github.png" alt="image">
+                                </span>
+                                <span>
+                                    <img src="assets/images/football.png" alt="image">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 d-flex justify-content-lg-end justify-content-center flex-wrap">
+                    <div class="col-xxl-4 col-12 footer__links">
+                        <h5 class="text-lg-start text-center">Compañía</h5>
+                        <ul class="text-lg-start text-center">
+                            <li><a href="#">Conoce al SNE</a></li>
+                            <li><a href="#">Solicitud de empleo</a></li>
+                            <li><a href="#">Feria de empleo</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xxl-4 col-12 footer__links">
+                        <h5 class="text-lg-start text-center">Legal</h5>
+                        <ul class="text-lg-start text-center">
+                            <li><a href="#">Aviso de Privacidad</a></li>
+                            <li><a href="#">Términos y condiciones</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="w-100 bg-white">
+            <div class="wrapper">
+                <div
+                    class="row mx-0 copyright__row py-lg-4 flex-lg-row flex-column-reverse text-lg-start text-center gap-lg-0 gap-4 py-4">
+                    <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+                        <p class="text__light mb-0" style="font-size: 17px;">© 2023 Portal del empleo. <br
+                                class="d-lg-none d-block"> Todos los derechos reservados</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div
+                            class="d-flex gap-xl-3 footer__cpy flex-wrap justify-content-lg-around justify-content-center">
+                            <div>
+                                <img src="assets/images/logo-proyecto.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo-oit.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo - financiado-UE.png" alt="logo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</section>
+<!-- Footer End -->
 </body>
+
 </html>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+<!-- Bootstrap JS -->
+
+<!-- Slick Slider JS -->
+<script src="assets/js/plugin.js"></script>
+<!-- Slick Slider JS -->
+
+
+<script>
+    $('.outer-acc').click(function () {
+        $(this).next('.inner-acc').slideToggle();
+    })
+    $('.accordion-header').click(function () {
+        if ($(this).next().hasClass('show') == false) {
+            $(this).children('button').toggleClass("rotate__arrow");
+        }
+    });
+    $('.job__slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        centerMode: true,
+        centerPadding: '48px',
+        prevArrow: "<i class='fa fa-angle-right text__grey slick_arrow_left'></i>",
+        nextArrow: "<i class='fa fa-angle-left text__grey slick_arrow_right'></i>",
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '90px',
+            },
+        },]
+    });
+    $('.card__box__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+    });
+    $('.payo__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+    });
+
+    $(document).ready(function () {
+        $('.slick-next').trigger('click');
+
+        $('.next__slide').click(function () {
+            $('.slick-next').trigger('click');
+        })
+    });
+    $('.slider_1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '200px',
+        arrows: true,
+        dots: true,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '0px',
+            }
+        },]
+    });
+    $('.slider_1').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '200px',
+        arrows: true,
+        dots: true,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '0px',
+            }
+        },]
+    });
+
+
+
+</script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+<script src="assets/js/main.js"></script>
+<!-- Slick Slider JS -->
+<script src="assets/js/plugin.js"></script>

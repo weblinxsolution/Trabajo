@@ -691,6 +691,10 @@ section.after__filter__div__sec {
     color: #BC955A !important;
 }
 
+a {
+    color: #000;
+}
+
 .form__input input {
     padding: 10px;
     width: 100%;
@@ -2181,7 +2185,10 @@ section.main__detalles {
 }
 
 .pcm__banner {
-    background-color: #F7F8F9;
+    /* background-color: #F7F8F9; */
+    background-image: url("../images/banner-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pcm__banner__content h1 {
@@ -2771,6 +2778,7 @@ section.requisitos__section {
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
 .white-background .input-fields-area .form-check {
     margin-bottom: 1rem;
     margin-top: 1rem;
