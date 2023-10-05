@@ -102,9 +102,11 @@ p {
     color: #fff;
 
 }
-.rp-height{
+
+.rp-height {
     height: 300px !important;
 }
+
 .card-1 {
     background-color: #fff;
     width: 25%;
@@ -244,10 +246,12 @@ p {
 .fs-12 {
     font-size: 12px;
 }
-.select-option-style{
+
+.select-option-style {
     padding: 10px 15px;
     border-radius: 6px;
 }
+
 .pcm-flex-wrap {
     flex-wrap: unset;
 }
@@ -276,20 +280,22 @@ ul li::marker {
     background-color: #F7F8F9;
 
 }
+
 .swiper {
     width: 100%;
     height: 330px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     /* text-align: center; */
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-.monts__regular-2{
+}
+
+.monts__regular-2 {
     width: max-content;
     font-size: small;
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
@@ -301,29 +307,36 @@ ul li::marker {
     border-radius: 0.25rem;
     font-weight: 600;
 }
-.swiper-2-heigth{
+
+.swiper-2-heigth {
     height: 390px;
 }
-.hide-desktop{
+
+.hide-desktop {
     display: none;
 }
-.gobling-image{
+
+.gobling-image {
     width: 300px;
-   padding: 3rem;
+    padding: 3rem;
 }
-.mobile-gobling-card{
+
+.mobile-gobling-card {
     background-color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.border-top-leer{
+
+.border-top-leer {
     border-top: 1px solid #00000017;
 }
-.brown-pos-rel{
+
+.brown-pos-rel {
     position: relative;
 }
-.bg-half-brown::before{
+
+.bg-half-brown::before {
     content: "";
     position: absolute;
     background-color: #BC955A;
@@ -332,7 +345,8 @@ ul li::marker {
     left: 0;
     bottom: 195px;
 }
-.bg-half-brown-2::before{
+
+.bg-half-brown-2::before {
     content: "";
     position: absolute;
     background-color: #BC955A;
@@ -341,32 +355,42 @@ ul li::marker {
     left: 0;
     bottom: 100px;
 }
-.filter-section-heigth{
+
+.filter-section-heigth {
     height: 900px;
 }
-.nav-item .active{
+
+.nav-item .active {
     border-bottom: 2px solid #BC955A;
 }
-.nav-item .active:hover{
+
+.nav-item .active:hover {
     color: #111827;
     border-bottom: 2px solid #BC955A;
 }
-.nav-link:focus, .nav-link:hover{
+
+.nav-link:focus,
+.nav-link:hover {
     color: #111827;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
     background-color: #fff;
     color: #111827;
 }
-  .swiper-slide img {
+
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  .swiper-pagination-bullet-active{
-      background-color: #BC955A;
-  }
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #BC955A;
+}
+
 .derechos__btn_v2 {
     background-color: #BC955A;
     padding: 9px 30px;
@@ -375,18 +399,22 @@ ul li::marker {
     color: #FFF;
 
 }
-.ondesktop-hide{
+
+.ondesktop-hide {
     display: none;
 }
+
 .socail-columns-icon-headng {
     display: flex;
     align-items: flex-start;
     gap: 8px;
 }
-.socail-columns-icon-headng img{
+
+.socail-columns-icon-headng img {
     width: 28px;
 }
-.background-color-half{
+
+.background-color-half {
     background-color: #BC955A;
 }
 
@@ -394,32 +422,47 @@ ul li::marker {
     margin-left: 2rem;
     margin-top: 5px;
 }
-.shield-img{
+
+.shield-img {
     width: 20px;
     margin-right: 10px;
 }
-.visitante-img img{
+
+.visitante-img img {
     /* width: 350px; */
 }
-.white-bg-shadow{
+
+.white-bg-shadow {
     background-color: #fff;
-    padding: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    height: 200px;
+    padding: 3rem;
+    box-shadow: 0px 20px 25px -5px rgba(25, 25, 25, 0.16);
+    height: 250px;
 }
-.bullet-points p{
+
+.fraude-inner p {
+    color: #6B7280 !important;
+}
+
+.fraude-image {
+    width: 540px;
+}
+
+.bullet-points p {
     font-size: 16px;
     color: #002120;
 }
-.text-blue-p{
-    
+
+.text-blue-p {
+
     color: #002120;
 }
-.Visitante-background{
+
+.Visitante-background {
     background-color: #F7F8F9;
 }
+
 @media (max-width:600px) {
-    
+
     .comar-padding {
         padding-bottom: 1rem !important;
     }

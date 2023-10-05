@@ -1458,9 +1458,14 @@ section.buscana {
 #tabs__home .nav-link {
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     background: #FFFFFF;
-    width: 350px;
+    width: 100%;
     padding: 16px 10px;
     color: #6B7280;
+}
+.pcmExt-width{
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: center;
 }
 
 #tabs__home .nav-link.active {
@@ -2820,7 +2825,9 @@ section.requisitos__section {
 .text-pink {
     color: #AD4497;
 }
-
+.pcmExt-btn{
+    width: 46%;
+}
 /* Media Query Start */
 @media(max-width:1527.27px) {
     .complete__points div::after {
@@ -3132,6 +3139,10 @@ section.requisitos__section {
 }
 
 @media(max-width:1200px) {
+    #tabs__home .nav-link {
+        width: 100%;
+        font-size: small;
+    }
     .banner__content h1 {
         font-size: 40px;
     }
@@ -3383,7 +3394,7 @@ section.requisitos__section {
     }
 
     #tabs__home .nav-link {
-        width: max-content;
+        width: 100%;
         font-size: small;
     }
 
@@ -3584,7 +3595,7 @@ section.requisitos__section {
     }
 
     #tabs__home .nav-link {
-        width: max-content;
+        width: 100%;
         font-size: small;
     }
 

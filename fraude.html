@@ -1,167 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CURP - Home</title>
-    
-        <!-- Jquery CDN -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <!-- Jquery CDN -->
-    
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-        <!-- FontAwsome CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer">
-        <!-- FontAwsome CSS -->
-    
-        <!-- Slick Slider CDN CSS -->
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-        <link rel="stylesheet" type="text/css"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-        <!-- Slick Slider CDN CSS -->
-    
-    
-        <!-- Style CSS -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/style-v2.css">
-        <style>
-            footer {
-                margin-top: 0px;
-            }
-        </style>
-        <!-- Style CSS -->
-    
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURP - Home</title>
+
+    <!-- Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Jquery CDN -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- FontAwsome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- FontAwsome CSS -->
+
+    <!-- Slick Slider CDN CSS -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <!-- Slick Slider CDN CSS -->
+
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-v2.css">
+    <style>
+        footer {
+            margin-top: 0px;
+        }
+    </style>
+    <!-- Style CSS -->
+
+</head>
+
 <body>
-        <!-- Header Section Start -->
-        <section class="header_">
-            <div class="wrapper">
-                <header>
-                    <nav class="navbar navbar-expand-lg p-0">
-                        <div class="container-fluid px-0">
-                            <div class="header__logos d-flex align-items-center">
-                                <div>
-                                    <img src="assets/images/Capa_1.png" class="d-lg-none d-block" alt="logo">
-                                </div>
-                                <div class="border_after__img">
-                                    <img src="assets/images/logo-trabajo.png" alt="logo">
-                                </div>
-                                <div>
-                                    <img src="assets/images/logo-sne.png" alt="logo">
-                                </div>
+    <!-- Header Section Start -->
+    <section class="header_">
+        <div class="wrapper">
+            <header>
+                <nav class="navbar navbar-expand-lg p-0">
+                    <div class="container-fluid px-0">
+                        <div class="header__logos d-flex align-items-center">
+                            <div>
+                                <img src="assets/images/Capa_1.png" class="d-lg-none d-block" alt="logo">
                             </div>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fa fa-bars text-white fa-lg"></i>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 px-3 gap-3 w-mxc">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Prevención de Fraude</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Derechos laborales</a>
-                                    </li>
-                                </ul>
-                                <div class="d-flex gap-3 header__btn ps-4">
-                                    <button class="Iniciar__btn">
-                                        Iniciar sesión
-                                    </button>
-                                    <button class="registration__btn">
-                                        Regístrate
-                                    </button>
-                                    <div class="country__dropdown">
-                                        <div class="active__content pe-0"><span><img src="assets/images/mexico.png"
-                                                    alt="image"></span><span><img src="assets/images/arrow-down.png"
-                                                    class="img__arrow" alt="image"></span></div>
-                                        <div class="country__content">
-                                            <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
-                                            <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
-                                            <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
-                                            <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
-                                        </div>
+                            <div class="border_after__img">
+                                <img src="assets/images/logo-trabajo.png" alt="logo">
+                            </div>
+                            <div>
+                                <img src="assets/images/logo-sne.png" alt="logo">
+                            </div>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars text-white fa-lg"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 px-3 gap-3 w-mxc">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Prevención de Fraude</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Derechos laborales</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex gap-3 header__btn ps-4">
+                                <button class="Iniciar__btn">
+                                    Iniciar sesión
+                                </button>
+                                <button class="registration__btn">
+                                    Regístrate
+                                </button>
+                                <div class="country__dropdown">
+                                    <div class="active__content pe-0"><span><img src="assets/images/mexico.png"
+                                                alt="image"></span><span><img src="assets/images/arrow-down.png"
+                                                class="img__arrow" alt="image"></span></div>
+                                    <div class="country__content">
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
+                                        <div><img src="assets/images/mexico.png" alt="image"><span>Mexico</span></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </nav>
-                </header>
-            </div>
-        </section>
-        <!-- Header Section End -->
-    
-        <!-- Sub Menu Section Start -->
-        <section class="sub__menu__section d-lg-block d-none">
-            <div class="wrapper">
-                <div class="row mx-0">
-                    <div class="col-xxl-4 col">
-                        <div class="d-flex align-items-center gap-3 me-auto">
-                            <div class="regresar__">
-                                <img src="assets/images/Arrow left.svg" alt="image">
-                                <span>
-                                    Regresar
-                                </span>
-                            </div>
-                            <div class="home__">
-                                <img src="assets/images/home.png" alt="image">
-                            </div>
-                        </div>
                     </div>
-                    <div class="col-xxl-8 col">
-                        <ul class="sub__menu ms-auto w-mxc">
-                            <li><a href="#">Ofertas de empleo</a></li>
-                            <li><a href="#">¿Quiénes son las Personas en Contexto de Movilidad? </a></li>
-                            <li><a href="#">Empresas</a></li>
-                            <li><a href="#">Aliados</a></li>
-                        </ul>
+                </nav>
+            </header>
+        </div>
+    </section>
+    <!-- Header Section End -->
+
+    <!-- Sub Menu Section Start -->
+    <section class="sub__menu__section d-lg-block d-none">
+        <div class="wrapper">
+            <div class="row mx-0">
+                <div class="col-xxl-4 col">
+                    <div class="d-flex align-items-center gap-3 me-auto">
+                        <div class="regresar__">
+                            <img src="assets/images/Arrow left.svg" alt="image">
+                            <span>
+                                Regresar
+                            </span>
+                        </div>
+                        <div class="home__">
+                            <img src="assets/images/home.png" alt="image">
+                        </div>
                     </div>
                 </div>
+                <div class="col-xxl-8 col">
+                    <ul class="sub__menu ms-auto w-mxc">
+                        <li><a href="#">Ofertas de empleo</a></li>
+                        <li><a href="#">¿Quiénes son las Personas en Contexto de Movilidad? </a></li>
+                        <li><a href="#">Empresas</a></li>
+                        <li><a href="#">Aliados</a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
-        <!-- Sub Menu Section End -->
-    
-        <!-- Banner Start -->
-        <section class="pcm__banner__v2">
-            <div class="wrapper">
-                <div class="row mx-0 py-100 pb-0">
-                    <div class="col-lg-6 d-flex align-items-start justify-content-start">
-                        <div class="pcm__banner__content p-lg-4 p-3">
-                            <h1 class="text__dark__yellow monts__regular fw-bold">Conoce todos los derechos
-                                laborales en México
-                            </h1>
-                            <div class="derechos-text d-flex flex-column gap-2">
-                                <p class="fs-5 mt-4 text_dark_blue">Las prestaciones que se señalan en este apartado son las
-                                    mínimas que establece la Ley Federal del Trabajo, recordándote que la presente
-                                    información
-                                    se trata de una guía, para cualquier información <a href="" class="text-gold">visita
-                                        PROFEDET.</a>
-                                </p>
-                                <p class="fs-5 mt-4 text_dark_blue">
-                                    Si te encuentras trabajando en México y tu estatus migratorio es regular o irregular,
-                                    eso no
-                                    es condición legal para que se te nieguen tus derechos laborales básicos, como un
-                                    contrato
-                                    escrito, salario pagado o vacaciones.
-                                </p>
-                            </div>
+        </div>
+    </section>
+    <!-- Sub Menu Section End -->
+
+    <!-- Banner Start -->
+    <section class="pcm__banner__v2">
+        <div class="wrapper">
+            <div class="row mx-0 py-100 pb-0 align-items-center">
+                <div class="col-lg-6 d-flex align-items-start justify-content-start">
+                    <div class="pcm__banner__content p-lg-4 p-3">
+                        <h1 class="text__dark__yellow monts__regular fw-bold">Qué es y cómo prevenir el fraude laboral
+                        </h1>
+                        <div class="derechos-text d-flex flex-column gap-2">
+                            <p class="fs-5 mt-4 text_dark_blue">Si estás buscando un empleo en México, es importante que
+                                estés alerta a los riesgos de fraude asociados con la búsqueda de trabajo para poder
+                                prevenirlos.
+                            </p>
+                            <p class="fs-5 mt-4 text_dark_blue">
+                                En México, como en otros países, hay varios tipos de estafas que los delincuentes pueden
+                                utilizar para engañarte y hacerte perder tiempo y dinero.
+                            </p>
+                            <p class="fs-5 mt-4 text_dark_blue">
+                                <strong> Aquí hay algunos puntos importantes que debes tener en cuenta:</strong>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                </div>
+                <div class="col-lg-6">
+                    <div class="fraude-image">
                         <img src="assets/images/fraude-banner.png" class="w-100" alt="image">
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <!-- Banner End -->
+
+    <!-- To be continue -->
+        <!-- Section-2 -->
+        <section class="pcm-sec-5 section-2">
+            <section class="wrapper">
+                <div class="mt-5 mb-5">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="sec-5-heading text-center">
+                            <h2>
+                                <span class="text-gold fw-bold">Guía rápida</span> de los derechos laborales
+                            </h2>
+                        </div>
+                        <div class="sec-5-text text-center">
+                            <p>
+                                Si quieres conocer todos los derechos laborales,
+                                ingresa a la <br><a href="" class="text-gold"> Procuraduría Federal de la Defensa del
+                                    Trabajo</a>
+                            </p>
+    
+                            <div class="conoce-btn mt-3 mb-5">
+                                <button class="derechos__btn_v2">Conoce todos</button>
+                            </div>
+                        </div>
+                        <!-- On desktop -->
+                        <div class="onMobile-hide">
+                            <div class="row justify-content-center fraude-color">
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">Nombres falsos</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p>Algunos estafadores usan nombres falsos similares a las empresas establecidas y confiables. 
+                                                <strong>Verifica que la razón social de la empresa esté bien escrita.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">Oferta laboral con <br> remuneraciones muy elevadas</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p><strong>Ten cuidado con las ofertas que ofrecen salarios muy elevados</strong> y prestaciones exageradas en comparación con puestos similares. Puede ser una trampa.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">No pide datos bancarios, <br>
+                                                ni dinero (Phishing)</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p>Un empleador <strong> jamás te va a pedir dinero, ni tu información financiera</strong> para gestionar tu solicitud de empleo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center mt-5 fraude-color">
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">Ofertas laborales falsas en <br> Redes Sociales</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p>Revisa <a href="#" class="text-gold">si la empresa está registrada.</a> 
+                                               <strong> La STPS mantiene un registro de todas las Agencias de Colocación</strong> de Trabajadores que tienen permiso para operar en México.
+                                            </p>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">La oferta  de empleo no <br> coincide con tu perfil</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p>Asegúrate que te hayan pedido el perfil laboral y que coincida mínimamente con la vacante.<strong> Si no te pidieron tu CV o perfil laboral, probablemente sea fraudulenta.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="white-bg-shadow">
+                                        <div class="text-center">
+                                            <p class="fw-bold fs-18 text-gold">Email falso del reclutador</p>
+                                        </div>
+                                        <div class="mt-1 text-center fraude-inner">
+                                            <p>Las empresas reconocidas nunca, o casi nunca, utilizan dominios gratis como Gmail o Hotmail.<strong> Por lo general, utilizan dominios propios como “...@empresa.com”.</strong>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+    
+                        </div>
+                        <!-- On Mobile -->
+                        <div class="ondesktop-hide">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Aguinaldo</p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Es la cantidad que debe ser pagada por el patrón a cada uno de sus
+                                                        trabajadores
+                                                        en el mes de diciembre.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Vacaciones y prima vacacional</p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Los trabajadores deben disfrutar en forma continua 6 días de
+                                                        vacaciones, por lo menos. Prima vacacional es una cantidad adicional
+                                                        que se paga para el disfrute de las vacaciones.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Prima dominical</p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Monto adicional que paga el patrón al trabajador por laborar el día
+                                                        domingo, cuando tenga como descanso cualquier otro día de la semana.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Días de descanso</p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Día de descanso semanal, derecho que tiene el trabajador a disfrutar
+                                                        de un día de descanso, por cada seis laborados.
+                                                    </p>
+                                                </div>
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Licencia de maternidad </p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Derecho que tienen las mujeres trabajadoras antes y después del parto
+                                                        para no asistir a sus labores, con el objeto de proteger la
+                                                        maternidad y cuidado del infante.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="col-lg-3">
+                                            <div class="white-bg-shadow">
+                                                <div class="text-center">
+                                                    <p class="fw-bold fs-18 text-gold">Prima de antiguedad</p>
+                                                </div>
+                                                <div class="mt-1 text-center">
+                                                    <p>Pago adicional que se otorga a los trabajadores de planta, por el
+                                                        tiempo laborado al servicio del patrón.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
         </section>
-        <!-- Banner End -->
+        <!-- Section-5 end -->
 
 
 
@@ -170,93 +375,93 @@
 
 
 
+    <!-- Footer Start -->
+    <section>
+        <footer class="pt-lg-5">
+            <div class="wrapper">
+                <div class="row mx-0 justify-content-lg-between justify-content-center py-4 gap-lg-0 gap-5">
+                    <div class="col-xxl-4">
+                        <div class="col-lg-12">
+                            <div class="text-lg-start text-center">
+                                <img src="assets/images/logo-portal-empleo.png" alt="image">
+                                <p class="text__grey mt-4">
+                                    El Portal del Empleo es un instrumento de política laboral disponible en
+                                    internet
+                                    para
+                                    los ciudadanos y residentes en todo México. 
+                                </p>
+                                <div class="social__icons py-3 justify-content-lg-start justify-content-center">
+                                    <span>
+                                        <img src="assets/images/facebook.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/instagram.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/twitter.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/github.png" alt="image">
+                                    </span>
+                                    <span>
+                                        <img src="assets/images/football.png" alt="image">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 d-flex justify-content-lg-end justify-content-center flex-wrap">
+                        <div class="col-xxl-4 col-12 footer__links">
+                            <h5 class="text-lg-start text-center">Compañía</h5>
+                            <ul class="text-lg-start text-center">
+                                <li><a href="#">Conoce al SNE</a></li>
+                                <li><a href="#">Solicitud de empleo</a></li>
+                                <li><a href="#">Feria de empleo</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xxl-4 col-12 footer__links">
+                            <h5 class="text-lg-start text-center">Legal</h5>
+                            <ul class="text-lg-start text-center">
+                                <li><a href="#">Aviso de Privacidad</a></li>
+                                <li><a href="#">Términos y condiciones</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
-        <!-- Footer Start -->
-        <section>
-            <footer class="pt-lg-5">
+                </div>
+
+            </div>
+            <div class="w-100 bg-white">
                 <div class="wrapper">
-                    <div class="row mx-0 justify-content-lg-between justify-content-center py-4 gap-lg-0 gap-5">
-                        <div class="col-xxl-4">
-                            <div class="col-lg-12">
-                                <div class="text-lg-start text-center">
-                                    <img src="assets/images/logo-portal-empleo.png" alt="image">
-                                    <p class="text__grey mt-4">
-                                        El Portal del Empleo es un instrumento de política laboral disponible en
-                                        internet
-                                        para
-                                        los ciudadanos y residentes en todo México. 
-                                    </p>
-                                    <div class="social__icons py-3 justify-content-lg-start justify-content-center">
-                                        <span>
-                                            <img src="assets/images/facebook.png" alt="image">
-                                        </span>
-                                        <span>
-                                            <img src="assets/images/instagram.png" alt="image">
-                                        </span>
-                                        <span>
-                                            <img src="assets/images/twitter.png" alt="image">
-                                        </span>
-                                        <span>
-                                            <img src="assets/images/github.png" alt="image">
-                                        </span>
-                                        <span>
-                                            <img src="assets/images/football.png" alt="image">
-                                        </span>
-                                    </div>
+                    <div
+                        class="row mx-0 copyright__row py-lg-4 flex-lg-row flex-column-reverse text-lg-start text-center gap-lg-0 gap-4 py-4">
+                        <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
+                            <p class="text__light mb-0" style="font-size: 17px;">© 2023 Portal del empleo. <br
+                                    class="d-lg-none d-block"> Todos los derechos reservados</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div
+                                class="d-flex gap-xl-3 footer__cpy flex-wrap justify-content-lg-around justify-content-center">
+                                <div>
+                                    <img src="assets/images/logo-proyecto.png" alt="logo">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-6 d-flex justify-content-lg-end justify-content-center flex-wrap">
-                            <div class="col-xxl-4 col-12 footer__links">
-                                <h5 class="text-lg-start text-center">Compañía</h5>
-                                <ul class="text-lg-start text-center">
-                                    <li><a href="#">Conoce al SNE</a></li>
-                                    <li><a href="#">Solicitud de empleo</a></li>
-                                    <li><a href="#">Feria de empleo</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-xxl-4 col-12 footer__links">
-                                <h5 class="text-lg-start text-center">Legal</h5>
-                                <ul class="text-lg-start text-center">
-                                    <li><a href="#">Aviso de Privacidad</a></li>
-                                    <li><a href="#">Términos y condiciones</a></li>
-                                </ul>
-                            </div>
-                        </div>
-    
-                    </div>
-    
-                </div>
-                <div class="w-100 bg-white">
-                    <div class="wrapper">
-                        <div
-                            class="row mx-0 copyright__row py-lg-4 flex-lg-row flex-column-reverse text-lg-start text-center gap-lg-0 gap-4 py-4">
-                            <div class="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-center">
-                                <p class="text__light mb-0" style="font-size: 17px;">© 2023 Portal del empleo. <br
-                                        class="d-lg-none d-block"> Todos los derechos reservados</p>
-                            </div>
-                            <div class="col-lg-6">
-                                <div
-                                    class="d-flex gap-xl-3 footer__cpy flex-wrap justify-content-lg-around justify-content-center">
-                                    <div>
-                                        <img src="assets/images/logo-proyecto.png" alt="logo">
-                                    </div>
-                                    <div>
-                                        <img src="assets/images/logo-oit.png" alt="logo">
-                                    </div>
-                                    <div>
-                                        <img src="assets/images/logo - financiado-UE.png" alt="logo">
-                                    </div>
+                                <div>
+                                    <img src="assets/images/logo-oit.png" alt="logo">
+                                </div>
+                                <div>
+                                    <img src="assets/images/logo - financiado-UE.png" alt="logo">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-    
-            </footer>
-        </section>
-        <!-- Footer End -->
+            </div>
+
+        </footer>
+    </section>
+    <!-- Footer End -->
 </body>
+
 </html>
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
