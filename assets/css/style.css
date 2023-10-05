@@ -3133,6 +3133,21 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
+    
+    .text-de-los{
+        position: unset;
+        padding-top: 2rem;
+        width: 99%;
+    }
+    .bg-dif-green{
+        background-color: #042F2D;
+    }
+    .pcm-dif-image{
+        display: none;
+    }
+    .pcm-Dif{
+        display: block !important;
+    }
     .green-bg-people {
         display: none;
     }
