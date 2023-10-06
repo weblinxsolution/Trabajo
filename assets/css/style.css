@@ -3424,6 +3424,13 @@ section.requisitos__section {
 }
 
 @media (max-width:991px) {
+    .fraude-inner{
+        padding-bottom: 1rem;
+        padding-top: .5rem;
+    }
+    .pcm__banner__v2{
+        background-color: #F7F8F9;
+    }
     .on-mobile-hide {
         display: none;
     }
@@ -3615,10 +3622,13 @@ section.requisitos__section {
     .course_ img {
         width: 100%;
     }
-
+.derechos-text{
+    text-align: center;
+}
     .row {
         margin-left: 0px !important;
         margin-right: 0px !important;
+        padding-top: 1rem;
     }
 
     .detailles__date {
@@ -3691,7 +3701,8 @@ section.requisitos__section {
     }
 
     .pcm__banner__content h1 {
-        font-size: 26px;
+        font-size: 50px;
+        text-align: center;
     }
 
     .my__formas {

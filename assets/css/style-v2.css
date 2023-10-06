@@ -288,29 +288,57 @@ ul li::marker {
 .swiper {
     width: 100%;
     height: 100%;
+}
+/* Apply styles to the Slick Slider container */
+#slickSwipe {
+    width: 100%;
+    height: 210px; /* Set the desired height for the slides */
   }
-
-  .swiper-slide {
+  .slick-dots li.slick-active button:before{
+    color: #BC955A !important;
+    opacity: 1 !important;
+  }
+  .slick-dots li button:before{
+    font-size: 11px !important;
+  }
+  /* Style each individual slide to have the same width and height */
+  .slick-slide {
+    width: 300px; /* Set the desired width for the slides */
+    height: 100%; /* Match the height of the parent container */
+    margin: 0 10px; /* Add margin between slides if needed */
+  }
+  
+  /* Style the image within each slide */
+  .slick-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire slide */
+  }
+  
+.swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    /* background: #fff; */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: fill;
-  }
-   .brand-img-fraud{
-    width: 250px !important;
-   }
-   .brand-img-fraud img{
-    width: 150px !important;
-   }
+}
+
+.brand-img-fraud {
+    width: 100% !important;
+
+}
+
+.brand-img-fraud img {
+    width: 256px !important;
+}
 
 
 .monts__regular-2 {
@@ -336,7 +364,7 @@ ul li::marker {
 
 .gobling-image {
     width: 300px;
-    padding-top: 80px;
+    padding-top: 45px;
 }
 
 .mobile-gobling-card {
@@ -345,18 +373,22 @@ ul li::marker {
     /* padding-bottom: 2rem; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .mobile-gobling-card {
-    background-color: #FFF; /* Set the background color to white (#FFF) */
-    height: 200px; /* Adjust the height as needed */
+    background-color: #FFF;
+    /* Set the background color to white (#FFF) */
+    height: 200px;
+    /* Adjust the height as needed */
     /* You can add other styles as needed */
-  }
-  
-  .gobling-image.brand-img-fraud img {
+}
+
+.gobling-image.brand-img-fraud img {
     max-width: 100%;
     max-height: 100%;
     display: block;
     margin: 0 auto;
-  }
+}
+
 .border-top-leer {
     border-top: 1px solid #00000017;
 }
@@ -485,17 +517,20 @@ ul li::marker {
 .icon__text__red {
     color: #FF0000 !important;
 }
-.fraude-green{
+
+.fraude-green {
     background-color: #E2E8E1;
     border-radius: 6px;
     width: 60%;
 }
-.green-border{
+
+.green-border {
     border-bottom: 1px solid #B4C0B2;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
-.singus{
+
+.singus {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
