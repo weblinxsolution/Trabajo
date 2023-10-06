@@ -2188,7 +2188,9 @@ section.main__detalles {
 .secure__p {
     font-size: 22px;
 }
-
+.text-black{
+    color: #000 !important;
+}
 .pcm__banner {
     /* background-color: #F7F8F9; */
     background-image: url("../images/banner-background__v2.png");
@@ -2197,8 +2199,9 @@ section.main__detalles {
     background-position: bottom;
 }
 .pcm__banner__v2{
-    background-image: url("../images/backgroundwithimg.png");
+    background-image: url("../images/backgroundwithimg-2.svg");
     background-repeat: no-repeat;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -3150,6 +3153,15 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
+    .fraude-green{
+        width: 100% !important;
+    }
+    .text-md-center-ontab{
+        text-align: center;
+    }
+    .hide-mobile{
+        display: none;
+    }
     
     .text-de-los{
         position: unset;

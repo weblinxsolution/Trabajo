@@ -272,6 +272,10 @@ ul li::marker {
 
 }
 
+.key__point__v2 {
+    background-color: #FFEAEA !important;
+}
+
 .key__point .icon__text {
     color: #1E40AF;
 }
@@ -283,17 +287,31 @@ ul li::marker {
 
 .swiper {
     width: 100%;
-    height: 330px;
-}
+    height: 100%;
+  }
 
-.swiper-slide {
-    /* text-align: center; */
+  .swiper-slide {
+    text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+   .brand-img-fraud{
+    width: 250px !important;
+   }
+   .brand-img-fraud img{
+    width: 150px !important;
+   }
+
 
 .monts__regular-2 {
     width: max-content;
@@ -318,16 +336,27 @@ ul li::marker {
 
 .gobling-image {
     width: 300px;
-    padding: 3rem;
+    padding-top: 80px;
 }
 
 .mobile-gobling-card {
     background-color: #fff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem; */
+    /* padding-bottom: 2rem; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-
+.mobile-gobling-card {
+    background-color: #FFF; /* Set the background color to white (#FFF) */
+    height: 200px; /* Adjust the height as needed */
+    /* You can add other styles as needed */
+  }
+  
+  .gobling-image.brand-img-fraud img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 .border-top-leer {
     border-top: 1px solid #00000017;
 }
@@ -410,8 +439,16 @@ ul li::marker {
     gap: 8px;
 }
 
+.on-fraude {
+    gap: 18px;
+}
+
 .socail-columns-icon-headng img {
     width: 28px;
+}
+
+.on-fraude img {
+    width: 48px;
 }
 
 .background-color-half {
@@ -428,12 +465,16 @@ ul li::marker {
     margin-right: 10px;
 }
 
-.visitante-img img {
-    /* width: 350px; */
-}
-.pcmext-heading-text{
+.pcmext-heading-text {
     padding-bottom: 4rem;
 }
+
+.background-fraude {
+    background-color: #BC955A;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .white-bg-shadow {
     background-color: #fff;
     padding: 3rem;
@@ -441,8 +482,42 @@ ul li::marker {
     height: 250px;
 }
 
+.icon__text__red {
+    color: #FF0000 !important;
+}
+.fraude-green{
+    background-color: #E2E8E1;
+    border-radius: 6px;
+    width: 60%;
+}
+.green-border{
+    border-bottom: 1px solid #B4C0B2;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.singus{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.fraude-inner {
+    padding-top: .5rem;
+
+}
+
 .fraude-inner p {
     color: #6B7280 !important;
+}
+
+.fraude-inner ul li {
+    color: #6B7280 !important;
+    font-size: 15px;
+}
+
+.fraude-inner ul {
+    padding: 0;
+    padding-left: 1rem;
 }
 
 .fraude-image {
