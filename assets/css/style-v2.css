@@ -556,14 +556,26 @@ ul li::marker {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-
+.swiper-pagination{
+    top: 288px;
+}
+.swiper-pagination span{
+    
+    margin-right: 10px;
+}
 .white-bg-shadow {
     background-color: #fff;
-    padding: 3rem;
+    padding : 3rem;
     box-shadow: 0px 20px 25px -5px rgba(25, 25, 25, 0.16);
     height: 250px;
+    margin: 2rem;
 }
-
+.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active{
+    background-color: #BC955A !important;
+}
+.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active span{
+    background-color: grey !important;
+}
 .icon__text__red {
     color: #FF0000 !important;
 }
