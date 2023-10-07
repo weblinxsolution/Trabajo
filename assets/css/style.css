@@ -212,7 +212,14 @@ section {
 .country__dropdown {
     position: relative;
 }
-
+.active__content__v2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.text-right_v2{
+    text-align: right;
+}
 .country__content {
     background-color: #fff;
     display: none;
@@ -224,7 +231,23 @@ section {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: 1px solid lightgrey;
 }
-
+.country__content__v2{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 130%;
+    right: -5%;
+    width: 150px;
+    padding: 1rem .5rem;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid lightgrey;
+}
+.country__content__v2 div{
+    margin-bottom: 5px;
+    cursor: pointer;
+}
 .country__content div {
     color: #000;
     display: flex;

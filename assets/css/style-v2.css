@@ -289,32 +289,41 @@ ul li::marker {
     width: 100%;
     height: 100%;
 }
+
 /* Apply styles to the Slick Slider container */
 #slickSwipe {
     width: 100%;
-    height: 210px; /* Set the desired height for the slides */
-  }
-  .slick-dots li.slick-active button:before{
+    height: 210px;
+    /* Set the desired height for the slides */
+}
+
+.slick-dots li.slick-active button:before {
     color: #BC955A !important;
     opacity: 1 !important;
-  }
-  .slick-dots li button:before{
+}
+
+.slick-dots li button:before {
     font-size: 11px !important;
-  }
-  /* Style each individual slide to have the same width and height */
-  .slick-slide {
-    width: 300px; /* Set the desired width for the slides */
-    height: 100%; /* Match the height of the parent container */
-    margin: 0 10px; /* Add margin between slides if needed */
-  }
-  
-  /* Style the image within each slide */
-  .slick-slide img {
+}
+
+/* Style each individual slide to have the same width and height */
+.slick-slide {
+    width: 300px;
+    /* Set the desired width for the slides */
+    height: 100%;
+    /* Match the height of the parent container */
+    margin: 0 10px;
+    /* Add margin between slides if needed */
+}
+
+/* Style the image within each slide */
+.slick-slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Maintain aspect ratio and cover the entire slide */
-  }
-  
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the entire slide */
+}
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -362,9 +371,37 @@ ul li::marker {
     display: none;
 }
 
+.Necesitas {
+    background-color: #F1F2F5;
+    padding: 100px 0;
+}
+
 .gobling-image {
     width: 300px;
     padding-top: 45px;
+}
+
+.background-color-white {
+    background-color: #FFF;
+    padding: 3rem 0;
+}
+
+.buzon-input .buzon-inner-input input {
+    padding: 8px 8px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+
+.buzon-input .buzon-inner-input select {
+    padding: 8px 8px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+
+.buzon-input .buzon-inner-input textarea {
+    padding: 8px 8px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
 }
 
 .mobile-gobling-card {
@@ -372,6 +409,19 @@ ul li::marker {
     /* padding-top: 2rem; */
     /* padding-bottom: 2rem; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Asesoría-personalizada {
+    padding-bottom: 1rem;
+}
+
+.btn-buzon button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid #BC955A;
+    background: #BC955A;
+    color: #fff;
+    font-size: 18px;
 }
 
 .mobile-gobling-card {
@@ -522,6 +572,68 @@ ul li::marker {
     background-color: #E2E8E1;
     border-radius: 6px;
     width: 60%;
+}
+
+.fraude-green__v2 {
+    background-color: #E2E8E1;
+    border-radius: 6px;
+    width: 100%;
+    height: 91%;
+    padding-bottom: 2rem;
+}
+
+.fraude-green-inner {
+    padding-left:2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.pos-rel-buzon {
+    position: relative;
+}
+
+.fade-popup:hover + .fade-pop-up {
+    /* opacity: 1; */
+    transition: 1s;
+    display: block;
+}
+
+.fade-pop-up {
+    position: absolute;
+    width: 350px;
+    background-color: #F6F6F6;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    left: -170px;
+    top: -106px;
+    border-radius: 6px;
+    border: 1px solid #CDCDCD;
+    z-index: 2;
+    /* opacity: 0; */
+    display: none;
+}
+
+.fade-pop-up::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    background-color: #F6F6F6;
+    border-right: 1px solid #CDCDCD;
+    border-bottom: 1px solid #CDCDCD;
+    display: flex;
+    position: absolute;
+    bottom: -7.7px;
+    left: 170px;
+    z-index: 0;
+}
+
+.fade-pop-up p {
+    font-size: 12px;
 }
 
 .green-border {

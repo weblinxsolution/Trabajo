@@ -83,25 +83,23 @@ class DualRangeSlider {
 }
 
 $(document).ready(function () {
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+    $('.active__content, .active__content__v2').click(function () {
+        // Toggle the next element's visibility
+        $(this).next().slideToggle();
+    });
 
-    $('.modal__show').modal('show');
-    $(document).ready(function () {
-        $('.active__content').click(function () {
-            $('.active__content').next().slideToggle();
-        })
-        $('.country__content div').click(function () {
-            $('.country__content').slideToggle();
-        })
-        $('.filter__item').click(function () {
-            if ($(this).next().css('display') === 'none') {
-                $(this).next().slideToggle();
-                $(this).children('img').css('transform', 'rotate(180deg)');
-            }else{
-                $(this).next().slideToggle();
-                $(this).children('img').css('transform', 'rotate(0deg)');
-            }
-        })
-    })
+    $('.country__content div, .country__content__v2 div').click(function () {
+        // Toggle the parent's next element's visibility
+        $(this).parent().next().slideToggle();
+    });
+
+    $('.filter__item').click(function () {
+        var nextElement = $(this).next();
+        // Toggle the next element's visibility
+        nextElement.slideToggle();
+        
+        // Rotate the image based on the visibility of the next element
+        var img = $(this).children('img');
+        img.css('transform', nextElement.is(':visible') ? 'rotate(180deg)' : 'rotate(0deg)');
+    });
 });
