@@ -97,6 +97,14 @@ p {
     background-position: center;
     display: flex;
 }
+.green-bg-2{
+    background-image: url("../images/bg-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    background-position: center;
+    display: flex;
+}
 
 .heading-4position {
     color: #fff;
@@ -377,10 +385,11 @@ ul li::marker {
 }
 
 .gobling-image {
-    width: 300px;
-    padding-top: 45px;
+   width: 180px;
 }
-
+.apayo__seemore{
+    width: 100%;
+}
 .background-color-white {
     background-color: #FFF;
     padding: 3rem 0;
@@ -403,12 +412,21 @@ ul li::marker {
     border: 1px solid #D0D5DD;
     border-radius: 6px;
 }
-
+.pcmFura-img{
+    width: 550px;
+}
 .mobile-gobling-card {
     background-color: #fff;
-    /* padding-top: 2rem; */
-    /* padding-bottom: 2rem; */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding-bottom: 5px;
+    padding-top: 4rem;
+    background-color: #FFF;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Asesoría-personalizada {
@@ -537,6 +555,10 @@ ul li::marker {
     background-color: #BC955A;
 }
 
+.super-pagination .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #BC955A !important;
+}
+
 .socail-inner-text {
     margin-left: 2rem;
     margin-top: 5px;
@@ -556,26 +578,32 @@ ul li::marker {
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
-.swiper-pagination{
+
+.swiper-pagination {
     top: 288px;
 }
-.swiper-pagination span{
-    
+
+.swiper-pagination span {
+
     margin-right: 10px;
 }
+
 .white-bg-shadow {
     background-color: #fff;
-    padding : 3rem;
+    padding: 3rem;
     box-shadow: 0px 20px 25px -5px rgba(25, 25, 25, 0.16);
     height: 250px;
     margin: 2rem;
 }
-.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active{
+
+.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active {
     background-color: #BC955A !important;
 }
-.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active span{
+
+.fraude-1-pagination .fraude-pagination-1-inner .swiper-pagination-bullet-active span {
     background-color: grey !important;
 }
+
 .icon__text__red {
     color: #FF0000 !important;
 }
@@ -595,7 +623,7 @@ ul li::marker {
 }
 
 .fraude-green-inner {
-    padding-left:2.5rem;
+    padding-left: 2.5rem;
     padding-right: 2.5rem;
     padding-top: 2rem;
     display: flex;
@@ -607,7 +635,7 @@ ul li::marker {
     position: relative;
 }
 
-.fade-popup:hover + .fade-pop-up {
+.fade-popup:hover+.fade-pop-up {
     /* opacity: 1; */
     transition: 1s;
     display: block;
@@ -748,6 +776,10 @@ ul li::marker {
     }
 
     .green-bg {
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .green-bg-2 {
         padding: 1rem;
         padding-bottom: 2rem;
     }
