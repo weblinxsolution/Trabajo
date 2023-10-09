@@ -23,6 +23,9 @@ p {
 .brand-img img{
     width: 300px;
 }
+.brand-img .giz-img{
+    width: 400px;
+}
 .border-right-center{
     border-left: 1px solid #D9D9D9;
 }
@@ -741,7 +744,14 @@ ul li::marker {
     padding-bottom: 4rem;
 }
 .section-img-2 img{
-    width: 450px;
+    width: 630px;
+}
+.text-lg-start{
+    color: #4F4F4F;
+}
+.section-img-2{
+    display: flex;
+    justify-content: end;
 }
 @media (max-width:600px) {
 
@@ -790,7 +800,7 @@ ul li::marker {
     .lower-flex-area {
         margin-top: 1rem;
         flex-direction: column;
-        gap: 1rem;
+        gap: 1rem !important;
     }
 
     .green-bg {
