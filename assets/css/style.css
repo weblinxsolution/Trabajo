@@ -1539,7 +1539,7 @@ section.buscana {
 }
 
 .apayo__logo img {
-    width: 55%;
+    width: 45% !important;
 }
 
 .apayo__box hr {
@@ -3184,6 +3184,38 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
+    .apayo__box{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .lower-flex-area{
+        gap: 15rem !important;
+    }
+    .section-img-2 img{
+        width: 300px !important;
+    }
+    .section-img-2{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    .acnur-bg-ring{
+        background-color: #FFF !important;
+        background-image: none !important;
+    }
+    .timer-outer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .border-right-center{
+        border: none !important;
+    }
+    .acnur-res-center{
+        display: flex;
+        justify-content: center;
+    }
     .fraude-green{
         width: 100% !important;
     }
@@ -3444,7 +3476,7 @@ section.requisitos__section {
 
     .apayo__logo {
         width: 100%;
-        height: 155px;
+        height: max-content;
     }
 
     .apayo__seemore {
@@ -3861,6 +3893,9 @@ section.requisitos__section {
 }
 
 @media(max-width:600px) {
+    .apayo__logo img{
+        width: 55% !important;
+    }
     .derechos__btn__v2 {
         border-radius: 6px;
         font-size: 16px !important;

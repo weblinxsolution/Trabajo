@@ -20,25 +20,30 @@ p {
     /* padding: 4rem; */
 }
 
-.brand-img {
-    border-right: 1px solid #D9D9D9;
-    padding: 5rem;
-    padding-left: 0;
+.brand-img img{
+    width: 300px;
 }
-
+.border-right-center{
+    border-left: 1px solid #D9D9D9;
+}
+.acnur-banner-text-1{
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
 .inner-section-2 {
     margin-top: -13rem;
 }
 
-.para-2 {
-    width: 80%;
-}
+
 
 .right-section {
     width: 50%;
     margin-left: 5rem;
 }
-
+.timer-outer{
+    width: 100%;
+}
 .timer {
     width: 300px;
     background-color: #fff;
@@ -724,7 +729,20 @@ ul li::marker {
 .Visitante-background {
     background-color: #F7F8F9;
 }
-
+.acnur-btn-1{
+    padding: 7px 5rem !important;
+}
+.acnur-bg-ring{
+    background-image: url("../images/acnur-bg-rings.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.section-img-2 img{
+    width: 450px;
+}
 @media (max-width:600px) {
 
     .comar-padding {
