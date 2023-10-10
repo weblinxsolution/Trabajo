@@ -212,14 +212,17 @@ section {
 .country__dropdown {
     position: relative;
 }
-.active__content__v2{
+
+.active__content__v2 {
     display: flex;
     align-items: center;
     gap: 16px;
 }
-.text-right_v2{
+
+.text-right_v2 {
     text-align: right;
 }
+
 .country__content {
     background-color: #fff;
     display: none;
@@ -231,7 +234,8 @@ section {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: 1px solid lightgrey;
 }
-.country__content__v2{
+
+.country__content__v2 {
     background-color: #fff;
     display: none;
     position: absolute;
@@ -244,10 +248,12 @@ section {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border: 1px solid lightgrey;
 }
-.country__content__v2 div{
+
+.country__content__v2 div {
     margin-bottom: 5px;
     cursor: pointer;
 }
+
 .country__content div {
     color: #000;
     display: flex;
@@ -1482,9 +1488,10 @@ section.buscana {
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     background: #FFFFFF;
     width: 100%;
-    padding: 16px 10px;
+    padding: 16px 60px;
     color: #6B7280;
 }
+
 #tabs__home .nav-link-2 {
     box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     background: #FFFFFF;
@@ -1492,7 +1499,8 @@ section.buscana {
     padding: 16px 50px;
     color: #6B7280;
 }
-.pcmExt-width{
+
+.pcmExt-width {
     display: flex;
     flex-wrap: nowrap !important;
     justify-content: center;
@@ -2218,9 +2226,11 @@ section.main__detalles {
 .secure__p {
     font-size: 22px;
 }
-.text-black{
+
+.text-black {
     color: #000 !important;
 }
+
 .pcm__banner {
     /* background-color: #F7F8F9; */
     background-image: url("../images/banner-background__v2.png");
@@ -2228,7 +2238,8 @@ section.main__detalles {
     background-size: cover;
     background-position: bottom;
 }
-.pcm__banner__v2{
+
+.pcm__banner__v2 {
     background-image: url("../images/backgroundwithimg-2.svg");
     background-repeat: no-repeat;
     background-position: bottom;
@@ -2860,9 +2871,11 @@ section.requisitos__section {
 .text-pink {
     color: #AD4497;
 }
-.pcmExt-btn{
+
+.pcmExt-btn {
     width: 46%;
 }
+
 /* Media Query Start */
 @media(max-width:1527.27px) {
     .complete__points div::after {
@@ -3178,72 +3191,88 @@ section.requisitos__section {
         width: 100%;
         font-size: small;
     }
+
     .banner__content h1 {
         font-size: 40px;
     }
 }
 
 @media (max-width: 991px) {
-    .mobile-res-marg img{
+    .mobile-res-marg img {
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-    .apayo__box{
+
+    .apayo__box {
         margin-top: 1rem;
         margin-bottom: 2rem;
     }
-    .lower-flex-area{
+
+    .lower-flex-area {
         gap: 15rem !important;
     }
-    .section-img-2 img{
+
+    .section-img-2 img {
         width: 300px !important;
     }
-    .section-img-2{
+
+    .section-img-2 {
         display: flex;
         justify-content: center;
         padding-top: 1rem;
     }
-    .acnur-bg-ring{
+
+    .acnur-bg-ring {
         background-color: #FFF !important;
         background-image: none !important;
     }
-    .timer-outer{
+
+    .timer-outer {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .border-right-center{
+
+    .border-right-center {
         border: none !important;
     }
-    .acnur-res-center{
+
+    .acnur-res-center {
         display: flex;
         justify-content: center;
     }
-    .fraude-green{
+
+    .fraude-green {
         width: 100% !important;
     }
-    .text-md-center-ontab{
+
+    .text-md-center-ontab {
         text-align: center;
     }
-    .hide-mobile{
+
+    .hide-mobile {
         display: none;
     }
-    
-    .text-de-los{
+
+    .text-de-los {
         position: unset;
         padding-top: 2rem;
         width: 99%;
     }
-    .bg-dif-green{
+
+    .bg-dif-green {
         background-color: #042F2D;
     }
-    .pcm-dif-image{
+
+    .pcm-dif-image {
         display: none;
     }
-    .pcm-Dif{
+
+    .pcm-Dif {
         display: block !important;
     }
+
     .green-bg-people {
         display: none;
     }
@@ -3491,35 +3520,54 @@ section.requisitos__section {
 }
 
 @media (max-width:995px) {
-    .heightgiz-res{
+    .pcmExt-img-banner img {
+        width: 600px !important;
+        
+    }
+
+    .pcmExt-banner-img-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heightgiz-res {
         height: 200px !important;
     }
-    .estodia__ul li span img{
+
+    .estodia__ul li span img {
         width: 25px;
     }
-    .requisitos__box img{
+
+    .requisitos__box img {
         width: 50px;
 
     }
-    .pcmExt-slider-custom .col-lg-3{
+
+    .pcmExt-slider-custom .col-lg-3 {
         margin-bottom: 3rem;
     }
+
     .socail-inner-text {
         margin-left: 0;
         margin-top: 5px;
         text-align: start;
         /* width: 500px; */
     }
-    .pcmExt-tab-responsive{
+
+    .pcmExt-tab-responsive {
         gap: 2rem;
     }
-    .fraude-inner{
+
+    .fraude-inner {
         padding-bottom: 1rem;
         padding-top: .5rem;
     }
-    .pcm__banner__v2{
+
+    .pcm__banner__v2 {
         background-color: #F7F8F9;
     }
+
     .on-mobile-hide {
         display: none;
     }
@@ -3677,8 +3725,9 @@ section.requisitos__section {
     .header_ {
         padding: 0px;
     }
-    .navbar-collapse{
-        
+
+    .navbar-collapse {
+
         padding-bottom: 1rem;
     }
 
@@ -3715,9 +3764,11 @@ section.requisitos__section {
     .course_ img {
         width: 100%;
     }
-.derechos-text{
-    text-align: center;
-}
+
+    .derechos-text {
+        text-align: center;
+    }
+
     .row {
         margin-left: 0px !important;
         margin-right: 0px !important;
@@ -3904,9 +3955,10 @@ section.requisitos__section {
 }
 
 @media(max-width:600px) {
-    .apayo__logo img{
+    .apayo__logo img {
         width: 55% !important;
     }
+
     .derechos__btn__v2 {
         border-radius: 6px;
         font-size: 16px !important;
