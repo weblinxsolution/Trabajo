@@ -3490,7 +3490,10 @@ section.requisitos__section {
 
 }
 
-@media (max-width:991px) {
+@media (max-width:995px) {
+    .heightgiz-res{
+        height: 200px !important;
+    }
     .estodia__ul li span img{
         width: 25px;
     }
@@ -3673,6 +3676,10 @@ section.requisitos__section {
 
     .header_ {
         padding: 0px;
+    }
+    .navbar-collapse{
+        
+        padding-bottom: 1rem;
     }
 
     .header__logos img {

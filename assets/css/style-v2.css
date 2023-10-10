@@ -38,8 +38,15 @@ p {
     margin-top: -13rem;
 }
 
-
-
+.giz-page-btn{
+    padding: 16px 60px !important;
+}
+.heightgiz-res{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .right-section {
     width: 50%;
     margin-left: 5rem;
@@ -56,7 +63,10 @@ p {
     padding: 6px;
     margin-left: 1rem;
 }
-
+.form-check-input:checked{
+    background-color: #BC955A;
+    border-color: #BC955A;
+}
 .icon-size {
     padding-right: 5px;
 }
