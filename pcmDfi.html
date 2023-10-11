@@ -149,8 +149,10 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <img src="assets/images/pcmDfi-banner.svg" class="w-100" alt="image">
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="pcm-image">
+                        <img src="assets/images/pcmDfi-banner.svg" class="w-100" alt="image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -490,245 +492,246 @@
     </section>
 
 
-<!-- Apoyo de slider -->
-<section class="mt-5 brown-pos-rel">
+    <!-- Apoyo de slider -->
+    <section class="mt-5 brown-pos-rel">
 
-    <div class="wrapper">
-        <div class="w-100 back-white-res">
-            <h1 class="text-center fw-bold mb-5 pt-5">Apoyo de <span
-                    class="text-gold monts__regular back-white-res">nuestros
-                    aliados</span></h1>
-            <p class="mx-auto text-center mt-3 mb-5">
-                Estos aliados ya forman parte de la <span class="fw-bold monts__regular">red de aliados del
-                    SNE</span> y cuentan con apoyos que puede ayudarte en tu <br>integración en México. Haz clic
-                en
-                <span class="monts__regular text-decoration-underline text-gold">conoce más</span> para
-                descubrir los apoyos que estas organizaciones pueden brindarte. 
-            </p>
-            <select id="selectOption" class="select-option-style w-100 hide-desktop">
-                <option value="option1">Para empresas</option>
-                <option value="option2">Para buscadores de empleo</option>
-            </select>
-        </div>
-        <!-- Desktop -->
-        <div class="onMobile-hide">
-            <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active monts__regular-2" id="pills-home-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-home-v2" type="button" role="tab" aria-controls="pills-home-v2"
-                        aria-selected="true">Organismos gubernamentales</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link monts__regular-2" id="pills-profile-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-profile-v2" type="button" role="tab" aria-controls="pills-profile-v2"
-                        aria-selected="false">Organismos internacionales</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link monts__regular-2" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">Sociedad Civil y Academia</button>
-                </li>
-            </ul>
-            <div class="tab-content filter-section-heigth bg-half-brown" id="pills-tabContent">
-                <div class="tab-pane fade show active" id="pills-home-v2" role="tabpanel"
-                    aria-labelledby="pills-home-tab" tabindex="0">
-                    <div class="container">
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-gobierno.png" alt="logo">
+        <div class="wrapper">
+            <div class="w-100 back-white-res">
+                <h1 class="text-center fw-bold mb-5 pt-5">Apoyo de <span
+                        class="text-gold monts__regular back-white-res">nuestros
+                        aliados</span></h1>
+                <p class="mx-auto text-center mt-3 mb-5">
+                    Estos aliados ya forman parte de la <span class="fw-bold monts__regular">red de aliados del
+                        SNE</span> y cuentan con apoyos que puede ayudarte en tu <br>integración en México. Haz clic
+                    en
+                    <span class="monts__regular text-decoration-underline text-gold">conoce más</span> para
+                    descubrir los apoyos que estas organizaciones pueden brindarte. 
+                </p>
+                <select id="selectOption" class="select-option-style w-100 hide-desktop">
+                    <option value="option1">Para empresas</option>
+                    <option value="option2">Para buscadores de empleo</option>
+                </select>
+            </div>
+            <!-- Desktop -->
+            <div class="onMobile-hide">
+                <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active monts__regular-2" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home-v2" type="button" role="tab" aria-controls="pills-home-v2"
+                            aria-selected="true">Organismos gubernamentales</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link monts__regular-2" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile-v2" type="button" role="tab" aria-controls="pills-profile-v2"
+                            aria-selected="false">Organismos internacionales</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link monts__regular-2" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Sociedad Civil y Academia</button>
+                    </li>
+                </ul>
+                <div class="tab-content filter-section-heigth bg-half-brown" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home-v2" role="tabpanel"
+                        aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="container">
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-gobierno.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-trabajo2.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-educacion.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-trabajo2.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-educacion.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-inm.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/image 14.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-inm.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-ime.png" alt="logo">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/image 14.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-ime.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="pills-profile-v2" role="tabpanel" aria-labelledby="pills-profile-tab"
-                    tabindex="0">
-                    <div class="container">
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-acnur.png" alt="logo">
+                    <div class="tab-pane fade" id="pills-profile-v2" role="tabpanel" aria-labelledby="pills-profile-tab"
+                        tabindex="0">
+                        <div class="container">
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-acnur.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/Lockup (1).png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/Lockup (1).png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-oim.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-oim.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-giz.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-giz.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
-                    tabindex="0">
-                    <div class="container">
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-gobierno.png" alt="logo">
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"
+                        tabindex="0">
+                        <div class="container">
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-gobierno.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-trabajo2.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-educacion.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-trabajo2.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-educacion.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-inm.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/image 14.png" alt="logo">
-                                    </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                            <div class="row gap-xl-4 mx-0 apayo__row justify-content-center" style="top: 80px;">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-inm.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col_apayo ">
-                                <div class="apayo__box p-2">
-                                    <div class="apayo__logo adjust-height-pcmExt">
-                                        <img src="assets/images/logo-ime.png" alt="logo">
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/image 14.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
-                                    <hr class="text__grey">
-                                    <div class="apayo__seemore text-gold">
-                                        Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                                <div class="col_apayo ">
+                                    <div class="apayo__box p-2">
+                                        <div class="apayo__logo adjust-height-pcmExt">
+                                            <img src="assets/images/logo-ime.png" alt="logo">
+                                        </div>
+                                        <hr class="text__grey">
+                                        <div class="apayo__seemore text-gold">
+                                            Leer más <i class="fa fa-arrow-right"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -736,33 +739,32 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Mobile -->
-        <div class="ondesktop-hide">
-            <div class="swiper mySwiper swiper-2-heigth">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-color: #BC955A;">
-                        <div class="mobile-gobling-card">
-                            <div class="gobling-image">
-                                <img src="assets/images/logo-gobierno.png" alt="logo">
-                            </div>
-                            <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
-                                Leer más <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-color: #BC955A;">
-                        <div class="mobile-gobling-card">
-                            <div class="gobling-image">
-                                <img src="assets/images/logo-trabajo2.png" alt="logo">
-                            </div>
-                            <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
-                                Leer más <i class="fa fa-arrow-right"></i>
+            <!-- Mobile -->
+            <div class="ondesktop-hide">
+                <div class="swiper mySwiper swiper-2-heigth">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-color: #BC955A;">
+                            <div class="mobile-gobling-card">
+                                <div class="gobling-image">
+                                    <img src="assets/images/logo-gobierno.png" alt="logo">
+                                </div>
+                                <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- <div class="swiper-slide " style="background-color: #BC955A;">
+                        <div class="swiper-slide" style="background-color: #BC955A;">
+                            <div class="mobile-gobling-card">
+                                <div class="gobling-image">
+                                    <img src="assets/images/logo-trabajo2.png" alt="logo">
+                                </div>
+                                <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="swiper-slide " style="background-color: #BC955A;">
                         <div class="mobile-gobling-card">
                             <div class="gobling-image">
                                 <img src="assets/images/logo-educacion.png" alt="logo">
@@ -772,43 +774,43 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="swiper-slide" style="background-color: #BC955A;">
-                        <div class="mobile-gobling-card">
-                            <div class="gobling-image">
-                                <img src="assets/images/logo-inm.png" alt="logo">
-                            </div>
-                            <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
-                                Leer más <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide" style="background-color: #BC955A;">
-                        <div class="mobile-gobling-card">
-                            <div class="gobling-image">
-                                <img src="assets/images/image 14.png" alt="logo">
-                            </div>
-                            <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
-                                Leer más <i class="fa fa-arrow-right"></i>
+                        <div class="swiper-slide" style="background-color: #BC955A;">
+                            <div class="mobile-gobling-card">
+                                <div class="gobling-image">
+                                    <img src="assets/images/logo-inm.png" alt="logo">
+                                </div>
+                                <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="swiper-slide" style="background-color: #BC955A;">
-                        <div class="mobile-gobling-card">
-                            <div class="gobling-image">
-                                <img src="assets/images/logo-ime.png" alt="logo">
-                            </div>
-                            <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
-                                Leer más <i class="fa fa-arrow-right"></i>
+                        <div class="swiper-slide" style="background-color: #BC955A;">
+                            <div class="mobile-gobling-card">
+                                <div class="gobling-image">
+                                    <img src="assets/images/image 14.png" alt="logo">
+                                </div>
+                                <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="swiper-slide" style="background-color: #BC955A;">
+                            <div class="mobile-gobling-card">
+                                <div class="gobling-image">
+                                    <img src="assets/images/logo-ime.png" alt="logo">
+                                </div>
+                                <div class="apayo__seemore text-gold fs-6 mt-3 border-top-leer">
+                                    Leer más <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
 
+                    </div>
+                    <div class="swiper-pagination brown-pos-rel white-bg-res"></div>
                 </div>
-                <div class="swiper-pagination brown-pos-rel white-bg-res"></div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- on desktop show only -->
     <section class="green-bg-people pcm-Dif pb-5 bg-dif-green">

@@ -508,7 +508,9 @@ ul li::marker {
     left: 0;
     bottom: 100px;
 }
-
+.pcm-image{
+    width: 600px;
+}
 .filter-section-heigth {
     height: 550px;
 }
@@ -521,7 +523,9 @@ ul li::marker {
     color: #111827;
     border-bottom: 2px solid #BC955A;
 }
-
+.nav-link{
+    font-size: 14px;
+}
 .nav-link:focus,
 .nav-link:hover {
     color: #111827;

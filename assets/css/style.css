@@ -3198,6 +3198,10 @@ section.requisitos__section {
 }
 
 @media (max-width: 991px) {
+    .pcm-image{
+        width: 400px !important;
+        padding-top: 1rem;
+    }
     .mobile-res-marg img {
         margin-top: 1rem;
         margin-bottom: 1rem;
@@ -3955,6 +3959,10 @@ section.requisitos__section {
 }
 
 @media(max-width:600px) {
+    .pcm-image{
+        width: 350px !important;
+        padding-top: 1rem;
+    }
     .apayo__logo img {
         width: 55% !important;
     }
