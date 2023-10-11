@@ -3959,6 +3959,9 @@ section.requisitos__section {
 }
 
 @media(max-width:600px) {
+    .white-bg-shadow{
+        padding: 2rem !important;
+    }
     .pcm-image{
         width: 350px !important;
         padding-top: 1rem;
