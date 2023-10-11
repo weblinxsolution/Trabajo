@@ -63,6 +63,10 @@ p {
     padding: 6px;
     margin-left: 1rem;
 }
+.adjust-height-pcmExt{
+    height: 150px !important;
+    
+}
 .form-check-input:checked{
     background-color: #BC955A;
     border-color: #BC955A;
@@ -70,7 +74,9 @@ p {
 .icon-size {
     padding-right: 5px;
 }
-
+.remove-pad-pcmExt{
+    padding: 16px 20px !important;
+}
 .inner-section-2 {
     align-items: center;
     justify-content: center;
@@ -490,7 +496,7 @@ ul li::marker {
     width: 100%;
     height: 50%;
     left: 0;
-    bottom: 195px;
+    bottom: 70px;
 }
 
 .bg-half-brown-2::before {
@@ -504,7 +510,7 @@ ul li::marker {
 }
 
 .filter-section-heigth {
-    height: 900px;
+    height: 550px;
 }
 
 .nav-item .active {
