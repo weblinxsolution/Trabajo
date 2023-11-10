@@ -1,0 +1,32 @@
+@media(max-width:1300px) {
+    .info-box {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .perfil-content .row {
+        height: max-content;
+    }
+
+    .perfil-register-btn {
+        width: max-content;
+    }
+
+    .perfil-tabs ul li {
+        width: 100%;
+    }
+
+    .perfil-tabs ul li button {
+        width: 100%;
+    }
+
+    #pills-fisica-tab {
+        border-radius: 6px !important;
+    }
+
+    #pills-moral-tab {
+        border-radius: 6px !important;
+    }
+}
