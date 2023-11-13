@@ -276,3 +276,6 @@ hr {
     max-width: 75%;
     margin: auto;
 }
+.cursor{
+    cursor: pointer;
+}
