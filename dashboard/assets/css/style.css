@@ -423,7 +423,7 @@ hr {
 .chaet-cards {
     border-radius: 6px;
     background: #FFF;
-    padding: 1rem;
+    padding: 1rem 1.1rem;
     /* /shadow/base */
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.06), 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 
@@ -537,21 +537,32 @@ hr {
 }
 
 .of-canvas-btn {
-    border: 2px solid #284D4E;
     font-weight: 600;
     background-color: transparent;
     transition: .5s;
 }
 
 .of-canvas-btn:hover {
-    border: 2px solid #284D4E;
     font-weight: 600;
-    background-color: #284D4E;
     color: #FFF;
 }
 
 .custom-bg-green {
     background-color: #284D4E;
+}
+
+.side-menu__logo img {
+    width: 80%;
+}
+
+.user-profile i {
+    font-size: 30px;
+}
+
+@media (max-width:1366px) {
+    .left-menu {
+        overflow-y: scroll;
+    }
 }
 
 @media (max-width:999px) {
@@ -566,5 +577,8 @@ hr {
 
     .heaght {
         height: max-content;
+    }
+    .user-profile i{
+        font-size: 20px;
     }
 }
