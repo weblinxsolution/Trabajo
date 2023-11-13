@@ -68,6 +68,19 @@ body {
     font-size: 18px;
 }
 
+a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
 
 .text-grey {
     color: var(--greyTextColor);
@@ -239,12 +252,15 @@ hr {
     border-color: #4FA6A3;
     font-weight: 500;
 }
-.info-anchor:hover{
+
+.info-anchor:hover {
     color: var(--secondaryColor);
 }
-.svg-icon-30{
+
+.svg-icon-30 {
     width: 30px;
 }
+
 .form-check-input:focus {
     box-shadow: none;
     border-color: #D0D5DD !important;
@@ -276,6 +292,53 @@ hr {
     max-width: 75%;
     margin: auto;
 }
-.cursor{
+
+.cursor {
     cursor: pointer;
+}
+
+.left-menu {
+    background-color: #284D4E;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.sub-heading1 p {
+    font-size: 14px;
+}
+
+
+.inicio {
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.10);
+    padding: 10px;
+}
+
+.sub-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sub-options ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-light {
+    color: rgba(255, 255, 255, 0.50) !important;
+}
+
+.drop-down-menus {
+    padding-left: 1.5rem;
+}
+
+.suboptions ul {
+    padding: 0;
+}
+
+.adjust-setting ul {
+    padding: 0;
+}
+.inner-pad{
+    padding: 0 2rem;
 }
