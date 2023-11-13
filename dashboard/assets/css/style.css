@@ -542,16 +542,23 @@ hr {
     background-color: transparent;
     transition: .5s;
 }
+
 .of-canvas-btn:hover {
     border: 2px solid #284D4E;
     font-weight: 600;
     background-color: #284D4E;
     color: #FFF;
 }
-.custom-bg-green{
+
+.custom-bg-green {
     background-color: #284D4E;
 }
+
 @media (max-width:999px) {
+    .upper-header {
+        padding: 1rem .3rem;
+    }
+
     .heght-custom {
         height: max-content;
 
