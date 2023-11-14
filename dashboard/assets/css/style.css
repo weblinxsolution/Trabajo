@@ -316,9 +316,11 @@ hr {
 .cursor {
     cursor: pointer;
 }
-.custom-offcanvas{
+
+.custom-offcanvas {
     height: 600px;
 }
+
 .left-menu {
     background-color: #284D4E;
     /* height: 100vh; */
@@ -409,7 +411,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    padding: 8px 0;
+    padding: 5px 0;
 }
 
 .minus-repo {
@@ -419,7 +421,7 @@ hr {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    padding: 8px 0;
+    padding: 5px 0;
 }
 
 .chaet-cards {
@@ -671,37 +673,44 @@ hr {
     background-color: #284D4E;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-.dd-26{
+
+.dd-26 {
     width: 56% !important;
 }
-.dd-18{
+
+.dd-18 {
     width: 48% !important;
 }
-.dd-14{
+
+.dd-14 {
     width: 34% !important;
 }
-.dd-10{
+
+.dd-10 {
     width: 20% !important;
 }
-.dd-7{
+
+.dd-7 {
     width: 17% !important;
 }
-.line-chart{
+
+.line-chart {
     width: 100%;
 }
 
-@media (max-width:1466px) {
+@media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;
     }
 }
 
 @media (max-width:999px) {
-    .custom-offcanvas{
+    .custom-offcanvas {
         height: 900px;
     }
+
     .upper-header {
         padding: 1rem .3rem;
     }
@@ -719,16 +728,18 @@ hr {
         font-size: 20px;
     }
 }
+
 @media (max-width:400px) {
-    .custom-offcanvas{
+    .custom-offcanvas {
         height: 650px;
     }
-    .hover-popup{
+
+    .hover-popup {
         top: -9.5rem;
         left: 50%;
         transform: translateX(-100%);
     }
- 
+
     .full-width-chart-img {
         padding: 1px 5px;
     }
