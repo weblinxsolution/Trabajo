@@ -30,17 +30,17 @@
 </head>
 
 <body>
+    
     <section class="index-dashboard">
         <div class="row mx-0">
             <!-- OffCanvas menu-bar -->
-            <div class="offcanvas offcanvas-start custom-bg-green" data-bs-scroll="true" data-bs-backdrop="false"
-                tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas offcanvas-start custom-bg-green" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <div class="left-menu">
+                    <div class="custom-offcanvas">
                         <div class="side-menu__logo d-flex align-items-center justify-content-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="190" height="40" viewBox="0 0 237 40"
                                 fill="none">
@@ -767,8 +767,7 @@
                         <div class="col-2 d-lg-none d-block">
                             <!-- off Canvas Button -->
 
-                            <button class="btn of-canvas-btn" type="button" data-bs-toggle="offcanvas"
-                                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+                            <button class="btn of-canvas-btn"type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i
                                     class="ri-menu-2-line"></i></button>
 
                             <!-- Off Canvas Button End -->
@@ -787,7 +786,7 @@
                                             fill="#637381" />
                                     </svg>
                                 </div>
-                                <div class="user-profile d-flex align-items-center cursor justify-content-center gap-1">
+                                <div class="user-profile d-flex align-items-center cursor">
                                     <div class="profile-names">
                                         <h3 class="fw-500">Nombre</h3>
                                         <p class="m-0">Rol</p>
@@ -803,16 +802,27 @@
                 </div>
                 <div>
 
-                    <div class="mx-0 row">
-                        <div class="col">
-                            <div class="sponsor-banner mt-4">
-                                <h1 class="fw-700 text-white">
-                                    Buenos días, Marca Acme 👋
-                                </h1>
-                                <p class="text-white fs-4">
-                                    Esto es lo que está sucediendo con el micrositio de Personas en Contexto de
-                                    Movilidad
-                                </p>
+                    <div class="Reporte-general mt-3">
+                        <div class="row mx-0">
+                            <div class="col-lg-8">
+                                <div>
+                                    <h2 class="fw-500 ">
+                                        Reporte general de PCM
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-lg-end mt-lg-0 mt-3">
+                                <div class="calender">
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 2H15C15.553 2 16 2.447 16 3V15C16 15.553 15.553 16 15 16H1C0.447 16 0 15.553 0 15V3C0 2.447 0.447 2 1 2H3V0H5V2H7V0H9V2H11V0H13V2ZM2 14H14V6H2V14Z"
+                                                fill="#64748B" />
+                                        </svg>
+                                        Nov 20, 2023 - Dic 19, 2023
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -852,62 +862,116 @@
                                     </div>
                                     <div>
                                         <p class="m-0 fw-500">
-                                            Inicio
+                                            PCM
+                                        </p>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none">
+                                            <g clip-path="url(#clip0_17_635)">
+                                                <path
+                                                    d="M9.28859 6.71002C8.89859 7.10002 8.89859 7.73002 9.28859 8.12002L13.1686 12L9.28859 15.88C8.89859 16.27 8.89859 16.9 9.28859 17.29C9.67859 17.68 10.3086 17.68 10.6986 17.29L15.2886 12.7C15.6786 12.31 15.6786 11.68 15.2886 11.29L10.6986 6.70002C10.3186 6.32002 9.67859 6.32002 9.28859 6.71002Z"
+                                                    fill="#323232" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_17_635">
+                                                    <rect width="24" height="24" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <p class="m-0 fw-500">
+                                            Reporte general
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-6">
-                                <div class="d-flex align-items-center gap-3 justify-content-lg-end mt-lg-0 mt-3">
-                                    <div>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42"
-                                            viewBox="0 0 42 42" fill="none">
-                                            <g filter="url(#filter0_d_825_7904)">
-                                                <rect x="2" y="1" width="38" height="38" rx="4" fill="white" />
-                                                <rect x="2.5" y="1.5" width="37" height="37" rx="3.5"
-                                                    stroke="#E2E8F0" />
-                                            </g>
-                                            <path
-                                                d="M22 27H20C19.448 27 19 26.552 19 26C19 25.448 19.448 25 20 25H22C22.552 25 23 25.448 23 26C23 26.552 22.552 27 22 27Z"
-                                                fill="#64748B" />
-                                            <path
-                                                d="M24 23H18C17.448 23 17 22.552 17 22C17 21.448 17.448 21 18 21H24C24.552 21 25 21.448 25 22C25 22.552 24.552 23 24 23Z"
-                                                fill="#64748B" />
-                                            <path
-                                                d="M26 19H16C15.448 19 15 18.552 15 18C15 17.448 15.448 17 16 17H26C26.552 17 27 17.448 27 18C27 18.552 26.552 19 26 19Z"
-                                                fill="#64748B" />
-                                            <path
-                                                d="M28 15H14C13.448 15 13 14.552 13 14C13 13.448 13.448 13 14 13H28C28.552 13 29 13.448 29 14C29 14.552 28.552 15 28 15Z"
-                                                fill="#64748B" />
-                                            <defs>
-                                                <filter id="filter0_d_825_7904" x="0" y="0" width="42" height="42"
-                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                                    <feColorMatrix in="SourceAlpha" type="matrix"
-                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                                        result="hardAlpha" />
-                                                    <feOffset dy="1" />
-                                                    <feGaussianBlur stdDeviation="1" />
-                                                    <feColorMatrix type="matrix"
-                                                        values="0 0 0 0 0.0588235 0 0 0 0 0.0901961 0 0 0 0 0.164706 0 0 0 0.04 0" />
-                                                    <feBlend mode="normal" in2="BackgroundImageFix"
-                                                        result="effect1_dropShadow_825_7904" />
-                                                    <feBlend mode="normal" in="SourceGraphic"
-                                                        in2="effect1_dropShadow_825_7904" result="shape" />
-                                                </filter>
-                                            </defs>
-                                        </svg>
-                                    </div>
-                                    <div class="calender">
-                                        <button>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                                                viewBox="0 0 16 16" fill="none">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M13 2H15C15.553 2 16 2.447 16 3V15C16 15.553 15.553 16 15 16H1C0.447 16 0 15.553 0 15V3C0 2.447 0.447 2 1 2H3V0H5V2H7V0H9V2H11V0H13V2ZM2 14H14V6H2V14Z"
-                                                    fill="#64748B" />
-                                            </svg>
-                                            Nov 20, 2023 - Dic 19, 2023
+                                <div class="d-lg-flex align-items-center gap-3 justify-content-lg-end mt-lg-0 mt-3">
+                                    <div class="white-btn">
+                                        <button class="text-brown btn-width">
+                                            Ver listado de PCM
                                         </button>
+                                    </div>
+                                    <div class="brown-btn mt-lg-0 mt-3">
+                                        <button class="text-brown btn-width">
+                                            <div>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    viewBox="0 0 16 16" fill="none">
+                                                    <path
+                                                        d="M3.16797 9.83334V10.8333C3.16797 11.9379 4.0634 12.8333 5.16797 12.8333H10.8346C11.9392 12.8333 12.8346 11.9379 12.8346 10.8333V9.83334"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                    <path d="M8 9.49999L8 3.16666" stroke="white" stroke-width="1.5"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M5.83203 7.16666L7.9987 9.49999L10.1654 7.16666"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                Descargar PDF
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Personas en Contexto de Movilidad Chart -->
+                    <div class="full-width-chart mt-3">
+                        <div class="row mx-0">
+                            <div class="col-12">
+                                <div class="Sexo-card pb-1">
+                                    <div class="d-lg-flex align-items-center justify-content-between top-border">
+                                        <div class="top-text-1 d-lg-flex align-items-center">
+                                            <p class="fw-500 fs-5 m-0">
+                                                Estados de la república
+                                            </p>
+                                            <span class="bg-grey fw-500 fs-6 mx-2">
+                                                Personas buscando empleo
+                                            </span>
+                                        </div>
+                                        <div class="position-relative">
+                                            <div class="hombres cursor mx-2 mt-lg-0 mt-3 mb-lg-0 mb-3 fliter-display-down"
+                                                id="filterToggle2">
+                                                <p class="m-0">
+                                                    Elegir otro filtro
+                                                </p>
+                                            </div>
+                                            <div class="drop-down-flitro" id="filterDropdown2">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Total de registros
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mt-2">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Total de vacantes incluyentes
+                                                    </label>
+                                                </div>
+                                                <div class="form-check mt-2">
+                                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                        id="flexRadioDefault1">
+                                                    <label class="form-check-label" for="flexRadioDefault1">
+                                                        Total de postulaciones a vacantes
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="chart-image row mx-0">
+                                        <div class="col">
+                                            <div class="full-width-chart-img">
+                                                <img src="./assets/images/Line-Chart6.png" class="w-100" alt="">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -920,22 +984,9 @@
                                 <div class="chaet-cards">
                                     <div class="d-flex align-items-center gap-2 pb-3">
                                         <p class="m-0 fs-5 fw-500">
-                                            Vacantes para PCM extranjeras
+                                            Residencia temporal con permiso de trabajo
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
+
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
@@ -956,22 +1007,8 @@
                                 <div class="chaet-cards">
                                     <div class="d-flex align-items-center gap-2 pb-3">
                                         <p class="m-0 fs-5 fw-500">
-                                            Vacantes para PCM extranjeras
+                                            Residencia temporal estudiante
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
@@ -992,22 +1029,9 @@
                                 <div class="chaet-cards">
                                     <div class="d-flex align-items-center gap-2 pb-3">
                                         <p class="m-0 fs-5 fw-500">
-                                            Vacantes para PCM extranjeras
+                                            Tarjeta de visitante por razones humanitarias (solicitantes)
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
+
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
@@ -1034,20 +1058,29 @@
                                         <p class="m-0 fs-5 fw-500">
                                             Vacantes para PCM extranjeras
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <div class="position-relative">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
+                                                viewBox="0 0 16 17" fill="none" class="view-box">
+                                                <g clip-path="url(#clip0_825_7920)">
+                                                    <path
+                                                        d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_825_7920">
+                                                        <rect width="16" height="16" fill="white"
+                                                            transform="translate(0 0.5)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <div class="hover-popup">
+                                                <p class="text-black text-center mb-0">
+                                                    Personas refugiadas y con protección <br> complementarías.
+                                                    Extranjeras con más <br> de 4 años en México
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
@@ -1070,28 +1103,36 @@
                                         <p class="m-0 fs-5 fw-500">
                                             Vacantes para PCM extranjeras
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <div class="position-relative">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
+                                                viewBox="0 0 16 17" fill="none" class="view-box">
+                                                <g clip-path="url(#clip0_825_7920)">
+                                                    <path
+                                                        d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_825_7920">
+                                                        <rect width="16" height="16" fill="white"
+                                                            transform="translate(0 0.5)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <div class="hover-popup">
+                                                <p class="text-black text-center mb-0">
+                                                    Con CURP temporal y/o permanente
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
                                             1,000
                                         </h2>
-                                        <div class="minus-repo">
+                                        <div class="plus-repo">
                                             <span class="text-white">
-                                                -7%
+                                                +7%
                                             </span>
                                         </div>
                                     </div>
@@ -1106,20 +1147,28 @@
                                         <p class="m-0 fs-5 fw-500">
                                             Vacantes para PCM extranjeras
                                         </p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
-                                            viewBox="0 0 16 17" fill="none">
-                                            <g clip-path="url(#clip0_825_7920)">
-                                                <path
-                                                    d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
-                                                    fill="black" />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_825_7920">
-                                                    <rect width="16" height="16" fill="white"
-                                                        transform="translate(0 0.5)" />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
+                                        <div class="position-relative">
+
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17"
+                                                viewBox="0 0 16 17" fill="none" class="view-box">
+                                                <g clip-path="url(#clip0_825_7920)">
+                                                    <path
+                                                        d="M7.9987 1.83325C4.3187 1.83325 1.33203 4.81992 1.33203 8.49992C1.33203 12.1799 4.3187 15.1666 7.9987 15.1666C11.6787 15.1666 14.6654 12.1799 14.6654 8.49992C14.6654 4.81992 11.6787 1.83325 7.9987 1.83325ZM7.9987 13.8333C5.0587 13.8333 2.66536 11.4399 2.66536 8.49992C2.66536 5.55992 5.0587 3.16659 7.9987 3.16659C10.9387 3.16659 13.332 5.55992 13.332 8.49992C13.332 11.4399 10.9387 13.8333 7.9987 13.8333ZM7.33203 11.1666H8.66536V12.4999H7.33203V11.1666ZM8.40536 4.52659C7.03203 4.32659 5.8187 5.17325 5.45203 6.38659C5.33203 6.77325 5.62536 7.16659 6.03203 7.16659H6.16536C6.4387 7.16659 6.6587 6.97325 6.75203 6.71992C6.96536 6.12659 7.5987 5.71992 8.28537 5.86659C8.9187 5.99992 9.38536 6.61992 9.33203 7.26659C9.26536 8.15992 8.25203 8.35325 7.6987 9.18659C7.6987 9.19325 7.69203 9.19325 7.69203 9.19992C7.68536 9.21325 7.6787 9.21992 7.67203 9.23325C7.61203 9.33325 7.55203 9.44659 7.50536 9.56659C7.4987 9.58659 7.48536 9.59992 7.4787 9.61992C7.47203 9.63325 7.47203 9.64659 7.46536 9.66659C7.38536 9.89325 7.33203 10.1666 7.33203 10.4999H8.66536C8.66536 10.2199 8.7387 9.98659 8.85203 9.78659C8.86536 9.76659 8.87203 9.74659 8.88536 9.72659C8.9387 9.63325 9.00536 9.54659 9.07203 9.46659C9.0787 9.45992 9.08536 9.44659 9.09203 9.43992C9.1587 9.35992 9.23203 9.28659 9.31203 9.21325C9.95203 8.60659 10.8187 8.11325 10.6387 6.83992C10.4787 5.67992 9.56536 4.69992 8.40536 4.52659Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_825_7920">
+                                                        <rect width="16" height="16" fill="white"
+                                                            transform="translate(0 0.5)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                            <div class="hover-popup">
+                                                <p class="text-black text-center mb-0">
+                                                    Con CURP permanente
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="total-number d-flex gap-3 align-items-center pb-3">
                                         <h2 class="fw-700 text-black">
@@ -1150,7 +1199,7 @@
                                         </p>
                                     </div>
                                     <div class="chart-image">
-                                        <img src="./assets/images/Oval.png" alt="">
+                                        <img src="./assets/images/Oval2.png" alt="">
                                     </div>
                                     <div class="key-points d-flex align-items-center justify-content-center gap-2">
                                         <div class="hombres d-flex align-items-center gap-2">
@@ -1181,25 +1230,25 @@
                                             </span>
                                         </div>
                                         <div class="position-relative">
-                                            <div
-                                                class="hombres cursor mx-2 mt-lg-0 mt-3 mb-lg-0 mb-3 fliter-display-down"id="filterToggle">
+                                            <div class="hombres cursor mx-2 mt-lg-0 mt-3 mb-lg-0 mb-3 fliter-display-down"
+                                                id="filterToggle1">
                                                 <p class="m-0">
                                                     Elegir otro filtro
                                                 </p>
                                             </div>
-                                            <div class="drop-down-flitro" id="filterDropdown">
+                                            <div class="drop-down-flitro" id="filterDropdown1">
                                                 <div class="form-check">
                                                     <input class="form-check-input" type="radio" name="flexRadioDefault"
                                                         id="flexRadioDefault1">
                                                     <label class="form-check-label" for="flexRadioDefault1">
-                                                        PCM buscadoras de empleo
+                                                        Total de registros
                                                     </label>
                                                 </div>
                                                 <div class="form-check mt-2">
                                                     <input class="form-check-input" type="radio" name="flexRadioDefault"
                                                         id="flexRadioDefault1">
                                                     <label class="form-check-label" for="flexRadioDefault1">
-                                                        PCM buscadoras de empleo
+                                                        Total de vacantes incluyentes
                                                     </label>
                                                 </div>
                                             </div>
@@ -1242,174 +1291,176 @@
                             </div>
                         </div>
                     </div>
-                    <!-- plazas section -->
-                    <div class="plazas-sections mt-3">
-                        <div class="row mx-0">
-                            <div class="col-lg-6 mt-lg-0 mt-3">
-                                <div class="Sexo-card">
-                                    <div class="top-text d-flex align-items-center justify-content-between">
-                                        <div class=" d-flex align-items-center">
-                                            <p class="fw-500 fs-5 m-0">
-                                                Plazas disponibles vs. plazas ocupadas
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="inner-pad pt-4">
-                                        <div class="d-lg-flex align-items-center gap-5">
-                                            <div class="d-flex align-items-center gap-3">
-                                                <img src="./assets/images/green-radio.png" alt="">
-                                                <div class="d-flex align-items-center gap-3">
-                                                    <h3 class="fs-1 fw-600">
-                                                        200
-                                                    </h3>
-                                                    <p class="m-0 fs-6">
-                                                        <span>Plazas</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center gap-3 mt-lg-0 mt-3">
-                                                <img src="./assets/images/brown-radio.png" alt="">
-                                                <div class="d-flex align-items-center gap-3">
-                                                    <h3 class="fs-1 fw-600">
-                                                        1000
-                                                    </h3>
-                                                    <p class="m-0 fs-6">
-                                                        <span>Plazas ocupadas</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="tele-image">
-                                            <img src="./assets/images/Line-Chart3.png" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 mt-lg-0 mt-3">
-                                <div class="Sexo-card">
-                                    <div class="top-text d-flex align-items-center justify-content-between">
-                                        <div class=" d-flex align-items-center">
-                                            <p class="fw-500 fs-5 m-0">
-                                                Plazas disponibles vs. plazas ocupadas
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="inner-pad">
-                                        <div class="tele-image">
-                                            <img src="./assets/images/Line-Chart4.png" class="w-100" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <!-- Areas Sections -->
                     <div class="areas-sections mt-3">
                         <div class="row mx-0">
-                            <div class="col-lg-6 mt-lg-0">
-                                <div class="Sexo-card heaght">
+                            <!-- ranking -->
+                            <div class="col-lg-4 mt-lg-0 mt-3">
+                                <div class="Sexo-card heght-custom2">
                                     <div class="top-text d-flex align-items-center justify-content-between">
-                                        <div class=" d-flex align-items-center">
+                                        <div class="d-flex align-items-center">
                                             <p class="fw-500 fs-5 m-0">
-                                                Plazas disponibles vs. plazas ocupadas
+                                                Ranking de edades de las PCM
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="inner-pad pt-4">
-                                        <div class="total-number d-flex gap-3 align-items-center pb-3">
-                                            <h2 class="fw-700 text-black">
-                                                1,200
-                                            </h2>
-                                            <div class="minus-repo">
-                                                <span class="text-white">
-                                                    +22
-                                                </span>
-                                            </div>
+                                    <div class="inner-pad mt-5">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="fs-6 fw-500 m-0">
+                                                >18
+                                            </p>
+                                            <p class="fs-6 fw-500 m-0">
+                                                14709
+                                            </p>
                                         </div>
-                                        <div class="line-chart-2">
-                                            <img src="./assets/images/Line-Chart5.png" class="w-100" alt="">
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
                                         </div>
-                                        <div class="chart-data border-bottom mt-4">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img src="./assets/images/brown-box-2.png" alt="">
-                                                    <p class="m-0 fs-5">
-                                                        Tecnología
-                                                    </p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-brown fs-5">
-                                                        48.7%
-                                                    </p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="fs-6 fw-500 m-0">
+                                                18 a 19 años
+                                            </p>
+                                            <p class="fs-6 fw-500 m-0">
+                                                14709
+                                            </p>
                                         </div>
-                                        <div class="chart-data border-bottom mt-4">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img src="./assets/images/purplebox.png" alt="">
-                                                    <p class="m-0 fs-5">
-                                                        Diseño gráfico
-                                                    </p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-purple fs-5">
-                                                        48.7%
-                                                    </p>
-                                                </div>
-                                            </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
                                         </div>
-
-                                        <div class="chart-data border-bottom mt-4">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img src="./assets/images/seagreen-box.png" alt="">
-                                                    <p class="m-0 fs-5">
-                                                        Albañilería
-                                                    </p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-seagreen fs-5">
-                                                        19.3%
-                                                    </p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="fs-6 fw-500 m-0">
+                                                20 a 24 años
+                                            </p>
+                                            <p class="fs-6 fw-500 m-0">
+                                                14709
+                                            </p>
                                         </div>
-                                        <div class="chart-data border-bottom mt-4">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img src="./assets/images/darkbrown-box.png" alt="">
-                                                    <p class="m-0 fs-5">
-                                                        Campo
-                                                    </p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-darkbrown fs-5">
-                                                        9.6%
-                                                    </p>
-                                                </div>
-                                            </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
                                         </div>
-                                        <div class="chart-data border-bottom mt-4">
-                                            <div class="d-flex align-items-center justify-content-between">
-                                                <div class="d-flex align-items-center gap-2">
-                                                    <img src="./assets/images/sliver-box.png" alt="">
-                                                    <p class="m-0 fs-5">
-                                                        Contabilidad
-                                                    </p>
-                                                </div>
-                                                <div>
-                                                    <p class="text-silver fs-5">
-                                                        9.3%
-                                                    </p>
-                                                </div>
-                                            </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <p class="fs-6 fw-500 m-0">
+                                                20 a 24 años
+                                            </p>
+                                            <p class="fs-6 fw-500 m-0">
+                                                14709
+                                            </p>
+                                        </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-6 mt-lg-0 mt-3">
-                                <div class="Sexo-card heaght">
+                            <!-- country -->
+                            <div class="col-lg-4 mt-lg-0 mt-3">
+                                <div class="Sexo-card heght-custom2">
+                                    <div class="top-text d-flex align-items-center justify-content-between">
+                                        <div class="d-flex align-items-center">
+                                            <p class="fw-500 fs-5 m-0">
+                                                Ranking de países de origen
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="inner-pad mt-5">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <div>
+                                                    <img src="./assets/images/uzbesktan.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p class="fs-6 fw-500 m-0">
+                                                        Uzbekistán
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="fs-6 fw-500 m-0">
+                                                    65148
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <div>
+                                                    <img src="./assets/images/Alemania.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p class="fs-6 fw-500 m-0">
+                                                        Alemania
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="fs-6 fw-500 m-0">
+                                                    25252
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <div>
+                                                    <img src="./assets/images/usa.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p class="fs-6 fw-500 m-0">
+                                                        USA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="fs-6 fw-500 m-0">
+                                                    14872
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
+                                        </div>
+                                    </div>
+                                    <div class="inner-pad mt-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <div>
+                                                    <img src="./assets/images/russia.png" alt="">
+                                                </div>
+                                                <div>
+                                                    <p class="fs-6 fw-500 m-0">
+                                                        Rusia
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p class="fs-6 fw-500 m-0">
+                                                    12863
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="load-bar w-100 mt-3">
+                                            <div class="loaded-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- defult -->
+                            <div class="col-lg-4 mt-lg-0 mt-3">
+                                <div class="Sexo-card heght-custom2">
                                     <div class="top-text d-flex align-items-center justify-content-between">
                                         <div class="d-flex align-items-center">
                                             <p class="fw-500 fs-5 m-0">
@@ -1419,10 +1470,10 @@
                                     </div>
                                     <div class="inner-pad mt-5">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 Contabilidad
                                             </p>
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 47651
                                             </p>
                                         </div>
@@ -1432,10 +1483,10 @@
                                     </div>
                                     <div class="inner-pad mt-5">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 Administración
                                             </p>
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 35646
                                             </p>
                                         </div>
@@ -1445,10 +1496,10 @@
                                     </div>
                                     <div class="inner-pad mt-5">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 Apoyo de oficina
                                             </p>
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 31876
                                             </p>
                                         </div>
@@ -1458,15 +1509,127 @@
                                     </div>
                                     <div class="inner-pad mt-5">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 Medios de comunicación y publicidad
                                             </p>
-                                            <p class="fs-6 fw-500">
+                                            <p class="fs-6 fw-500 m-0">
                                                 21652
                                             </p>
                                         </div>
                                         <div class="load-bar w-100">
                                             <div class="loaded-bar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ranking de expectativa salarial -->
+                    <div class=" mt-3">
+                        <div class="row mx-0 align-items-center">
+                            <div class="col">
+                                <div class="Sexo-card">
+                                    <div class="top-text">
+                                        <p class="fw-500 fs-5 m-0">
+                                            Ranking de expectativa salarial
+                                        </p>
+                                    </div>
+                                    <div class="inner-pad mt-5 lable-percentge">
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">+ $30,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader">
+                                                                <p class="m-0 text-white">35%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">$21,000 - $30,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader dd-26">
+                                                                <p class="m-0 text-white">26%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">$16,000 - $20,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader dd-18">
+                                                                <p class="m-0 text-white">18%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">$11,000 - $15,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader dd-14">
+                                                                <p class="m-0 text-white">14%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">$6,000 - $10,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader dd-10">
+                                                                <p class="m-0 text-white">10%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mx-0 mt-2">
+                                            <div class="col-12">
+                                                <div class="row mx-0">
+                                                    <div class="col-lg-2">
+                                                        <p class="m-0 fs-5 fw-500">$1,000 - $5,000</p>
+                                                    </div>
+                                                    <div class="col-lg-9">
+                                                        <div class="fill-loader">
+                                                            <div class="filled-loader dd-7">
+                                                                <p class="m-0 text-white">7%</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
