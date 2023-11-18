@@ -510,7 +510,7 @@ hr {
 }
 
 .chart-image img {
-    width: 65%;
+    width: 55%;
 }
 
 .tele-image {
@@ -720,14 +720,87 @@ hr {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-.map-img{
+
+.map-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .map-img img {
     width: 80%;
 }
+
+.aliados-height {
+    height: 520px;
+}
+
+.aliados-img-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.aliados-img-1 img {
+    width: 95%;
+}
+
+.alidos-table table {
+    width: 100%;
+}
+
+.alidos-table table thead th {
+    padding: 1rem;
+    background-color: #F8FAFC;
+}
+
+.alidos-table table tbody td {
+    padding: 1rem;
+}
+
+.alidos-table table tbody tr {
+    padding: 1rem;
+    border-bottom: 1px solid #F1F5F9;
+}
+
+
+.lable-bg-green {
+    background-color: #D1FAE5;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: max-content;
+    color: #1FA279;
+}
+
+.lable-bg-red {
+    background-color: #FEC7C7;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: max-content;
+    color: #D90606;
+}
+
+.lable-bg-yellow {
+    background-color: #FEF3C7;
+    padding: 5px 20px;
+    border-radius: 50px;
+    width: max-content;
+    color: #D97706;
+}
+
+.monit-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.monti-height{
+    height: 430px;
+}
+.monit-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (max-width:1920px) {
     .left-menu {
