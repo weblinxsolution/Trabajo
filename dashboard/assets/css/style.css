@@ -806,27 +806,83 @@ hr {
 .moni-image {
     width: 94% !important;
 }
-.monitoero-tabs{
+
+.monitoero-tabs {
     border-bottom: 1px solid #cfcfcf;
 }
-.monitoero-tabs button{
+
+.monitoero-tabs button {
     background-color: transparent;
     color: #6B7280;
     border-radius: 0;
     padding: 1.2rem;
 }
-.monitoero-tabs .active{
+
+.monitoero-tabs .active {
     border-radius: 0;
     background-color: transparent !important;
     color: #972880 !important;
-    border-bottom: 2px solid #972880;
+    border-bottom: 3px solid #BC955A;
 }
-.tab-content{
+
+.tab-content {
     padding: 0 1rem;
 }
-.monitoreo-height{
+
+.monitoreo-height {
     height: 440px;
 }
+
+.active-content {
+    background-color: #F3F4F6;
+    border: 1px solid #E2E8F0;
+    padding: 5px 20px;
+}
+
+.sabes-section {
+    background-color: #F8FAFC;
+    padding: 20px;
+}
+
+.dashboard-input-area label {
+    color: #BFBFBF;
+}
+
+.dashboard-input-area input {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+}
+
+.dashboard-input-area select {
+    background-color: #FFFFFF;
+    border: 1px solid #EBEBEB;
+}
+
+.question {
+    color: #BC955A;
+    text-decoration: underline;
+}
+
+.blackoutline-btn button {
+    background-color: #FFF;
+    border: 1px solid #000;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+
+.modal-dialog {
+    max-width: 1000px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-footer {
+    border: none;
+}
+
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;
