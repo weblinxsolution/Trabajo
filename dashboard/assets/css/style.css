@@ -792,16 +792,41 @@ hr {
     justify-content: center;
     align-items: center;
 }
-.monti-height{
+
+.monti-height {
     height: 430px;
 }
+
 .monit-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+.moni-image {
+    width: 94% !important;
+}
+.monitoero-tabs{
+    border-bottom: 1px solid #cfcfcf;
+}
+.monitoero-tabs button{
+    background-color: transparent;
+    color: #6B7280;
+    border-radius: 0;
+    padding: 1.2rem;
+}
+.monitoero-tabs .active{
+    border-radius: 0;
+    background-color: transparent !important;
+    color: #972880 !important;
+    border-bottom: 2px solid #972880;
+}
+.tab-content{
+    padding: 0 1rem;
+}
+.monitoreo-height{
+    height: 440px;
+}
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;

@@ -931,16 +931,42 @@
                     <div class="flow-chart-map mt-3">
                         <div class="row mx-0">
                             <div class="col-lg-6">
-                                <div class="Sexo-card monti-height">
-                                    <div class="top-text">
-                                        <p class="fw-500 fs-5 m-0">
-                                            Sexo de las PCM
-                                        </p>
+                                <div class="Sexo-card monitoreo-height">
+                                    <div class=" top-text d-lg-flex align-items-center justify-content-between">
+                                        <div class="">
+                                            <p class="fw-500 fs-5 m-0">
+                                                Total de usuarios
+                                            </p>
+                                        </div>
+                                        <div class="mt-lg-0 mt-3 d-flex gap-2">
+                                            <div class="d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    viewBox="0 0 16 16" fill="none">
+                                                    <path
+                                                        d="M11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8Z"
+                                                        fill="#BC955A" />
+                                                </svg>
+                                                <p class="m-0 fs-5 fw-500">
+                                                    Mes actual
+                                                </p>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    viewBox="0 0 16 16" fill="none">
+                                                    <path
+                                                        d="M11 8C11 9.65685 9.65685 11 8 11C6.34315 11 5 9.65685 5 8C5 6.34315 6.34315 5 8 5C9.65685 5 11 6.34315 11 8Z"
+                                                        fill="black" />
+                                                </svg>
+                                                <p class="m-0 fs-5 fw-500">
+                                                    Mes anterior
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="row mx-0">
                                         <div class="col">
                                             <div class="chart-image">
-                                                <img src="./assets/images/Line-Chart10.png" class="w-100" alt="">
+                                                <img src="./assets/images/Line-Chart11.png" class="moni-image" alt="">
                                             </div>
                                         </div>
                                     </div>
@@ -948,20 +974,44 @@
                                 </div>
                             </div>
                             <div class="col-lg-6 mt-lg-0 mt-3">
-                                <div class="Sexo-card monti-height">
-                                    <div class="top-text">
-                                        <p class="fw-500 fs-5 m-0">
-                                            Sexo de las PCM
-                                        </p>
-                                    </div>
-                                    <div class="row mx-0">
-                                        <div class="col">
-                                            <div class="chart-image">
-                                                <img src="./assets/images/Line-Chart10.png" class="w-100" alt="">
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="Sexo-card  monitoreo-height">
+                                    <ul class="position-relative monitoero-tabs nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-home" type="button" role="tab"
+                                                aria-controls="pills-home" aria-selected="true">Páginas</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-profile" type="button" role="tab"
+                                                aria-controls="pills-profile" aria-selected="false">Páginas de
+                                                entrada</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                                data-bs-target="#pills-contact" type="button" role="tab"
+                                                aria-controls="pills-contact" aria-selected="false">Páginas de
+                                                salida</button>
+                                        </li>
 
+                                        <div class="position-absolute end-0 bottom-0 me-2">
+                                            <p class="m-0 fw-600 text-black fs-5 ">
+                                                Vistas
+                                            </p>
+                                        </div>
+                                    </ul>
+
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                            aria-labelledby="pills-home-tab" tabindex="0"><img
+                                                src="./assets/images/Line-Chart12.png" class="w-100" alt=""></div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                            aria-labelledby="pills-profile-tab" tabindex="0"><img
+                                            src="./assets/images/Line-Chart12.png" class="w-100" alt=""></div>
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                            aria-labelledby="pills-contact-tab" tabindex="0"><img
+                                            src="./assets/images/Line-Chart12.png" class="w-100" alt=""></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
