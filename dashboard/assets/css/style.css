@@ -88,6 +88,10 @@ body {
     color: #9CA3AF;
 }
 
+.text-blue {
+    color: #3056D3;
+}
+
 a {
     list-style: none;
     text-decoration: none;
@@ -881,6 +885,26 @@ hr {
 
 .modal-footer {
     border: none;
+}
+
+.uploads-files {
+    background-color: #F4F7FF;
+    border: 1px dashed #3056D3;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+}
+
+.upload__img img {
+    width: 5%;
+}
+
+.btn-brown button {
+    background-color: #BC955A;
+    padding: 1rem;
+    border: none;
+    color: #FFF;
+    border-radius: 4px;
 }
 
 @media (max-width:1920px) {
