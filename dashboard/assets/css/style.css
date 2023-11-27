@@ -939,6 +939,25 @@ hr {
     color: #991B1B;
 }
 
+.acnur-input input {
+    background-color: #E3E3E3;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.form-control:focus {
+    color: #000;
+    background-color: #E3E3E3;
+    border-color: #EBEBEB;
+    outline: 0;
+    box-shadow: none;
+}
+
+.text-gold {
+    color: #BC955A;
+}
+
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;
