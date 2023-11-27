@@ -907,6 +907,38 @@ hr {
     border-radius: 4px;
 }
 
+.files__added {
+    background-color: #F3F4F6;
+    border: 1px solid #E2E8F0;
+    padding: 2rem .5rem;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.red__text ul {
+    list-style: disc;
+}
+
+.red__text ul {
+    color: #B91C1C;
+}
+
+.red__text ul li {
+    color: #B91C1C;
+}
+
+.file__removed_error {
+    background-color: #FEF2F2;
+    padding: 1rem .5rem;
+    border-radius: 6px;
+}
+
+.text-red {
+    color: #991B1B;
+}
+
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;
