@@ -1,0 +1,95 @@
+.detail-row {
+    height: 185px;
+    background: #F8FAFC;
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.detail-row td {
+    padding: 20px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #F8FAFC;
+    /* background: red; */
+}
+
+.table-detail-trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 97%;
+    height: 100%;
+    z-index: 100;
+}
+
+.globle__table table {
+    border: 1px solid #E2E8F0;
+    border-top: none;
+
+}
+
+.globle__table table thead tr th {
+    background-color: #F8FAFC;
+    padding: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #64748B;
+}
+
+.globle__table table tbody tr td {
+    background-color: #FFF;
+    padding: 1rem;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.table-border {
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.pending-bg {
+    background-color: #FEF3C7;
+    color: #D97706;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.complete-bg {
+    background-color: #D1FAE5;
+    color: #059669;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.missing-bg {
+    background-color: #F1F5F9;
+    color: #64748B;
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+
+.globle__table input[type="checkbox"] {
+    /* Change the checkbox border color */
+    border-color: #BC955A !important;
+
+    /* Change the checkbox background color when checked */
+    background-color: #BC955A !important;
+}
+
+.globle__table input[type="checkbox"]:checked {
+    background-color: #BC955A !important;
+}
