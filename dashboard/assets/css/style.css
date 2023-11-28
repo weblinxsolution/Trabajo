@@ -972,13 +972,16 @@ hr {
 .text-green {
     color: #2CAD17;
 }
-.text-lightred{
+
+.text-lightred {
     color: #E71A1A;
 }
-.text-yellow{
+
+.text-yellow {
     color: #D97706;
 }
-.error-border{
+
+.error-border {
     border: 1px solid #E71A1A;
     background-color: #FFF;
     display: flex;
@@ -988,6 +991,11 @@ hr {
     padding-right: 5px;
     font-weight: 500;
 }
+
+.custom-dialog {
+    max-width: 500px !important;
+}
+
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;

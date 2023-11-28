@@ -1305,7 +1305,7 @@
                                     <div>
                                         <p class="fs-5 m-0 fw-600 text-yellow ">
                                             Registros actualizados
-                                       
+
                                         </p>
                                     </div>
                                     <div class="text-grey">
@@ -1337,7 +1337,8 @@
                                                 <td><input type="checkbox" name="" id=""></td>
                                                 <td>22/01/2021</td>
                                                 <td><span class="fw-600">Josefina Valentina Gutiérrez
-                                                        Velazquez</span><br><span class="text-yellow">correo@mail.com</span></td>
+                                                        Velazquez</span><br><span
+                                                        class="text-yellow">correo@mail.com</span></td>
                                                 <td>
                                                     <div class="pending-bg">
                                                         Residente temporal
@@ -1399,7 +1400,8 @@
                                                         </div>
                                                         <div class="col">
                                                             <div>
-                                                                <p class="m-0 fw-500 text-yellow"><span>CIUDAD ESTANCIA</span></p>
+                                                                <p class="m-0 fw-500 text-yellow"><span>CIUDAD
+                                                                        ESTANCIA</span></p>
                                                                 <p class="m-0 text-yellow">Ciudad Juárez</p>
                                                             </div>
                                                         </div>
@@ -1440,14 +1442,60 @@
                             </script>
                             <div class="row mx-0 mt-3 pagination align-items-center justify-content-between">
                                 <div class="col-md-6">
-                                 <p class="m-0 fs-6 fw-500">Se importarán 2 usuario. 1 usuario no se importará.</p>
+                                    <p class="m-0 fs-6 fw-500">Se importarán 2 usuario. 1 usuario no se importará.</p>
                                 </div>
                                 <div class="col-md-3">
-                                        <div class="btn-brown ">
-                                            <button class="w-100">
-                                                Continuar
-                                            </button>
-                                        </div>
+                                    <div class="btn-brown ">
+                                        <button class="w-100" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                            type="button">
+                                            Continuar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog custom-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center border-none">
+                        <img src="./assets/images/green-tick.png" alt="">
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <p class="m-0 fw-500 fs-6 text-center">Revisa y completa tu importación</p>
+                        </div>
+                        <div>
+                            <p>
+                                800 Personas en Contexto de Movilidad se han agregado a tu lista con la siguiente
+                                información:
+                            </p>
+                        </div>
+                        <div class="bullet-point">
+                            <ul>
+                                <li>
+                                    <span class="fw-600">Importado de:</span> Carga de archivo <br>
+                                    <span class="fw-600">Actualizar contactos existentes:</span> Sí <br>
+                                    <span class="fw-600">Aliado que carga la información:</span> ACNUR
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row mx-0">
+                            <div class="col-6">
+                                <button type="button" class=""
+                                    data-bs-dismiss="modal">Close</button>
+                            </div>
+                            <div class="col-6">
+                                <div class="btn-brown">
+                                    <button>
+                                        Completar importación
+                                    </button>
                                 </div>
                             </div>
                         </div>
