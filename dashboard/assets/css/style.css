@@ -957,12 +957,18 @@ hr {
 .text-gold {
     color: #BC955A;
 }
-.table__heading{
+
+.table__heading {
     background-color: #FFF;
     border: 1px solid #E2E8F0;
-    padding: .5rem 1rem;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
 }
+
+.text-underline {
+    text-decoration: underline;
+}
+
 @media (max-width:1920px) {
     .left-menu {
         overflow-y: scroll;
