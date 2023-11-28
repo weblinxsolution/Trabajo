@@ -1,0 +1,252 @@
+<!-- 2 -->
+                                        <tr class="position-relative cursor">
+                                            <td><input type="checkbox" name="" id=""></td>
+                                            <td>22/01/2021</td>
+                                            <td>Josefina Valentina Gutiérrez Velazquez<br>correo@mail.com</td>
+                                            <td>
+                                                <div class="complete-bg">
+                                                    Refugiado
+                                                </div>
+                                            </td>
+                                            <td><img src="./assets/images/flag-1.png" alt="">China</td>
+                                            <td>Secundaria</td>
+                                            <td><i class="fa-solid fa-angle-down"></i>
+                                                <div class="table-detail-trigger" id="table-detail-trigger2"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="detail-row" id="detail-row2">
+                                            <td class="">
+                                                <div class="row table-border pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EDAD</span></p>
+                                                            <p class="m-0">35 años</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>FECHA DE NACIMIENTO</span></p>
+                                                            <p class="m-0">12 dic 1991</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTADO ESTANCIA</span></p>
+                                                            <p class="m-0">Chihuahua</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ORIGEN DE DATOS</span></p>
+                                                            <p class="m-0">COMAR</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE CARGA</span></p>
+                                                            <p class="m-0">Usuario nuevo</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-3 pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>SEXO</span></p>
+                                                            <p class="m-0">Femenino</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CURP</span></p>
+                                                            <p class="m-0">OEAF771012HMCRGR09</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CIUDAD ESTANCIA</span></p>
+                                                            <p class="m-0">Ciudad Juárez</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE ATENCIÓN</span></p>
+                                                            <p class="m-0">En proceso</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EXPECTATIVA SALARIAL</span></p>
+                                                            <p class="m-0">$15,000 a $20,000</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- 3 -->
+                                        <tr class="position-relative cursor">
+                                            <td><input type="checkbox" name="" id=""></td>
+                                            <td>22/01/2021</td>
+                                            <td>Josefina Valentina Gutiérrez Velazquez<br>correo@mail.com</td>
+                                            <td>
+                                                <div class="complete-bg">
+                                                    Refugiado
+                                                </div>
+                                            </td>
+                                            <td><img src="./assets/images/flag-2.png" alt="">México</td>
+                                            <td>Preparatoria</td>
+                                            <td><i class="fa-solid fa-angle-down"></i>
+                                                <div class="table-detail-trigger" id="table-detail-trigger3"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="detail-row" id="detail-row3">
+                                            <td class="">
+                                                <div class="row table-border pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EDAD</span></p>
+                                                            <p class="m-0">35 años</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>FECHA DE NACIMIENTO</span></p>
+                                                            <p class="m-0">12 dic 1991</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTADO ESTANCIA</span></p>
+                                                            <p class="m-0">Chihuahua</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ORIGEN DE DATOS</span></p>
+                                                            <p class="m-0">COMAR</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE CARGA</span></p>
+                                                            <p class="m-0">Usuario nuevo</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-3 pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>SEXO</span></p>
+                                                            <p class="m-0">Femenino</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CURP</span></p>
+                                                            <p class="m-0">OEAF771012HMCRGR09</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CIUDAD ESTANCIA</span></p>
+                                                            <p class="m-0">Ciudad Juárez</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE ATENCIÓN</span></p>
+                                                            <p class="m-0">En proceso</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EXPECTATIVA SALARIAL</span></p>
+                                                            <p class="m-0">$15,000 a $20,000</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- 4 -->
+                                        <tr class="position-relative cursor">
+                                            <td><input type="checkbox" name="" id=""></td>
+                                            <td>22/01/2021</td>
+                                            <td>Josefina Valentina Gutiérrez Velazquez<br>correo@mail.com</td>
+                                            <td>
+                                                <div class="missing-bg">
+                                                    Solicitante de refugio
+                                                </div>
+                                            </td>
+                                            <td><img src="./assets/images/flag-3.png" alt="">Francia</td>
+                                            <td>Preparatoria</td>
+                                            <td><i class="fa-solid fa-angle-down"></i>
+                                                <div class="table-detail-trigger" id="table-detail-trigger4"></div>
+                                            </td>
+                                        </tr>
+                                        <tr class="detail-row" id="detail-row4">
+                                            <td class="">
+                                                <div class="row table-border pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EDAD</span></p>
+                                                            <p class="m-0">35 años</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>FECHA DE NACIMIENTO</span></p>
+                                                            <p class="m-0">12 dic 1991</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTADO ESTANCIA</span></p>
+                                                            <p class="m-0">Chihuahua</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ORIGEN DE DATOS</span></p>
+                                                            <p class="m-0">COMAR</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE CARGA</span></p>
+                                                            <p class="m-0">Usuario nuevo</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-3 pb-3">
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>SEXO</span></p>
+                                                            <p class="m-0">Femenino</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CURP</span></p>
+                                                            <p class="m-0">OEAF771012HMCRGR09</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>CIUDAD ESTANCIA</span></p>
+                                                            <p class="m-0">Ciudad Juárez</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>ESTATUS DE ATENCIÓN</span></p>
+                                                            <p class="m-0">En proceso</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div>
+                                                            <p class="m-0 fw-500"><span>EXPECTATIVA SALARIAL</span></p>
+                                                            <p class="m-0">$15,000 a $20,000</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
