@@ -1059,6 +1059,9 @@ hr {
 }
 
 @media (max-width:400px) {
+    .perfil2-form-btn{
+        justify-content: center;
+    }
     .custom-offcanvas {
         height: 650px;
     }
