@@ -35,6 +35,10 @@
 }
 
 @media(max-width:768px) {
+    .left-menu {
+        height: 800px;
+    }
+
     .perfil-content .row {
         height: max-content;
     }
