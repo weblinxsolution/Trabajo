@@ -1031,50 +1031,7 @@ hr {
     width: 60px;
 }
 
-@media (max-width:1920px) {
-    .left-menu {
-        overflow-y: scroll;
-    }
-}
 
-@media (max-width:999px) {
-    .custom-offcanvas {
-        height: 900px;
-    }
 
-    .upper-header {
-        padding: 1rem .3rem;
-    }
 
-    .heght-custom {
-        height: max-content;
 
-    }
-
-    .heaght {
-        height: max-content;
-    }
-
-    .user-profile i {
-        font-size: 20px;
-    }
-}
-
-@media (max-width:400px) {
-    .perfil2-form-btn{
-        justify-content: center;
-    }
-    .custom-offcanvas {
-        height: 650px;
-    }
-
-    .hover-popup {
-        top: -9.5rem;
-        left: 50%;
-        transform: translateX(-100%);
-    }
-
-    .full-width-chart-img {
-        padding: 1px 5px;
-    }
-}

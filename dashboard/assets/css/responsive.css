@@ -1,7 +1,36 @@
+@media (max-width:1920px) {
+    .left-menu {
+        overflow-y: scroll;
+    }
+}
+
 @media(max-width:1300px) {
     .info-box {
         width: 100%;
         max-width: 100%;
+    }
+}
+
+@media (max-width:999px) {
+    .custom-offcanvas {
+        height: 900px;
+    }
+
+    .upper-header {
+        padding: 1rem .3rem;
+    }
+
+    .heght-custom {
+        height: max-content;
+
+    }
+
+    .heaght {
+        height: max-content;
+    }
+
+    .user-profile i {
+        font-size: 20px;
     }
 }
 
@@ -28,5 +57,28 @@
 
     #pills-moral-tab {
         border-radius: 6px !important;
+    }
+}
+
+@media (max-width:400px) {
+    .heght-custom2 {
+        height: 415px;
+    }
+    .perfil2-form-btn {
+        justify-content: center;
+    }
+
+    .custom-offcanvas {
+        height: 650px;
+    }
+
+    .hover-popup {
+        top: -9.5rem;
+        left: 50%;
+        transform: translateX(-100%);
+    }
+
+    .full-width-chart-img {
+        padding: 1px 5px;
     }
 }
