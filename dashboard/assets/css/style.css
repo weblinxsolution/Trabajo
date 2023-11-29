@@ -136,7 +136,7 @@ hr {
     padding: 10px 10px;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
-    background: var(--whiteColor);
+    /* background: var(--whiteColor); */
     color: #344054;
 }
 
