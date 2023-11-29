@@ -991,14 +991,16 @@ hr {
     padding-right: 5px;
     font-weight: 500;
 }
-.btn-tranparent button{
+
+.btn-tranparent button {
     background-color: #FFF;
     border-radius: 5px;
     border: 1px solid #D1D5DB;
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-.btn-brown-modal button{
+
+.btn-brown-modal button {
     background-color: #BC955A;
     border-radius: 5px;
     border: 1px solid #BC955A;
@@ -1006,8 +1008,17 @@ hr {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
+
 .custom-dialog {
     max-width: 500px !important;
+}
+
+.bell {
+    width: 33px;
+}
+
+.profile__image {
+    width: 60px;
 }
 
 @media (max-width:1920px) {
