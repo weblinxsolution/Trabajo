@@ -7,7 +7,9 @@
     <title>Dashboard</title>
 
     <!-- FontAwsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -64,7 +66,7 @@
                         <span class="fw-500">Cerrar</span>
                         <i class="fa-solid fa-xmark"></i>
                     </div>
-                    
+
                 </div>
             </div>
         </header>
@@ -72,7 +74,7 @@
     <!-- Header End -->
 
     <!-- Perfil Content Start -->
-    <section>
+    <section class="mt-3">
         <div class="perfil-content">
             <div class="wrapper">
                 <div class="perfil-steps">
@@ -95,244 +97,190 @@
                         <span class="text-black fw-500 mt-3 d-block">(*) Datos requeridos</span>
                     </div>
                     <hr>
-                    <div class="w-100">
-                        <h5 class="fw-700 fs-18 text-black1">Personas extranjeras</h5>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">Soy incluyente, estoy abierto en contratar personas
-                                        extranjeras*</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
+                    <div class="row">
+                        <div class="col">
+                            <p class="fw-500 fs-6">¿La razón social es la misma al nombre comercial?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <label class="form-label">
+                                <div class=" d-flex gap-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            SI
+                                        </label>
                                     </div>
-                                    <div class="select-perfil">
-                                        <label for="" class="fw-500 mb-2">¿Cuántas plazas tienes disponible para
-                                            personas extranjeras?*</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">¿Has tramitado la Constancia de Inscripción del Empleador
-                                        (CIE) ante el Instituto Nacional de Migración ?</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            NO
+                                        </label>
                                     </div>
                                 </div>
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">¿La CIE de tu empresa sigue vigente?</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="info-box">
-                                    <h6 class="fw-700">Información que podría interesarte: </h6>
-                                    <div class="w-100 d-flex flex-column gap-3">
-                                        <a href="#" class="info-anchor d-flex align-items-center  small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Información para la contratación
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Cómo obtener la Constancia de Inscripción al Empleador
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Actualizar Constancia de Inscripción de Empleador
-                                        </a>
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Fecha temática de las Personas Migrantes
-                                        </a>
-
-                                    </div>
-                                </div>
+                            </label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="col-lg-4">
+                            <label class="form-label fw-500">Número de empleados*
+                            </label>
+                            <input type="email" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label fw-500">Descripción de la
+                                    empresa*
+                                </label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Descripción de la empresa (Presenta tu empresa a los candidatos).
+                                "></textarea>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <div class="w-100 mt-5">
-                        <h5 class="fw-700 fs-18 text-black1">Personas con discapacidad</h5>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">Soy incluyente, estoy abierto en contratar personas con
-                                        discapacidad*</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
-                                    </div>
-                                    <div class="select-perfil">
-                                        <label for="" class="fw-500 mb-2">¿Cuántas plazas tienes disponible para
-                                            personas extranjeras?*</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <label class="form-label fw-500">¿Tienes sucursales?</label>
+                        <div class=" d-flex gap-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    SI
+                                </label>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="info-box">
-                                    <h6 class="fw-700">Información que podría interesarte: </h6>
-                                    <div class="w-100 d-flex flex-column gap-3">
-                                        <a href="#" class="info-anchor d-flex align-items-center  small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Beneficios de contratar a personas con discapacidad
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Cómo entrevistar a una persona con discapacidad
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Centros de Evaluación de Habilidades
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    NO
+                                </label>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <div class="w-100 mt-5">
-                        <h5 class="fw-700 fs-18 text-black1">Personas en algún rango de edad</h5>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">Soy incluyente, estoy abierto en contratar personas sin
-                                        distinción de edad (+18 años)*</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
-                                    </div>
-                                    <div class="select-perfil">
-                                        <label for="" class="fw-500 mb-2">¿Cuántas plazas tienes disponible para
-                                            personas con diferentes rango de edad?*</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <p class="fw-600 fs-5">
+                                    Imagen de tu empresa
+                                </p>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="info-box">
-                                    <h6 class="fw-700">Información que podría interesarte: </h6>
-                                    <div class="w-100 d-flex flex-column gap-3">
-                                        <a href="#" class="info-anchor d-flex align-items-center  small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Ficha temática de Personas Jóvenes
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Ficha temática de Personas Mayores
-                                        </a>
-
-                                        <a href="#" class="info-anchor d-flex align-items-center small gap-1">
-                                            <div class="svg-icon-30"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                                                    height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                                        d="M18 10C18 14.4183 14.4183 18 10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10ZM10 7C9.63113 7 9.3076 7.19922 9.13318 7.50073C8.85664 7.97879 8.24491 8.14215 7.76685 7.86561C7.28879 7.58906 7.12543 6.97733 7.40197 6.49927C7.91918 5.60518 8.88833 5 10 5C11.6569 5 13 6.34315 13 8C13 9.30622 12.1652 10.4175 11 10.8293V11C11 11.5523 10.5523 12 10 12C9.44773 12 9.00001 11.5523 9.00001 11V10C9.00001 9.44772 9.44773 9 10 9C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7ZM10 15C10.5523 15 11 14.5523 11 14C11 13.4477 10.5523 13 10 13C9.44772 13 9 13.4477 9 14C9 14.5523 9.44772 15 10 15Z"
-                                                        fill="#9CA3AF" />
-                                                </svg> </div> Ley de Seguro Social Federal
-                                        </a>
-                                    </div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-6">
+                            <div class="profile-imge-3 d-flex justify-content-center mb-3">
+                                <img src="./assets/images/profile-picture-2.png" alt="">
+                            </div>
+                            <div>
+                                <p class="text-center m-0">
+                                    <span>
+                                        Formatos permitidos *jpg, png, bmp <br class="d-lg-block d-none">
+                                        Tamaño máximo 500Kb y la altura no exceda los 100 píxeles
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div>
+                                <p class="m-0 fs-6">
+                                    ¡Hey! Aquí puedes agregar el logotipo de tu negocio
+                                </p>
+                            </div>
+                            <div class="blue-btn mt-3">
+                                <button>
+                                    Seleccionar archivo
+                                </button>
+                            </div>
+                            <div class="filled-btn mt-3">
+                                <button>
+                                    Subir imagen
+                                </button>
                             </div>
                         </div>
                     </div>
                     <hr>
-                    <div class="w-100 mt-4">
-                        <h5 class="fw-700 fs-18 text-black1">Mujeres</h5>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="select-perfil mb-4">
-                                    <p class="fw-500 small">Soy incluyente, estoy abierto en contratar mujeres*</p>
-                                    <div class="d-flex align-items-center gap-3 my-3 fw-500">
-                                        <span>NO</span>
-                                        <div class="form-check form-switch p-0">
-                                            <input class="form-check-input m-0" type="checkbox" role="switch"
-                                                id="flexSwitchCheckChecked" checked>
-                                        </div>
-                                        <span>SÍ</span>
-                                    </div>
+                    <div class="row mt-5">
+                        <div class="col-lg-6">
+                            <div>
+                                <p class="fw-bold">
+                                    Video de la empresa
+                                </p>
+                            </div>
+                            <div>
+                                <p class="text-lightblue fw-500">
+                                    ¿Cómo presentar a tu empresa y vacantes en video?
+                                </p>
+                            </div>
+                            <div>
+                                <p class="m-0 fw-600">
+                                    Comparte el enlace del video de tu empresa (opcional)
+                                </p>
+                            </div>
+                            <div>
+                                <p class="m-0 fw-500">
+                                    Dirección electrónica en YouTube
+                                </p>
+                            </div>
+                            <div class="mt-3">
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-lg-0 mt-3 border-left-on-col">
+                            <div>
+                                <p class="m-0 fw-bold">
+                                    Tus redes sociales (opcional)
+                                </p>
+                            </div>
+                            <div class="mt-3">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><img
+                                            src="./assets/images/facbook.png" class="w-100" alt=""></span>
+                                    <input type="text" class="form-control" placeholder="https://www.facebook.com/">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
-
+                            <div class="mt-3">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><img
+                                            src="./assets/images/linkdink.png" class="w-100" alt=""></span>
+                                    <input type="text" class="form-control" placeholder="https://www.linkdink.com/">
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1"><img src="./assets/images/code.png"
+                                            class="w-100" alt=""></span>
+                                    <input type="text" class="form-control" placeholder="Otra página de internet a compartir
+                                    ">
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Otra red social">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="perfil2-form-btn flex-wrap py-4 mt-3 gap-lg-5">
-                        <div class="d-flex align-items-center mx-lg-0 mx-auto gap-2 fw-600 text-black">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
-                                fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M9.70711 16.7071C9.31659 17.0976 8.68342 17.0976 8.2929 16.7071L2.29289 10.7071C1.90237 10.3166 1.90237 9.68342 2.29289 9.29289L8.2929 3.29289C8.68342 2.90237 9.31659 2.90237 9.70712 3.29289C10.0976 3.68342 10.0976 4.31658 9.70712 4.70711L5.41422 9H17C17.5523 9 18 9.44772 18 10C18 10.5523 17.5523 11 17 11L5.41422 11L9.70711 15.2929C10.0976 15.6834 10.0976 16.3166 9.70711 16.7071Z"
-                                    fill="black" />
-                            </svg>
-                            Regresar
+                    <div class="row justify-content-center align-items-center mt-5">
+                        <div class="col-lg-6">
+                            <div class="d-md-flex gap-3 align-items-center justify-content-center">
+                                <div>
+                                    <a href="perfil-1.html" class="text-center m-0 fs-5 fw-500 cursor text-lightblue">
+                                            Regresar
+                                    </a>
+                                </div>
+                                <div class="filled-btn d-flex justify-content-center mt-lg-0 mt-3">
+                                    <button>
+                                        Guardar y continuar
+                                    </button>
+                                </div>
+                            </div>
                         </div>
-                        <button class="mt-lg-0 mt-4 mx-lg-0 mx-auto">Guardar y continuar</button>
                     </div>
                 </div>
             </div>

@@ -280,6 +280,33 @@ hr {
     font-weight: 600;
 }
 
+.filled-btn button {
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    border: 1px solid var(--secondaryColor);
+    padding: 8px 60px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.blue-btn {
+    width: max-content;
+}
+
+.blue-btn button {
+    background-color: #F1f2f5;
+    color: var(--secondaryColor);
+    border: 1px solid var(--secondaryColor);
+    padding: 8px 60px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.text-lightblue {
+    color: var(--secondaryColor);
+
+}
+
 .info-anchor {
     color: var(--secondaryColor);
     border-color: #4FA6A3;
@@ -1050,6 +1077,32 @@ hr {
 .info_u:hover+.new_dropdown {
     display: block;
 }
-.h-345{
+
+.h-345 {
     height: 345px;
+}
+
+.profile-imge-3 img {
+    width: 100px;
+}
+
+.input-group-text {
+    width: 50px;
+}
+
+.border-left-on-col {
+    border-left: 1px solid #DFE2E6;
+}
+
+.text-lightblue:hover {
+    color: var(--secondaryColor);
+}
+
+.modal-backdrop {
+    background-image: url("/assets/images/modal-bg.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.modal-backdrop.show {
+    opacity: 1;
 }
