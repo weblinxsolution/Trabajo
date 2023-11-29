@@ -187,12 +187,20 @@ hr {
     width: 70%;
     margin: auto;
 }
+.bottom__lable{
+    width: 100%;
+    background: #284D4E;
+    padding: 2rem;
+    margin-top: 4rem;
+    /* position: absolute; */
+
+}
 
 .perfil-register select {
     padding: 10px 10px;
     border-radius: 8px;
     border: 1px solid #D0D5DD;
-    background: var(--whiteColor);
+    /* background: transparent; */
     color: #344054;
 }
 
