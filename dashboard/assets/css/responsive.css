@@ -61,9 +61,14 @@
 }
 
 @media (max-width:400px) {
+    .aliados-height {
+        height: max-content;
+    }
+
     .detail-row {
         height: 210px !important;
     }
+
     .heght-custom2 {
         height: 415px;
     }
