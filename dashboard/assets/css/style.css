@@ -991,7 +991,21 @@ hr {
     padding-right: 5px;
     font-weight: 500;
 }
-
+.btn-tranparent button{
+    background-color: #FFF;
+    border-radius: 5px;
+    border: 1px solid #D1D5DB;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.btn-brown-modal button{
+    background-color: #BC955A;
+    border-radius: 5px;
+    border: 1px solid #BC955A;
+    color: #FFF;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 .custom-dialog {
     max-width: 500px !important;
 }
