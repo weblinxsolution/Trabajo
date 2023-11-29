@@ -606,6 +606,7 @@ hr {
     background: transparent;
     color: #BC955A;
     display: flex;
+    font-weight: 600;
     align-items: center;
     justify-content: center;
     padding: 10px 0;
@@ -623,6 +624,7 @@ hr {
     justify-content: center;
     gap: 10px;
     padding: 10px 0;
+    font-weight: 600;
     /* shadow/sm */
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
 }
