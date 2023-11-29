@@ -16,7 +16,9 @@
     background: #F8FAFC;
     /* background: red; */
 }
-
+.detail-row-bg-color{
+    background-color: #F8FAFC !important;
+}
 .table-detail-trigger {
     position: absolute;
     top: 0;
