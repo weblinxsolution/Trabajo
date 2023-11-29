@@ -1050,3 +1050,6 @@ hr {
 .info_u:hover+.new_dropdown {
     display: block;
 }
+.h-345{
+    height: 345px;
+}
