@@ -65,6 +65,7 @@
     padding-right: 10px;
     border-radius: 100px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .complete-bg {
@@ -75,6 +76,7 @@
     padding-right: 10px;
     border-radius: 100px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .missing-bg {
@@ -85,6 +87,7 @@
     padding-right: 10px;
     border-radius: 100px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .globle__table input[type="checkbox"] {
