@@ -61,12 +61,18 @@
 }
 
 @media (max-width:400px) {
-    .h-345{
-height: max-content;
-    }
-    .monti-height{
+    .monitoreo-height {
         height: max-content;
     }
+
+    .h-345 {
+        height: max-content;
+    }
+
+    .monti-height {
+        height: max-content;
+    }
+
     .aliados-height {
         height: max-content;
     }
