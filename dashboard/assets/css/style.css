@@ -1103,6 +1103,19 @@ hr {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .modal-backdrop.show {
     opacity: 1;
+}
+
+.fa-angle-down {
+    transition: transform 0.3s ease;
+}
+
+.open_on_click {
+    display: none;
+}
+
+.rotate-arrow {
+    transform: rotate(180deg);
 }
