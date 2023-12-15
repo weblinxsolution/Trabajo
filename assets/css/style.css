@@ -94,6 +94,57 @@ section {
     font-family: 'monts-bold';
 }
 
+.text-camel-brown {
+    color: #BC955A;
+}
+
+.bg-camel-brown {
+    background-color: #BC955A;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.bg-light-pink {
+    background-color: #F9FAFB;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-style: groove !important;
+}
+
+.width-adj {
+    margin: 5% 5% 5% 5% !important;
+}
+
+.h-adj {
+    height: 80% !important;
+    margin-top: 20px ;
+}
+
+@media (max-width: 570px) {
+    .w-146 {
+        width: 146px;
+    }
+}
+
+@media (min-width: 992px) {
+    .max-height-lg {
+        max-height: calc(100vh - 150px); /* Adjust the value as needed */
+    }
+
+    .table-container {
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .overflow-x-hidden {
+        overflow-x: auto;
+    }
+}
+
 @media (min-width:1700px) {
     .wrapper {
         max-width: 1400px;
