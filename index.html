@@ -140,7 +140,7 @@
                         <div class="derechos__box">
 
                             <!-- Modal Code Start -->
-                            <button class="derechos__btn" data-bs-toggle="modal" data-bs-target="#exampleModal">DERECHOS
+                            <button class="derechos__btn">DERECHOS
                                 LABORALES</button>
 
                             <div class="modal fade modal__show modal__show__2" id="exampleModal"
@@ -335,7 +335,7 @@
                                                         <div class="d-flex ms-0 ms-lg-5">
                                                             <div>
                                                                 <img src="assets/images/question mark circle-2.png"
-                                                                class=" me-1" alt="">
+                                                                    class=" me-1" alt="">
                                                             </div>
                                                             <a href="" class="text-camel-brown">Revalidación de estudios
                                                                 tipo superior</a>
@@ -343,7 +343,7 @@
                                                         <div class="d-flex ms-0 ms-lg-5">
                                                             <div>
                                                                 <img src="assets/images/question mark circle-2.png"
-                                                                class=" me-1" alt="">
+                                                                    class=" me-1" alt="">
                                                             </div>
                                                             <a href="" class="text-camel-brown">Trámite de Cédula
                                                                 Profesional</a>
@@ -416,7 +416,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="filter__input">
-                        <button data-bs-toggle="modal" data-bs-target="#exampleModal">Buscar empleo</button>
+                        <button>Buscar empleo</button>
                     </div>
                 </div>
             </div>
@@ -1735,6 +1735,13 @@
             arrows: true,
             dots: true,
         });
+
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#exampleModal').modal('show');
+            }, 3000);
+        });
+
     </script>
 
     <script src="assets/js/main.js"></script>
