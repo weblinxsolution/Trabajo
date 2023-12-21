@@ -127,6 +127,10 @@ tbody, td, tfoot, th, thead, tr {
     margin-top: 20px ;
 }
 
+.w-90 {
+    width: 90%;
+}
+
 @media (max-width: 570px) {
     .w-146 {
         width: 146px;
