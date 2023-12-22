@@ -4101,9 +4101,9 @@ section.requisitos__section {
     background-color: #274D4D;
 }
 
-.payo__slider .slick-dots li.slick-active button:before {
+/* .payo__slider .slick-dots li.slick-active button:before {
     display: none !important;
-}
+} */
 
 @media(max-width:600px) {
 
