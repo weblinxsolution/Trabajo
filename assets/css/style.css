@@ -1875,6 +1875,10 @@ footer {
     padding: 30px;
 }
 
+.bg-light-shade {
+    background-color: #EFF6FF;
+}
+
 /* Range Slider Start */
 .center {
     display: flex;
@@ -3469,6 +3473,18 @@ section.requisitos__section {
     .trabajado__col {
         padding: 1rem 12rem;
         background-color: #fff;
+    }
+}
+
+@media(max-width: 1280px) {
+    .pos-adj {
+        top: -352px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .pos-adj {
+        top: -400px;
     }
 }
 

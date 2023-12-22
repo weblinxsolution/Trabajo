@@ -139,16 +139,7 @@
                             reclutar al talento <span class="text-gold text-decoration-underline">mexicano y extranjero
                                 con condición de estancia regular</span> en nuestro país.
                         </p>
-                        <div class="d-none d-lg-block">
-                            <div class="derechos__box margin-bot-57 p-0 my-3">
-                                <button class="derechos__btn border-camel-brown">Publica una oferta</button>
-                                <button
-                                    class="d-flex gap-4 mt-md-0 ms-0 ms-md-3 border-gold text-gold align-items-center"><span>¿Quiénes
-                                        tienen permiso de trabajo?</span> <img src="assets/images/arrow-right.png"
-                                        alt="image"></button>
-                            </div>
-                        </div>
-
+                        
                         <!-- Modal Code Start -->
                         <div class="modal fade modal__show modal__show__2" id="exampleModal" data-bs-backdrop="static"
                             data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
@@ -382,6 +373,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-none d-lg-block">
+                    <div class="d-flex margin-bot-57 gap-4">
+                        <button class="btn bg-brown text-white ps-5 pe-5">Publica una oferta</button>
+                        <button class="btn text-camel-brown border-camel-brown ps-4 pe-4">¿Quiénes tienen permiso de trabajo?</button>
+                    </div>
+                </div>
                 <div class="d-none d-lg-block position-absolute pos-adj">
                     <img src="assets/images/header-group.png" class="w-75" alt="image">
                 </div>
@@ -485,21 +482,21 @@
                 </div>
                 <div class="col-lg-5 d-flex justify-content-lg-end justify-content-center">
                     <div>
-                        <ul class="buscana__btn nav justify-content-end " id="pills-tab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="buscana__mapa bcs__btn active" id="pills-Mapa-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-Mapa" type="button" role="tab" aria-controls="pills-Mapa"
-                                    aria-selected="false">
-                                    <i class="fa fa-map-pin"></i>
-                                    <span>Vista Mapa</span>
-                                </button>
-                            </li>
+                        <ul class="buscana__btn nav justify-content-end " id="pills-tab" role="tablist">                            
                             <li class="nav-item" role="presentation">
                                 <button class="buscana__vista bcs__btn " id="pills-lista-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-lista" type="button" role="tab" aria-controls="pills-lista"
                                     aria-selected="true">
                                     <i class="fa fa-bars"></i>
                                     <span>Vista lista</span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="buscana__mapa bcs__btn active" id="pills-Mapa-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-Mapa" type="button" role="tab" aria-controls="pills-Mapa"
+                                    aria-selected="false">
+                                    <i class="fa fa-map-pin"></i>
+                                    <span>Vista Mapa</span>
                                 </button>
                             </li>
                         </ul>
@@ -1376,8 +1373,8 @@
                         <p class="fs-4">
                             La CIE es un trámite que solicita el Instituto Nacional de Migración (INM) a todo empleador
                             que desea contratar o contrata a personal de origen extranjero. Este trámite debe renovarse
-                            anualmente. Consulta los requisitos de acuerdo al tipo de empleador que eres y comienza el
-                            trámite aquí.
+                            anualmente. Consulta los requisitos de acuerdo al tipo de empleador que eres y <a href="" class="text-gold text-decoration-underline">comienza el
+                                trámite aquí.</a>
                         </p>
                     </div>
                 </div>
@@ -1398,12 +1395,12 @@
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active monts__regular" id="pills-organ-tab"
                                     data-bs-toggle="pill" data-bs-target="#pills-organ" type="button" role="tab"
-                                    aria-controls="pills-organ" aria-selected="true">Organismos gubernamentales</button>
+                                    aria-controls="pills-organ" aria-selected="true">Personas Morales</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link monts__regular" id="pills-organ2-tab" data-bs-toggle="pill"
                                     data-bs-target="#pills-organ2" type="button" role="tab" aria-controls="pills-organ2"
-                                    aria-selected="false">Organismos internacionales</button>
+                                    aria-selected="false">Personas Físicas</button>
                             </li>
                         </ul>
                         <div class="tab-content w-100" id="pills-organstabContent">
@@ -1619,12 +1616,12 @@
     <!-- Blue alert start -->
     <section class="mb-10 mar-t-sm-10">
         <div class="container my-5">
-            <div class="w-80 rounded bg-light-pink p-3 mx-auto">
+            <div class="w-80 rounded bg-light-shade p-3 mx-auto">
                 <div class="d-flex">
                     <div class="me-3">
                         <img src="assets/images/i-blue.png" alt="">
                     </div>
-                    <div class="text-blue">
+                    <div class="text-blue fw-bold">
                         Se recomienda que las empresas mantengan la CIE actualizada. Aquí te compartimos el trámite para
                         actualizarla.
                     </div>
@@ -1839,11 +1836,11 @@
             dots: true,
         });
 
-        // $(document).ready(function () {
-        //     setTimeout(function () {
-        //         $('#exampleModal').modal('show');
-        //     }, 3000);
-        // });
+        $(document).ready(function () {
+            setTimeout(function () {
+                $('#exampleModal').modal('show');
+            }, 3000);
+        });
 
     </script>
 
