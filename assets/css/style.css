@@ -207,6 +207,18 @@ tbody, td, tfoot, th, thead, tr {
     border-right: 1px solid #DDC9A3;
 }
 
+.border-gold {
+    border: 2px solid #DDC9A3 !important;
+}
+
+.line-height-30 {
+    line-height: 30px;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -1489,6 +1501,10 @@ section.buscana {
     color: #BC955A !important;
 }
 
+.mb-10 {
+    margin-bottom: 100px;
+}
+
 .job__slider .slick-arrow {
     display: block !important;
     background: #FFFFFF;
@@ -1593,8 +1609,56 @@ section.buscana {
     height: 390px;
 }
 
+.border-camel-brown {
+    border: 2px solid #BC955A !important;
+}
+
+.margin-bot-57{
+    margin-bottom: 57px !important;
+}
+
+.pos-adj {
+    top: -468px;
+    left: 59%;
+}
+
+.text-blue {
+    color: #1E40AF;
+}
+
+.bg-light-pink {
+    background-color: #FFEAEA;
+}
+
+.marg-bot-0 {
+    margin-bottom: 0px !important;
+}
+
+.text-red {
+    color: #F00;
+}
+
+.bg-brown {
+    background-color: #BC955A;
+}
+
+.w-80 {
+    width: 80%;
+}
+
 .col_apayo {
     width: 31%;
+}
+
+.text-gray {
+    color: #6B7280;
+}
+
+.solo-necesitas {
+    border-radius: 10px;
+    background-color: #DBEAFE;
+    color: #1E40AF;
+    padding: 0px 5px 0px 5px;
 }
 
 .apayo__logo {
@@ -4017,7 +4081,32 @@ section.requisitos__section {
 
 }
 
+.bg-green {
+    background-color: #274D4D;
+}
+
+.payo__slider .slick-dots li.slick-active button:before {
+    display: none !important;
+}
+
 @media(max-width:600px) {
+
+    .text-s {
+        text-align: start;
+    }
+
+    .mar-t-sm-10 {
+        margin-top: 100px;
+    }
+
+    .mb-sm-10 {
+        margin-bottom: 100px;
+    }
+
+    .line-height-30 {
+        line-height: 20px;
+    }
+
     .white-bg-shadow{
         padding: 2rem !important;
     }
