@@ -4097,8 +4097,28 @@ section.requisitos__section {
 
 }
 
+
 .bg-green {
     background-color: #274D4D;
+}
+
+.border-radius-0 {
+    border-radius: 0px;
+}
+
+.radius-bottom-0 {    
+    border-bottom: none;
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+}
+
+.radius-bottom-rounded {
+    border-bottom-right-radius: 0.2rem;
+    border-bottom-left-radius: 0.2rem;
+}
+
+.w-max {
+    width: max-content;
 }
 
 /* .payo__slider .slick-dots li.slick-active button:before {
@@ -4601,6 +4621,20 @@ section.requisitos__section {
         margin-left: 12% !important;
 
     }
+
+    /* for slick slider dots to denote total slides and active slides start */
+    .payo__slider .slick-dots li button:before {
+        color: #BC955A;
+    }
+
+    .payo__slider .slick-dots li.slick-active button:before {
+        background-color: white;
+    }
+
+    .payo__slider .slick-dots li.slick-active button:before {
+        color: #BC955A;
+    }
+    /* for slick slider dots to denote total slides and active slides end */
 }
 
 @media (max-width: 380px) {
