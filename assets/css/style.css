@@ -4645,3 +4645,7 @@ section.requisitos__section {
 }
 
 /* Media Query End */
+
+.mt-10 {
+    margin-top: 100px;
+}
